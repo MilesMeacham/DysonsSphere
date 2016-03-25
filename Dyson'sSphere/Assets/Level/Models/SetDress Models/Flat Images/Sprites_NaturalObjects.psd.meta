@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: 201a9d665bf545e44b0808f3adbc4362
+timeCreated: 1453317418
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sprites_NaturalObjects_0
+    21300002: Sprites_NaturalObjects_1
+    21300004: Sprites_NaturalObjects_3
+    21300006: Sprites_NaturalObjects_4
+    21300008: Sprites_NaturalObjects_5
+    21300010: Sprites_NaturalObjects_6
+    21300012: Sprites_NaturalObjects_7
+    21300014: Sprites_NaturalObjects_8
+    21300016: Sprites_NaturalObjects_9
+    21300018: Sprites_NaturalObjects_10
+    21300020: Sprites_NaturalObjects_11
+    21300022: Sprites_NaturalObjects_12
+    21300024: Sprites_NaturalObjects_14
+    21300026: Sprites_NaturalObjects_15
+    21300028: Sprites_NaturalObjects_16
+    21300030: Sprites_NaturalObjects_17
+    21300032: Sprites_NaturalObjects_18
+    21300034: Sprites_NaturalObjects_19
+    21300036: Sprites_NaturalObjects_20
+    21300038: Sprites_NaturalObjects_22
+    21300040: Sprites_NaturalObjects_24
+    21300042: Sprites_NaturalObjects_25
+    21300044: Sprites_NaturalObjects_26
+    21300046: Sprites_NaturalObjects_28
+    21300048: Sprites_NaturalObjects_29
+    21300050: Sprites_NaturalObjects_30
+    21300052: Sprites_NaturalObjects_31
+    21300054: Sprites_NaturalObjects_32
+    21300056: Sprites_NaturalObjects_35
+    21300058: Sprites_NaturalObjects_36
+    21300060: Sprites_NaturalObjects_37
+    21300062: Sprites_NaturalObjects_38
+    21300064: Sprites_NaturalObjects_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sprites_NaturalObjects_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1381
+        width: 114
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_1
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1406
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_3
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1415
+        width: 119
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_4
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1411
+        width: 146
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_5
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 546
+        width: 186
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_6
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 32
+        width: 168
+        height: 1451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_7
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 522
+        width: 138
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_8
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 12
+        width: 171
+        height: 1476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_9
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 47
+        width: 152
+        height: 1433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1382
+        width: 55
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1394
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_12
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1399
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1239
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1246
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_16
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1245
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_17
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1241
+        width: 50
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_18
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1245
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_19
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1288
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_20
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1286
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_22
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1288
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_24
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1293
+        width: 92
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1235
+        width: 35
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_26
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1160
+        width: 212
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1008
+        width: 221
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_29
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1001
+        width: 214
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_30
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 1147
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_31
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1052
+        width: 110
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 718
+        width: 500
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_35
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 26
+        width: 23
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_36
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 215
+        width: 391
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_37
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 173
+        width: 18
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_38
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 96
+        width: 15
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sprites_NaturalObjects_39
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 168
+        width: 312
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

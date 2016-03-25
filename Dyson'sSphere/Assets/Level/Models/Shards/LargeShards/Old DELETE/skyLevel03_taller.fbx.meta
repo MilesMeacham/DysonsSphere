@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: bcd71b19ea1eed54d8f7de241910ecef
+timeCreated: 1450310330
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: cloud1
+    100002: cloud10
+    100004: cloud12
+    100006: cloud13
+    100008: cloud14
+    100010: cloud15
+    100012: cloud2
+    100014: cloud4
+    100016: cloud5
+    100018: cloud6
+    100020: cloud7
+    100022: cloud8
+    100024: cloud9
+    100026: gear1
+    100028: gear2
+    100030: Island1
+    100032: Island2
+    100034: //RootNode
+    400000: cloud1
+    400002: cloud10
+    400004: cloud12
+    400006: cloud13
+    400008: cloud14
+    400010: cloud15
+    400012: cloud2
+    400014: cloud4
+    400016: cloud5
+    400018: cloud6
+    400020: cloud7
+    400022: cloud8
+    400024: cloud9
+    400026: gear1
+    400028: gear2
+    400030: Island1
+    400032: Island2
+    400034: //RootNode
+    2300000: cloud1
+    2300002: cloud10
+    2300004: cloud12
+    2300006: cloud13
+    2300008: cloud14
+    2300010: cloud15
+    2300012: cloud2
+    2300014: cloud4
+    2300016: cloud5
+    2300018: cloud6
+    2300020: cloud7
+    2300022: cloud8
+    2300024: cloud9
+    2300026: gear1
+    2300028: gear2
+    2300030: Island1
+    2300032: Island2
+    3300000: cloud1
+    3300002: cloud10
+    3300004: cloud12
+    3300006: cloud13
+    3300008: cloud14
+    3300010: cloud15
+    3300012: cloud2
+    3300014: cloud4
+    3300016: cloud5
+    3300018: cloud6
+    3300020: cloud7
+    3300022: cloud8
+    3300024: cloud9
+    3300026: gear1
+    3300028: gear2
+    3300030: Island1
+    3300032: Island2
+    4300000: cloud1
+    4300002: cloud2
+    4300004: Island1
+    4300006: cloud4
+    4300008: cloud5
+    4300010: cloud6
+    4300012: cloud7
+    4300014: cloud8
+    4300016: cloud9
+    4300018: cloud10
+    4300020: Island2
+    4300022: cloud12
+    4300024: cloud13
+    4300026: cloud14
+    4300028: cloud15
+    4300030: gear1
+    4300032: gear2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 80485f07cbd05474782acc03ca635691
+timeCreated: 1450309582
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: cloud
+    100002: cloud01
+    100004: cloud02
+    100006: cloud03
+    100008: cloud04
+    100010: cloud10
+    100012: cloud12
+    100014: cloud13
+    100016: cloud15
+    100018: cloud17
+    100020: cloud5
+    100022: cloud6
+    100024: cloud7
+    100026: cloud8
+    100028: cloud9
+    100030: gear
+    100032: Object
+    100034: skyIsland01
+    100036: skyIsland02
+    100038: skyIsland03
+    100040: //RootNode
+    400000: cloud
+    400002: cloud01
+    400004: cloud02
+    400006: cloud03
+    400008: cloud04
+    400010: cloud10
+    400012: cloud12
+    400014: cloud13
+    400016: cloud15
+    400018: cloud17
+    400020: cloud5
+    400022: cloud6
+    400024: cloud7
+    400026: cloud8
+    400028: cloud9
+    400030: gear
+    400032: Object
+    400034: skyIsland01
+    400036: skyIsland02
+    400038: skyIsland03
+    400040: //RootNode
+    2300000: cloud
+    2300002: cloud01
+    2300004: cloud02
+    2300006: cloud03
+    2300008: cloud04
+    2300010: cloud10
+    2300012: cloud12
+    2300014: cloud13
+    2300016: cloud15
+    2300018: cloud17
+    2300020: cloud5
+    2300022: cloud6
+    2300024: cloud7
+    2300026: cloud8
+    2300028: cloud9
+    2300030: gear
+    2300032: Object
+    2300034: skyIsland01
+    2300036: skyIsland02
+    2300038: skyIsland03
+    3300000: cloud
+    3300002: cloud01
+    3300004: cloud02
+    3300006: cloud03
+    3300008: cloud04
+    3300010: cloud10
+    3300012: cloud12
+    3300014: cloud13
+    3300016: cloud15
+    3300018: cloud17
+    3300020: cloud5
+    3300022: cloud6
+    3300024: cloud7
+    3300026: cloud8
+    3300028: cloud9
+    3300030: gear
+    3300032: Object
+    3300034: skyIsland01
+    3300036: skyIsland02
+    3300038: skyIsland03
+    4300000: Object
+    4300002: cloud01
+    4300004: cloud02
+    4300006: cloud03
+    4300008: cloud04
+    4300010: cloud5
+    4300012: cloud6
+    4300014: cloud7
+    4300016: cloud8
+    4300018: cloud9
+    4300020: cloud10
+    4300022: skyIsland02
+    4300024: cloud12
+    4300026: cloud13
+    4300028: skyIsland01
+    4300030: cloud15
+    4300032: skyIsland03
+    4300034: cloud17
+    4300036: cloud
+    4300038: gear
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: ea827178c5331d440bd65f389ac251b5
+timeCreated: 1454739528
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: mesa1
+    100004: mesa10
+    100006: mesa11
+    100008: mesa12
+    100010: mesa13
+    100012: mesa14
+    100014: mesa2
+    100016: mesa3
+    100018: mesa3DTextureMesh
+    100020: mesa4
+    100022: mesa5
+    100024: mesa6
+    100026: mesa7
+    100028: mesa8
+    100030: mesa9
+    100032: mesaColliderMesh
+    100034: poolBasins
+    100036: poolBasins1
+    400000: //RootNode
+    400002: mesa1
+    400004: mesa10
+    400006: mesa11
+    400008: mesa12
+    400010: mesa13
+    400012: mesa14
+    400014: mesa2
+    400016: mesa3
+    400018: mesa3DTextureMesh
+    400020: mesa4
+    400022: mesa5
+    400024: mesa6
+    400026: mesa7
+    400028: mesa8
+    400030: mesa9
+    400032: mesaColliderMesh
+    400034: poolBasins
+    400036: poolBasins1
+    2300000: mesa1
+    2300002: mesa10
+    2300004: mesa11
+    2300006: mesa12
+    2300008: mesa13
+    2300010: mesa14
+    2300012: mesa2
+    2300014: mesa3
+    2300016: mesa4
+    2300018: mesa5
+    2300020: mesa6
+    2300022: mesa7
+    2300024: mesa8
+    2300026: mesa9
+    2300028: poolBasins
+    2300030: poolBasins1
+    3300000: mesa1
+    3300002: mesa10
+    3300004: mesa11
+    3300006: mesa12
+    3300008: mesa13
+    3300010: mesa14
+    3300012: mesa2
+    3300014: mesa3
+    3300016: mesa4
+    3300018: mesa5
+    3300020: mesa6
+    3300022: mesa7
+    3300024: mesa8
+    3300026: mesa9
+    3300028: poolBasins
+    3300030: poolBasins1
+    4300000: mesa2
+    4300002: poolBasins
+    4300004: mesa4
+    4300006: mesa3
+    4300008: mesa1
+    4300010: mesa5
+    4300012: mesa6
+    4300014: mesa7
+    4300016: mesa14
+    4300018: mesa13
+    4300020: mesa12
+    4300022: mesa11
+    4300024: mesa10
+    4300026: mesa9
+    4300028: poolBasins1
+    4300030: mesa8
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

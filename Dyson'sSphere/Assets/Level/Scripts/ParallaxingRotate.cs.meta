@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: f3ce5b42874ab2f45a9f0859fc1485e8
+timeCreated: 1454696006
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+guid: 6ce23d8d93af6864784082b51897b722
+timeCreated: 1454382251
+=======
+guid: f229c27e741f9d2419e108c168d997cd
+timeCreated: 1454739151
+>>>>>>> d94d26c4acfc5d62d2343adbe7b9b10af71cb34b
+=======
+guid: f3ce5b42874ab2f45a9f0859fc1485e8
+timeCreated: 1454696627
+=======
+guid: f229c27e741f9d2419e108c168d997cd
+timeCreated: 1454739151
+>>>>>>> 54caa96f459310b669c70cfc474d3c9984aaaff5
+>>>>>>> 027b6efed185c74f0bae953d2273c4912284d46c
+>>>>>>> 1a4bd6b1d9e9cc9836dcb24f130c5a4f46ab88d8
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

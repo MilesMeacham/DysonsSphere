@@ -3,7 +3,28 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SmlShard
+  - MedShard
+  - LrgShard
+  - leftButton
+  - rightButton
+  - Enemy
+  - PlayerBullet
+  - EnemyBullet
+  - SpeedPU
+  - DamagePU
+  - JumpPU
+  - HealthRest
+  - Spikes
+  - Pit
+  - IceShot
+  - SpeedBootsUPG
+  - RocketPackUPG
+  - HazBootUPG
+  - PowerDrillUPG
+  - SuperArmorUPG
+  - Explosion
   layers:
   - Default
   - TransparentFX
@@ -13,12 +34,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - GravityCanon
+  - TouchInput
+  - Enemy
+  - JumpThroughPlatforms
   - 
   - 
   - 
@@ -38,6 +59,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackgroundFar
+    uniqueID: 550740249
+    locked: 0
+  - name: BackgroundMid
+    uniqueID: 2468256161
+    locked: 0
+  - name: BackgroundMidClose
+    uniqueID: 23934919
+    locked: 0
+  - name: BackgroundClose
+    uniqueID: 2614873923
+    locked: 0
+  - name: BackgroundVeryClose
+    uniqueID: 3449555029
+    locked: 0
+  - name: BackgroundUltraClose
+    uniqueID: 581388647
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

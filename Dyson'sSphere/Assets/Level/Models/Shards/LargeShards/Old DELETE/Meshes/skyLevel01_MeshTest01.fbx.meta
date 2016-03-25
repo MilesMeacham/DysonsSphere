@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: cb9729b1da61a9748ba116edbec4d238
+timeCreated: 1447898710
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: cloud01
+    100002: cloud02
+    100004: cloud03
+    100006: cloud04
+    100008: cloud05
+    100010: cloud06
+    100012: cloud07
+    100014: column_short01
+    100016: column_short1
+    100018: column_short2
+    100020: column_short3
+    100022: column_tall01
+    100024: column_tall02
+    100026: column_tall03
+    100028: column_tall04
+    100030: column_tall05
+    100032: grassTop01
+    100034: grassTop02
+    100036: grassTop03
+    100038: grassTop04
+    100040: islandPiece01
+    100042: islandPiece02
+    100044: islandPiece03
+    100046: islandPiece04
+    100048: //RootNode
+    400000: cloud01
+    400002: cloud02
+    400004: cloud03
+    400006: cloud04
+    400008: cloud05
+    400010: cloud06
+    400012: cloud07
+    400014: column_short01
+    400016: column_short1
+    400018: column_short2
+    400020: column_short3
+    400022: column_tall01
+    400024: column_tall02
+    400026: column_tall03
+    400028: column_tall04
+    400030: column_tall05
+    400032: grassTop01
+    400034: grassTop02
+    400036: grassTop03
+    400038: grassTop04
+    400040: islandPiece01
+    400042: islandPiece02
+    400044: islandPiece03
+    400046: islandPiece04
+    400048: //RootNode
+    2300000: cloud01
+    2300002: cloud02
+    2300004: cloud03
+    2300006: cloud04
+    2300008: cloud05
+    2300010: cloud06
+    2300012: cloud07
+    2300014: column_short01
+    2300016: column_short1
+    2300018: column_short2
+    2300020: column_short3
+    2300022: column_tall01
+    2300024: column_tall02
+    2300026: column_tall03
+    2300028: column_tall04
+    2300030: column_tall05
+    2300032: grassTop01
+    2300034: grassTop02
+    2300036: grassTop03
+    2300038: grassTop04
+    2300040: islandPiece01
+    2300042: islandPiece02
+    2300044: islandPiece03
+    2300046: islandPiece04
+    3300000: cloud01
+    3300002: cloud02
+    3300004: cloud03
+    3300006: cloud04
+    3300008: cloud05
+    3300010: cloud06
+    3300012: cloud07
+    3300014: column_short01
+    3300016: column_short1
+    3300018: column_short2
+    3300020: column_short3
+    3300022: column_tall01
+    3300024: column_tall02
+    3300026: column_tall03
+    3300028: column_tall04
+    3300030: column_tall05
+    3300032: grassTop01
+    3300034: grassTop02
+    3300036: grassTop03
+    3300038: grassTop04
+    3300040: islandPiece01
+    3300042: islandPiece02
+    3300044: islandPiece03
+    3300046: islandPiece04
+    4300000: grassTop01
+    4300002: islandPiece01
+    4300004: grassTop02
+    4300006: islandPiece02
+    4300008: grassTop03
+    4300010: islandPiece03
+    4300012: grassTop04
+    4300014: islandPiece04
+    4300016: cloud01
+    4300018: cloud02
+    4300020: cloud03
+    4300022: cloud04
+    4300024: cloud05
+    4300026: cloud06
+    4300028: cloud07
+    4300030: column_tall01
+    4300032: column_tall02
+    4300034: column_tall03
+    4300036: column_short01
+    4300038: column_tall04
+    4300040: column_tall05
+    4300042: column_short1
+    4300044: column_short2
+    4300046: column_short3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: a23fe941492873e4198aa683adddc522
+timeCreated: 1454879222
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Base
+    100002: Base_Connection_1
+    100004: Base_Connection_2
+    100006: Base_Connection_3
+    100008: Base_Connection_4
+    100010: Bottom_Leg_1
+    100012: Bottom_Leg_2
+    100014: Bottom_Leg_3
+    100016: Bottom_Leg_4
+    100018: //RootNode
+    100020: Gun
+    100022: Gun_Base
+    100024: Top_Leg_1
+    100026: Top_Leg_2
+    100028: Top_Leg_3
+    100030: Top_Leg_4
+    100032: Tubing
+    400000: Base
+    400002: Base_Connection_1
+    400004: Base_Connection_2
+    400006: Base_Connection_3
+    400008: Base_Connection_4
+    400010: Bottom_Leg_1
+    400012: Bottom_Leg_2
+    400014: Bottom_Leg_3
+    400016: Bottom_Leg_4
+    400018: //RootNode
+    400020: Gun
+    400022: Gun_Base
+    400024: Top_Leg_1
+    400026: Top_Leg_2
+    400028: Top_Leg_3
+    400030: Top_Leg_4
+    400032: Tubing
+    2300000: Base
+    2300002: Base_Connection_1
+    2300004: Base_Connection_2
+    2300006: Base_Connection_3
+    2300008: Base_Connection_4
+    2300010: Bottom_Leg_1
+    2300012: Bottom_Leg_2
+    2300014: Bottom_Leg_3
+    2300016: Bottom_Leg_4
+    2300018: //RootNode
+    2300020: Gun
+    2300022: Gun_Base
+    2300024: Top_Leg_1
+    2300026: Top_Leg_2
+    2300028: Top_Leg_3
+    2300030: Top_Leg_4
+    2300032: Tubing
+    3300000: Base
+    3300002: Base_Connection_1
+    3300004: Base_Connection_2
+    3300006: Base_Connection_3
+    3300008: Base_Connection_4
+    3300010: Bottom_Leg_1
+    3300012: Bottom_Leg_2
+    3300014: Bottom_Leg_3
+    3300016: Bottom_Leg_4
+    3300018: //RootNode
+    3300020: Gun
+    3300022: Gun_Base
+    3300024: Top_Leg_1
+    3300026: Top_Leg_2
+    3300028: Top_Leg_3
+    3300030: Top_Leg_4
+    3300032: Tubing
+    4300000: Tank
+    4300002: Gun_Base
+    4300004: Gun
+    4300006: Tubing
+    4300008: Base
+    4300010: Base_Connection_1
+    4300012: Top_Leg_1
+    4300014: Bottom_Leg_1
+    4300016: Base_Connection_2
+    4300018: Top_Leg_2
+    4300020: Bottom_Leg_2
+    4300022: Base_Connection_3
+    4300024: Top_Leg_3
+    4300026: Bottom_Leg_3
+    4300028: Base_Connection_4
+    4300030: Top_Leg_4
+    4300032: Bottom_Leg_4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
