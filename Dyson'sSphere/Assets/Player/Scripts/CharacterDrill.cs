@@ -38,7 +38,7 @@ public class CharacterDrill : MonoBehaviour {
 		// Go over this with Jeremy, Can be simplyfied
         if (!reloading && DrillUPG.PlamsaDrill == false && DrillUPG.RapidDrill == false && DrillUPG.PowerDrill == false)
         {
-            bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor2>();
+            bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor>();
             bullet.GetComponent<bulletMovement>().damage = damage;
             bullet.gameObject.tag = bulletTag;
 
@@ -50,7 +50,7 @@ public class CharacterDrill : MonoBehaviour {
 
         if (!reloading && DrillUPG.PlamsaDrill == true)
         {
-            bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor2>();
+            bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor>();
             bullet.GetComponent<bulletMovement>().damage = Plasmadamage;
             bullet.gameObject.tag = bulletTag;
             
@@ -62,7 +62,7 @@ public class CharacterDrill : MonoBehaviour {
 
         if (!reloading && DrillUPG.RapidDrill == true)
         {
-            bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor2>();
+            bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor>();
             bullet.GetComponent<bulletMovement>().damage = damage;
             bullet.gameObject.tag = bulletTag;
             
@@ -74,7 +74,7 @@ public class CharacterDrill : MonoBehaviour {
 
         if (!reloading && DrillUPG.PowerDrill == true)
         {
-            bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor2>();
+            bullet.GetComponent<bulletMovement>().theCharacterMotor = gameObject.GetComponent<CharacterMotor>();
             bullet.GetComponent<bulletMovement>().damage = Plasmadamage;
             bullet.gameObject.tag = bulletTag;
             

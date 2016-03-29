@@ -45,27 +45,12 @@ public class CharacterMotor2 : MonoBehaviour {
 			rb.transform.position = new Vector3 (rb.transform.position.x, rb.transform.position.y, 0);
 		
 		//CharacterMotion
-		if(movingLeft == true)
-		{
-			
-			if(facingRight == true)
-			{
-				Flip ();
-				facingRight = false;
-			}
-			
-			characterMovement = new Vector3 (speed, 0, 0);
-			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
-			movingRight = false;
-		}
+
 		
 		if(movingRight == true)
 		{
 			if(facingRight == false)
-			{
 				Flip ();
-				facingRight = true;
-			}
 			
 			characterMovement = new Vector3 (speed, 0, 0);
 			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
@@ -98,14 +83,17 @@ public class CharacterMotor2 : MonoBehaviour {
 	// -----------------------------------------------------------------
 	public void LeftActivation () 
 	{
-		if(movingLeft == false && movingRight == false)
+
+		if(facingRight == true)
 		{
-			movingLeft = true;
+			Flip ();
+			facingRight = false;
 		}
-		else if (movingLeft == true)
-		{
-			movingLeft = false;
-		}
+		
+		characterMovement = new Vector3 (speed, 0, 0);
+		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
+		movingRight = false;
+
 	}
 	
 	// Purpose: Move the character up or down (Jump)

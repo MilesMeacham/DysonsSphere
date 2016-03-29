@@ -5,7 +5,7 @@ using FMODUnity;
 
 public class CharacterJump2 : MonoBehaviour {
 
-	public CharacterMotor2 theCharacterMotor;
+	public CharacterMotor theCharacterMotor;
 	public GroundCheck theGroundCheck;
 
 	//temp audio
@@ -24,7 +24,7 @@ public class CharacterJump2 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		theGroundCheck = GetComponentInChildren<GroundCheck> ();
-		theCharacterMotor = GetComponent<CharacterMotor2> ();
+		theCharacterMotor = GetComponent<CharacterMotor> ();
 		theAnimator = GetComponentInChildren<Animator>();
 		
 	}

@@ -13,7 +13,7 @@ public class CharacterMotor : MonoBehaviour {
 	public Vector3 velocity;
 	
 	// Jumping variables
-	public int jumpForce = 15;
+	public int jumpForce = 10;
 	
 	// Change orientatoin variable
 	public bool facingRight = true;
@@ -48,26 +48,25 @@ public class CharacterMotor : MonoBehaviour {
 	// -----------------------------------------------------------------
 	public void LeftActivation () 
 	{
-		if(movingRight == false)
+
+		movingLeft = true;
+		
+		// Keep player at maxSpeed
+		rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
+		
+		// Keep character at '0' in z. We don't want the player to move in the z direction at all
+		if(rb.transform.position.z != 0)
+			rb.transform.position = new Vector3 (rb.transform.position.x, rb.transform.position.y, 0);
+		
+		if(facingRight == true)
 		{
-			movingLeft = true;
-			
-			// Keep player at maxSpeed
-			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
-			
-			// Keep character at '0' in z. We don't want the player to move in the z direction at all
-			if(rb.transform.position.z != 0)
-				rb.transform.position = new Vector3 (rb.transform.position.x, rb.transform.position.y, 0);
-			
-			if(facingRight == true)
-			{
-				Flip ();
-				facingRight = false;
-			}
-			
-			characterMovement = new Vector3 (speed, 0, 0);
-			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
+			Flip ();
+			facingRight = false;
 		}
+		
+		characterMovement = new Vector3 (speed, 0, 0);
+		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
+
 	}
 	
 	// Purpose: Move the character up or down (Jump)
@@ -78,27 +77,26 @@ public class CharacterMotor : MonoBehaviour {
 	// -----------------------------------------------------------------
 	public void RightActivation () 
 	{
-		if(movingLeft == false)
+
+		movingRight = true;
+		// Keep player at maxSpeed
+		rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
+		
+		// Keep character at '0' in z. We don't want the player to move in the z direction at all
+		if(rb.transform.position.z != 0)
+			rb.transform.position = new Vector3 (rb.transform.position.x, rb.transform.position.y, 0);
+		
+		
+		if(facingRight == false)
 		{
-			movingRight = true;
-			// Keep player at maxSpeed
-			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
-			
-			// Keep character at '0' in z. We don't want the player to move in the z direction at all
-			if(rb.transform.position.z != 0)
-				rb.transform.position = new Vector3 (rb.transform.position.x, rb.transform.position.y, 0);
-			
-			
-			if(facingRight == false)
-			{
-				Flip ();
-				facingRight = true;
-			}
-			
-			characterMovement = new Vector3 (speed, 0, 0);
-			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
-			
+			Flip ();
+			facingRight = true;
 		}
+		
+		characterMovement = new Vector3 (speed, 0, 0);
+		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
+		
+
 	}
 	
 	// Purpose: Move the character up or down (Jump)

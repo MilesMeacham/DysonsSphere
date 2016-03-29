@@ -8117,6 +8117,10 @@ Prefab:
       propertyPath: carbonBar
       value: 
       objectReference: {fileID: 488498234}
+    - target: {fileID: 11468276, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
   m_IsPrefabParent: 0
@@ -11022,6 +11026,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1306611528}
   m_Mesh: {fileID: 4300022, guid: b0b187d6669534f5387ac60d14ce4b80, type: 3}
+--- !u!1 &1314178994 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 162510, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+  m_PrefabInternal: {fileID: 976004117}
+--- !u!114 &1314179014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1314178994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b577553f8129a345bcf3ccac6b5e233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  speed: 5
+  maxSpeed: 20
+  characterMovement: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  jumpForce: 10
+  facingRight: 1
+  movingLeft: 0
+  movingRight: 0
 --- !u!1 &1319324744
 GameObject:
   m_ObjectHideFlags: 0

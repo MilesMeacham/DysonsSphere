@@ -46,7 +46,7 @@ public class CharacterShot : MonoBehaviour {
 		if (!reloading) 
 		{
 			bullet = bulletPools.GetPooledObject ();
-			bullet.GetComponent<bulletMovement> ().theCharacterMotor = gameObject.GetComponent<CharacterMotor2> ();
+			bullet.GetComponent<bulletMovement> ().theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
 			bullet.GetComponent<bulletMovement> ().damage = damage;
 			bullet.gameObject.tag = bulletTag;
 
