@@ -3,19 +3,29 @@ using System.Collections;
 
 public class xboxControls : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	private CharacterMotor theCharacterMotor;
+	private CharacterJump2 theCharacterJump;
+	private CharacterShot theCharacterShot;
+	private CharacterDrill theCharacterDrill;
+	private PauseMenu thePauseMenu;
+
+	void Start () 
+	{
+		theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
+		theCharacterJump = gameObject.GetComponent<CharacterJump2> ();
+		theCharacterShot = gameObject.GetComponent<CharacterShot> ();
+		theCharacterDrill = gameObject.GetComponent<CharacterDrill> ();
+		thePauseMenu = FindObjectOfType<PauseMenu> ();
 	}
-	
-	// Update is called once per frame
+
+
 	void Update () 
 	{
 	////////----A Button----////////
 	
 		if(Input.GetButtonDown("A"))
 		{
-			print ("A pressed");
+			theCharacterJump.Jump();
 		}
 
 		if(Input.GetButtonUp("A"))
@@ -39,7 +49,7 @@ public class xboxControls : MonoBehaviour {
 		
 		if(Input.GetButtonDown("X"))
 		{
-			print ("X pressed");
+			theCharacterDrill.shot();
 		}
 		
 		if(Input.GetButtonUp("X"))
@@ -99,7 +109,7 @@ public class xboxControls : MonoBehaviour {
 		
 		if(Input.GetAxis("RT") > 0.1)
 		{
-			print ("RT pressed");
+
 		}
 		
 		if(Input.GetAxis("RT") < 0.1)
@@ -107,17 +117,7 @@ public class xboxControls : MonoBehaviour {
 			//print ("RT released");
 		}
 
-	////////----Left Joystick X-Axis/Horizontal----////////
-		
-		if(Input.GetAxis("LeftJoyStickX") > 0.3)
-		{
-			print ("Moving Right");
-		}
-		
-		if(Input.GetAxis("LeftJoyStickX") < -0.3)
-		{
-			print ("Moving Left");
-		}
+
 
 	////////----Left Joystick Y-Axis/Vertical----////////
 		
@@ -195,7 +195,7 @@ public class xboxControls : MonoBehaviour {
 		
 		if(Input.GetButtonDown("Start"))
 		{
-			print ("Start pressed");
+			thePauseMenu.Pause();
 		}
 		
 		if(Input.GetButtonUp("Start"))
@@ -204,6 +204,24 @@ public class xboxControls : MonoBehaviour {
 		}
 	}
 
+
+	// You want anything related to Movement (Walking) to be in FixedUpdate now due the the Motor
+	void FixedUpdate()
+	{
+
+		////////----Left Joystick X-Axis/Horizontal----////////
+		
+		if(Input.GetAxis("Horizontal") > 0.3)
+		{
+			theCharacterMotor.RightActivation();
+		}
+		
+		if(Input.GetAxis("Horizontal") < -0.3)
+		{
+			theCharacterMotor.LeftActivation();
+		}
+
+	}
 
 
 
