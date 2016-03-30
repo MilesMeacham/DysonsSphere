@@ -14,14 +14,13 @@ public class KeyboardControls : MonoBehaviour {
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
 		theCharacterJump = gameObject.GetComponent<CharacterJump2> ();
 		theCharacterShot = gameObject.GetComponent<CharacterShot> ();
-        theCharacterDrill = gameObject.GetComponent<CharacterDrill> ();
     }
 
 	void Update ()
 	{
 		if(Input.GetKeyDown(KeyCode.F))
 		{
-			theCharacterDrill.shot();
+			theCharacterShot.shot();
 		}
 
 		if (Input.GetKeyDown(KeyCode.Space))

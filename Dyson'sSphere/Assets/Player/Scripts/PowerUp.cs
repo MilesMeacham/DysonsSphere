@@ -27,7 +27,7 @@ public class PowerUp : MonoBehaviour {
 
         if (collider.gameObject.tag == "DamagePU")
         {
-            Shot.damage++;
+//            Shot.damage++;
         }
 
         if (collider.gameObject.tag == "JumpPU")
