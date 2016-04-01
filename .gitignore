@@ -33,3 +33,5 @@ Icon?
 ehthumbs.db
 Thumbs.db
 Dyson'sSphere/fmod.log
+Dyson'sSphere/Builds/
+*.exe
