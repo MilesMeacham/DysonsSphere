@@ -77,7 +77,7 @@ public class interfaceScript : MonoBehaviour {
 	public void StartLevel ()
 	{
 		print ("Start Level");
-		Application.LoadLevel ("TestLevelNoGeneration-Miles");
+		Application.LoadLevel ("Miles");
 		LoadingScreen ();
 	}
 
