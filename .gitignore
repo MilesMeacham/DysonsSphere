@@ -3,7 +3,9 @@
 # =============== #
 Temp/
 Obj/
-Library/metadata/*
+metadata*
+ScriptAssemblies*
+ShaderCache*
 UnityGenerated/
 Assets/AssetStoreTools*
 
