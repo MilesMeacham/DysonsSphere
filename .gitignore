@@ -3,8 +3,8 @@
 # =============== #
 Temp/
 Obj/
-Library/metadata/*
 UnityGenerated/
+Library/
 Assets/AssetStoreTools*
 
 # ===================================== #
