@@ -20,14 +20,14 @@ public class DrillUpgrades : MonoBehaviour {
     {
         if (PowerDrill == false)
         {
-            Shot.damage = (1f);
+//            Shot.damage = (1f);
         }
     }
     void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "PowerDrillUPG")
         {
-            Shot.damage = 2;
+ //           Shot.damage = 2;
             PowerDrill = true;
             PlamsaDrill = false;
             RapidDrill = false;
@@ -42,7 +42,7 @@ public class DrillUpgrades : MonoBehaviour {
 
         if (collider.gameObject.tag == "RapidDrillUPG")
         {
-            Shot.reloadTime = .25f;
+ //           Shot.reloadTime = .25f;
             PlamsaDrill = false;
             PowerDrill = false;
             RapidDrill = true;

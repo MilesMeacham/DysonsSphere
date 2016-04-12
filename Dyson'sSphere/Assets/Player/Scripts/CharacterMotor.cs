@@ -5,15 +5,19 @@ public class CharacterMotor : MonoBehaviour {
 	
 	// Character Rigidbody
 	public Rigidbody rb;
-	
-	// Movement variables
-	public int speed = 5;
-	public int maxSpeed = 20;
+
 	public Vector3 characterMovement;
 	public Vector3 velocity;
 	
+	// Movement variables
+	private float speed;
+	public int baseSpeed = 7;
+	public float speedMultiplier = 1;
+	public int maxSpeed = 20;
+
+	
 	// Jumping variables
-	public int jumpForce = 15;
+	public int jumpForce = 10;
 	
 	// Change orientatoin variable
 	public bool facingRight = true;
@@ -30,94 +34,66 @@ public class CharacterMotor : MonoBehaviour {
 	
 	void FixedUpdate () 
 	{
-		// Keep player at maxSpeed
-		//rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
+
 		
 		// Keep character at '0' in z. We don't want the player to move in the z direction at all
 		if(rb.transform.position.z != 0)
 			rb.transform.position = new Vector3 (rb.transform.position.x, rb.transform.position.y, 0);
+
+		if (rb.velocity.x < 0.5f) 
+		{
+			movingLeft = false;
+			movingRight = false;
+		}
 		
-	}// END OF FIXED UPDATE
-	
-	
-	// Purpose: Move the character left or right
-	// Parameters: void
-	// Returns: void
-	// Pre-conditions: 
-	// Post-conditions: 
-	// -----------------------------------------------------------------
+	}
+
 	public void LeftActivation () 
 	{
-		if(movingRight == false)
-		{
-			movingLeft = true;
-			
-			// Keep player at maxSpeed
-			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
-			
-			// Keep character at '0' in z. We don't want the player to move in the z direction at all
-			if(rb.transform.position.z != 0)
-				rb.transform.position = new Vector3 (rb.transform.position.x, rb.transform.position.y, 0);
-			
-			if(facingRight == true)
-			{
-				Flip ();
-				facingRight = false;
-			}
-			
-			characterMovement = new Vector3 (speed, 0, 0);
-			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
-		}
+
+		movingLeft = true;
+		movingRight = false;
+		
+		if(facingRight == true)
+			Flip ();
+
+
+		speed = baseSpeed * speedMultiplier;
+		
+		characterMovement = new Vector3 (speed, 0, 0);
+		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
+
+		// Keep player at maxSpeed
+		rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
+
 	}
-	
-	// Purpose: Move the character up or down (Jump)
-	// Parameters: void
-	// Returns: void
-	// Pre-conditions: 
-	// Post-conditions: 
-	// -----------------------------------------------------------------
+
 	public void RightActivation () 
 	{
-		if(movingLeft == false)
-		{
-			movingRight = true;
-			// Keep player at maxSpeed
-			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
-			
-			// Keep character at '0' in z. We don't want the player to move in the z direction at all
-			if(rb.transform.position.z != 0)
-				rb.transform.position = new Vector3 (rb.transform.position.x, rb.transform.position.y, 0);
-			
-			
-			if(facingRight == false)
-			{
-				Flip ();
-				facingRight = true;
-			}
-			
-			characterMovement = new Vector3 (speed, 0, 0);
-			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
-			
-		}
-	}
+
+		movingRight = true;
+		movingLeft = false;
 	
-	// Purpose: Move the character up or down (Jump)
-	// Parameters: void
-	// Returns: void
-	// Pre-conditions: 
-	// Post-conditions: 
-	// -----------------------------------------------------------------
+		if(facingRight == false)
+			Flip ();
+
+
+		speed = baseSpeed * speedMultiplier;
+		
+		characterMovement = new Vector3 (speed, 0, 0);
+		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
+
+		// Keep player at maxSpeed
+		rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
+		
+
+	}
 	
 	public void stationaryTest ()
 	{
 		rb.AddForce(new Vector3(0, 50, 0));
 	}
-	// Purpose: Move the character up or down (Jump)
-	// Parameters: void
-	// Returns: void
-	// Pre-conditions: 
-	// Post-conditions: 
-	// -----------------------------------------------------------------
+
 	public void VerticalVelocity ()
 	{
 		characterMovement = new Vector3 (0, jumpForce, 0);
@@ -125,11 +101,6 @@ public class CharacterMotor : MonoBehaviour {
 	}
 	
 	// Purpose: Makes the character inherit the rotation of the ring he is on
-	// Parameters: collider
-	// Returns: void
-	// Pre-conditions: 
-	// Post-conditions: 
-	// -----------------------------------------------------------------
 	void OnCollisionEnter (Collision collider)
 	{
 		// Layer 8 is the ground Layer
@@ -139,17 +110,12 @@ public class CharacterMotor : MonoBehaviour {
 	}
 	
 	// Purpose: Flips the character and reverses his speed
-	// Parameters: void
-	// Returns: void
-	// Pre-conditions: 
-	// Post-conditions: 
-	// -----------------------------------------------------------------
 	public void Flip()
 	{
 		facingRight = !facingRight;
 		
 		// reverse speed
-		speed *= -1;
+		baseSpeed *= -1;
 		
 		// create a vector3 to hold the player scale and flip it
 		Vector3 theScale = transform.localScale;

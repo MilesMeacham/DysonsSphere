@@ -8121,6 +8121,14 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11427670, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11448610, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
   m_IsPrefabParent: 0
@@ -11042,10 +11050,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  speed: 5
-  maxSpeed: 20
   characterMovement: {x: 0, y: 0, z: 0}
   velocity: {x: 0, y: 0, z: 0}
+  baseSpeed: 7
+  speedMultiplier: 1
+  maxSpeed: 20
   jumpForce: 10
   facingRight: 1
   movingLeft: 0
