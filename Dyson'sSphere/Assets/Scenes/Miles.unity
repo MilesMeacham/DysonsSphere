@@ -10315,10 +10315,6 @@ Prefab:
       propertyPath: carbonBar
       value: 
       objectReference: {fileID: 488498234}
-    - target: {fileID: 9548088, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: f42bcd0dbd79f4fa0a868eb5920b0ebc, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
   m_IsPrefabParent: 0

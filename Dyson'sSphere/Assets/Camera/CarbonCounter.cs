@@ -12,7 +12,7 @@ public class CarbonCounter : MonoBehaviour {
 	{
       
 		carbontotal = 0;
-		carbonBar.fillAmount = carbontotal;
+//		carbonBar.fillAmount = carbontotal;
 	}
 	
 	// Update is called once per frame
@@ -23,7 +23,7 @@ public class CarbonCounter : MonoBehaviour {
         }
 
 		//Need to divide this by the amount needed to win because the fill amount is always 1
-		carbonBar.fillAmount = carbontotal / AmountOfCarbonNeedToWin;
+		//carbonBar.fillAmount = carbontotal / AmountOfCarbonNeedToWin;
     }
 
 }

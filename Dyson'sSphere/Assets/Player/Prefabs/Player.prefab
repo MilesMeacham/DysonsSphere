@@ -5651,7 +5651,7 @@ Animator:
   m_GameObject: {fileID: 106646}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c629a847f9e694dc693e4a1a3f060f30, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f42bcd0dbd79f4fa0a868eb5920b0ebc, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5743,6 +5743,8 @@ MonoBehaviour:
   reloadTimeDecreaseMultiplier: 1
   shotSound: {fileID: 11404294}
   reloadSound: {fileID: 11481542}
+  theAnimator: {fileID: 0}
+  shootingArm: {fileID: 0}
 --- !u!114 &11430456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6086,6 +6088,7 @@ MonoBehaviour:
   facingRight: 1
   movingLeft: 0
   movingRight: 0
+  theAnimator: {fileID: 0}
 --- !u!114 &11499428
 MonoBehaviour:
   m_ObjectHideFlags: 1
