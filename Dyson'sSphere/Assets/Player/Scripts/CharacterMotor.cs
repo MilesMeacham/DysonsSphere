@@ -17,18 +17,23 @@ public class CharacterMotor : MonoBehaviour {
 
 	
 	// Jumping variables
-	public int jumpForce = 10;
+	public int jumpForce = 15;
 	
 	// Change orientatoin variable
 	public bool facingRight = true;
 	
 	public bool movingLeft = false;
 	public bool movingRight = false;
+
+	//Animator
+	public Animator theAnimator;
+	private bool walking;
 	
 	// Use this for initialization
 	void Start () 
 	{
 		rb = GetComponent<Rigidbody> ();
+		theAnimator = GetComponentInChildren<Animator>();
 	}
 	
 	
@@ -44,6 +49,13 @@ public class CharacterMotor : MonoBehaviour {
 		{
 			movingLeft = false;
 			movingRight = false;
+
+			if (walking) 
+			{
+				walking = false;
+				theAnimator.SetBool ("Walk", walking);
+			}
+
 		}
 		
 	}
@@ -53,7 +65,13 @@ public class CharacterMotor : MonoBehaviour {
 
 		movingLeft = true;
 		movingRight = false;
-		
+
+		if (!walking) 
+		{
+			walking = true;
+			theAnimator.SetBool ("Walk", walking);
+		}
+
 		if(facingRight == true)
 			Flip ();
 
@@ -73,6 +91,12 @@ public class CharacterMotor : MonoBehaviour {
 
 		movingRight = true;
 		movingLeft = false;
+
+		if (!walking) 
+		{
+			walking = true;
+			theAnimator.SetBool ("Walk", walking);
+		}
 	
 		if(facingRight == false)
 			Flip ();

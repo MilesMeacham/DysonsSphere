@@ -34,7 +34,7 @@ public class CharacterJump2 : MonoBehaviour {
 	{
 		if(needToLand == true && theGroundCheck.grounded == true)
 		{
-//			theAnimator.SetBool ("Land", true);
+			theAnimator.SetBool ("Land", true);
 			needToLand = false;
 		}
 
@@ -43,18 +43,19 @@ public class CharacterJump2 : MonoBehaviour {
 			doubleJumped = false;
 			needToLand = false;
 		}
+
 		else
 		{
 			needToLand = true;
-//			theAnimator.SetBool ("Land", false);
+			theAnimator.SetBool ("Land", false);
 		}
 
 
-//		if(doubleJumped == true && turningOffDoubleJumpAnimation == false)
-//			StartCoroutine (TurnOffDoubleJumpAnimation());
+		if(doubleJumped == true && turningOffDoubleJumpAnimation == false)
+			StartCoroutine (TurnOffDoubleJumpAnimation());
 
-//		if(jumped == true && turningOffJumpAnimation == false)
-//			StartCoroutine (TurnOffJumpAnimation());
+		if(jumped == true && turningOffJumpAnimation == false)
+			StartCoroutine (TurnOffJumpAnimation());
 	}
 	
 	//keyboard jumping
@@ -65,7 +66,7 @@ public class CharacterJump2 : MonoBehaviour {
 			//temp audio
 			//may cause errors in enemies without emitters and fmod events
 			jumpSound.Play ();
-//			theAnimator.SetBool ("Jump", true);
+			theAnimator.SetBool ("Jump", true);
 		}
 		else if (!doubleJumped) 
 		{
@@ -73,7 +74,7 @@ public class CharacterJump2 : MonoBehaviour {
 			doubleJumped = true;
 			//temp audio
 			jumpSound.Play ();
-//			theAnimator.SetBool ("Double Jump", true);
+			theAnimator.SetBool ("Double Jump", true);
 		}
 
 		//theAnimator.SetBool ("Jump", false);
@@ -94,8 +95,8 @@ public class CharacterJump2 : MonoBehaviour {
 		turningOffJumpAnimation = true;
 		yield return new WaitForSeconds(0.2f);
 		theAnimator.SetBool ("Jump", false);
-		//needToLand = true;
-		jumped = false;
+		needToLand = true;
+		//jumped = false;
 		turningOffJumpAnimation = false;
 		
 	}

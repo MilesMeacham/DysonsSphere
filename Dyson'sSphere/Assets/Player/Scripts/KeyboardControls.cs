@@ -25,6 +25,8 @@ public class KeyboardControls : MonoBehaviour {
 
 		if (Input.GetKeyDown(KeyCode.Space))
 			theCharacterJump.Jump();
+
+
 	}
 
 

@@ -92,7 +92,7 @@ MonoBehaviour:
   shotVelocity: 20
   rb: {fileID: 5420450}
   theCharacterMotor: {fileID: 0}
-  lifeDuration: .5
+  lifeDuration: 1.5
   Xpos: 0
   Ypos: 0
   radius: 0
@@ -136,7 +136,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: lifeDuration
-      value: .5
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Enabled

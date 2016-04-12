@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Dyson'sSphere/Assets/StreamingAssets/Master Bank.bank.meta
+guid: eb9cc6bd6a8567e468f944db703d89ba
+timeCreated: 1460347815
+=======
 guid: 23a650840f13aeb46821229f707ea621
 folderAsset: yes
 timeCreated: 1459874060
+>>>>>>> 94cf2ed79ded6ee2ad562e299758c07544208173:Dyson'sSphere/Assets/Level/Prefabs/TutorialShards/Small.meta
 licenseType: Free
 DefaultImporter:
   userData: 

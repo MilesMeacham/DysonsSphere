@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Arm
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Player_With_Controls:L_IK_Handle
+    m_Weight: 0
+  - m_Path: Player_With_Controls:left
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:L_Hip
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:L_Hip/Player_With_Controls:L_UpperLeg
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:L_Hip/Player_With_Controls:L_UpperLeg/Player_With_Controls:L_LowerLeg
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:R_Hip
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:R_Hip/Player_With_Controls:R_UpperLeg
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:R_Hip/Player_With_Controls:R_UpperLeg/Player_With_Controls:R_LowerLeg
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head/Player_With_Controls:L_Ear
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head/Player_With_Controls:L_Ear/Player_With_Controls:L_earpiece
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head/Player_With_Controls:L_Lower_Eye_Lid
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head/Player_With_Controls:L_Upper_Eye_Lid
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head/Player_With_Controls:R_Ear
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head/Player_With_Controls:R_Ear/Player_With_Controls:R_earpiece
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head/Player_With_Controls:R_Lower_Eye_Lid
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:Head/Player_With_Controls:R_Upper_Eye_Lid
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:L_Shoulder
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:L_Shoulder/Player_With_Controls:L_Upper_Arm
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:L_Shoulder/Player_With_Controls:L_Upper_Arm/Player_With_Controls:L_Elbow
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:L_Shoulder/Player_With_Controls:L_Upper_Arm/Player_With_Controls:L_Elbow/Player_With_Controls:L_Lower_Arm
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:L_Shoulder/Player_With_Controls:L_Upper_Arm/Player_With_Controls:L_Elbow/Player_With_Controls:L_Lower_Arm/Player_With_Controls:L_Hand
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:R_Shoulder
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:R_Shoulder/Player_With_Controls:R_Upper_Arm
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:R_Shoulder/Player_With_Controls:R_Upper_Arm/Player_With_Controls:R_Elbow
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:R_Shoulder/Player_With_Controls:R_Upper_Arm/Player_With_Controls:R_Elbow/Player_With_Controls:R_Lower_Arm
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:R_Shoulder/Player_With_Controls:R_Upper_Arm/Player_With_Controls:R_Elbow/Player_With_Controls:R_Lower_Arm/Player_With_Controls:Drill_Base
+    m_Weight: 0
+  - m_Path: Player_With_Controls:LowerTorso/Player_With_Controls:UpperTorso/Player_With_Controls:R_Shoulder/Player_With_Controls:R_Upper_Arm/Player_With_Controls:R_Elbow/Player_With_Controls:R_Lower_Arm/Player_With_Controls:Drill_Base/Player_With_Controls:Drill
+    m_Weight: 0
+  - m_Path: Player_With_Controls:R_IK_Handle
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:Head_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:Head_Control/Player_With_Controls:G_Head_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:L_Shoulder_Pad_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:L_Shoulder_Pad_Control/Player_With_Controls:G_L_Shoulder_Pad_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:L_Shoulder_Pad_Control/Player_With_Controls:G_L_Shoulder_Pad_Control/Player_With_Controls:L_Ball_Shoulder_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:L_Shoulder_Pad_Control/Player_With_Controls:G_L_Shoulder_Pad_Control/Player_With_Controls:L_Ball_Shoulder_Control/Player_With_Controls:G_L_Ball_Shoulder_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:L_Shoulder_Pad_Control/Player_With_Controls:G_L_Shoulder_Pad_Control/Player_With_Controls:L_Ball_Shoulder_Control/Player_With_Controls:G_L_Ball_Shoulder_Control/Player_With_Controls:L_Elbow_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:L_Shoulder_Pad_Control/Player_With_Controls:G_L_Shoulder_Pad_Control/Player_With_Controls:L_Ball_Shoulder_Control/Player_With_Controls:G_L_Ball_Shoulder_Control/Player_With_Controls:L_Elbow_Control/Player_With_Controls:G_L_Elbow_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:L_Shoulder_Pad_Control/Player_With_Controls:G_L_Shoulder_Pad_Control/Player_With_Controls:L_Ball_Shoulder_Control/Player_With_Controls:G_L_Ball_Shoulder_Control/Player_With_Controls:L_Elbow_Control/Player_With_Controls:G_L_Elbow_Control/Player_With_Controls:L_Wrist_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:L_Shoulder_Pad_Control/Player_With_Controls:G_L_Shoulder_Pad_Control/Player_With_Controls:L_Ball_Shoulder_Control/Player_With_Controls:G_L_Ball_Shoulder_Control/Player_With_Controls:L_Elbow_Control/Player_With_Controls:G_L_Elbow_Control/Player_With_Controls:L_Wrist_Control/Player_With_Controls:G_L_Wrist_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control/Player_With_Controls:R_Ball_Shoulder_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control/Player_With_Controls:R_Ball_Shoulder_Control/Player_With_Controls:G_R_Ball_Shoulder_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control/Player_With_Controls:R_Ball_Shoulder_Control/Player_With_Controls:G_R_Ball_Shoulder_Control/Player_With_Controls:R_Elbow_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control/Player_With_Controls:R_Ball_Shoulder_Control/Player_With_Controls:G_R_Ball_Shoulder_Control/Player_With_Controls:R_Elbow_Control/Player_With_Controls:G_R_Elbow_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control/Player_With_Controls:R_Ball_Shoulder_Control/Player_With_Controls:G_R_Ball_Shoulder_Control/Player_With_Controls:R_Elbow_Control/Player_With_Controls:G_R_Elbow_Control/Player_With_Controls:R_Wrist_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control/Player_With_Controls:R_Ball_Shoulder_Control/Player_With_Controls:G_R_Ball_Shoulder_Control/Player_With_Controls:R_Elbow_Control/Player_With_Controls:G_R_Elbow_Control/Player_With_Controls:R_Wrist_Control/Player_With_Controls:G_R_Wrist_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control/Player_With_Controls:R_Ball_Shoulder_Control/Player_With_Controls:G_R_Ball_Shoulder_Control/Player_With_Controls:R_Elbow_Control/Player_With_Controls:G_R_Elbow_Control/Player_With_Controls:R_Wrist_Control/Player_With_Controls:G_R_Wrist_Control/Player_With_Controls:R_Drill_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Chest_Control/Player_With_Controls:G_Chest_Control/Player_With_Controls:R_Shoulder_Pad_Control/Player_With_Controls:G_R_Shoulder_Pad_Control/Player_With_Controls:R_Ball_Shoulder_Control/Player_With_Controls:G_R_Ball_Shoulder_Control/Player_With_Controls:R_Elbow_Control/Player_With_Controls:G_R_Elbow_Control/Player_With_Controls:R_Wrist_Control/Player_With_Controls:G_R_Wrist_Control/Player_With_Controls:R_Drill_Control/Player_With_Controls:G_R_Drill_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:L_Ball_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:L_Ball_Control/Player_With_Controls:G_L_Ball_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:L_Ball_Control/Player_With_Controls:G_L_Ball_Control/Player_With_Controls:L_FK_Hip_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:L_Ball_Control/Player_With_Controls:G_L_Ball_Control/Player_With_Controls:L_FK_Hip_Control/Player_With_Controls:G_L_FK_Hip_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:L_Ball_Control/Player_With_Controls:G_L_Ball_Control/Player_With_Controls:L_FK_Hip_Control/Player_With_Controls:G_L_FK_Hip_Control/Player_With_Controls:L_FK_Knee_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:L_Ball_Control/Player_With_Controls:G_L_Ball_Control/Player_With_Controls:L_FK_Hip_Control/Player_With_Controls:G_L_FK_Hip_Control/Player_With_Controls:L_FK_Knee_Control/Player_With_Controls:G_L_FK_Knee_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:L_Ball_Control/Player_With_Controls:G_L_Ball_Control/Player_With_Controls:L_IK_Leg_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:L_Ball_Control/Player_With_Controls:G_L_Ball_Control/Player_With_Controls:L_IK_Leg_Control/Player_With_Controls:G_L_IK_Leg_Control
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:R_Ball_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:R_Ball_Control/Player_With_Controls:G_R_Ball_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:R_Ball_Control/Player_With_Controls:G_R_Ball_Control/Player_With_Controls:R_FK_Hip_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:R_Ball_Control/Player_With_Controls:G_R_Ball_Control/Player_With_Controls:R_FK_Hip_Control/Player_With_Controls:G_R_FK_Hip_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:R_Ball_Control/Player_With_Controls:G_R_Ball_Control/Player_With_Controls:R_FK_Hip_Control/Player_With_Controls:G_R_FK_Hip_Control/Player_With_Controls:R_FK_Knee_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:R_Ball_Control/Player_With_Controls:G_R_Ball_Control/Player_With_Controls:R_FK_Hip_Control/Player_With_Controls:G_R_FK_Hip_Control/Player_With_Controls:R_FK_Knee_Control/Player_With_Controls:G_R_FK_Knee_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:R_Ball_Control/Player_With_Controls:G_R_Ball_Control/Player_With_Controls:R_IK_Leg_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Control/Player_With_Controls:G_Root_Control/Player_With_Controls:Pelvis_Control/Player_With_Controls:G_Pelvis_Control/Player_With_Controls:R_Ball_Control/Player_With_Controls:G_R_Ball_Control/Player_With_Controls:R_IK_Leg_Control/Player_With_Controls:G_R_IK_Leg_Control
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:Head_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:Head_Joint/Player_With_Controls:L_Ear_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:Head_Joint/Player_With_Controls:L_Lower_Eye_Lid_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:Head_Joint/Player_With_Controls:L_Upper_Eye_Lid_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:Head_Joint/Player_With_Controls:R_Ear_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:Head_Joint/Player_With_Controls:R_Lower_Eye_Lid_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:Head_Joint/Player_With_Controls:R_Upper_Eye_Lid_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:L_Shoulder_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:L_Shoulder_Joint/Player_With_Controls:L_Arm_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:L_Shoulder_Joint/Player_With_Controls:L_Arm_Joint/Player_With_Controls:L_Elbow_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:L_Shoulder_Joint/Player_With_Controls:L_Arm_Joint/Player_With_Controls:L_Elbow_Joint/Player_With_Controls:L_Lower_Arm_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:L_Shoulder_Joint/Player_With_Controls:L_Arm_Joint/Player_With_Controls:L_Elbow_Joint/Player_With_Controls:L_Lower_Arm_Joint/Player_With_Controls:Upper_Finger_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:L_Shoulder_Joint/Player_With_Controls:L_Arm_Joint/Player_With_Controls:L_Elbow_Joint/Player_With_Controls:L_Lower_Arm_Joint/Player_With_Controls:Upper_Finger_Joint/Player_With_Controls:Lower_Finger_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:L_Shoulder_Joint/Player_With_Controls:L_Arm_Joint/Player_With_Controls:L_Elbow_Joint/Player_With_Controls:L_Lower_Arm_Joint/Player_With_Controls:Upper_Thumb_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:L_Shoulder_Joint/Player_With_Controls:L_Arm_Joint/Player_With_Controls:L_Elbow_Joint/Player_With_Controls:L_Lower_Arm_Joint/Player_With_Controls:Upper_Thumb_Joint/Player_With_Controls:Lower_Thumb_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:R_Shoulder_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:R_Shoulder_Joint/Player_With_Controls:R_Arm_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:R_Shoulder_Joint/Player_With_Controls:R_Arm_Joint/Player_With_Controls:R_Elbow_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:R_Shoulder_Joint/Player_With_Controls:R_Arm_Joint/Player_With_Controls:R_Elbow_Joint/Player_With_Controls:R_Lower_Arm_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Chest/Player_With_Controls:R_Shoulder_Joint/Player_With_Controls:R_Arm_Joint/Player_With_Controls:R_Elbow_Joint/Player_With_Controls:R_Lower_Arm_Joint/Player_With_Controls:Drill_Joint
+    m_Weight: 1
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:FK_Pelvis_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:FK_Pelvis_Joint/Player_With_Controls:FK_L_Ball_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:FK_Pelvis_Joint/Player_With_Controls:FK_L_Ball_Joint/Player_With_Controls:FK_L_Hip_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:FK_Pelvis_Joint/Player_With_Controls:FK_L_Ball_Joint/Player_With_Controls:FK_L_Hip_Joint/Player_With_Controls:FK_L_Knee_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:FK_Pelvis_Joint/Player_With_Controls:FK_R_Ball_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:FK_Pelvis_Joint/Player_With_Controls:FK_R_Ball_Joint/Player_With_Controls:FK_R_Hip_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:FK_Pelvis_Joint/Player_With_Controls:FK_R_Ball_Joint/Player_With_Controls:FK_R_Hip_Joint/Player_With_Controls:FK_R_Knee_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint/Player_With_Controls:IK_L_Ball_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint/Player_With_Controls:IK_L_Ball_Joint/Player_With_Controls:IK_L_Hip_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint/Player_With_Controls:IK_L_Ball_Joint/Player_With_Controls:IK_L_Hip_Joint/Player_With_Controls:IK_L_Knee_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint/Player_With_Controls:IK_L_Ball_Joint/Player_With_Controls:IK_L_Hip_Joint/Player_With_Controls:IK_L_Knee_Joint/Player_With_Controls:IK_L_Ankle_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint/Player_With_Controls:IK_R_Ball_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint/Player_With_Controls:IK_R_Ball_Joint/Player_With_Controls:IK_R_Hip_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint/Player_With_Controls:IK_R_Ball_Joint/Player_With_Controls:IK_R_Hip_Joint/Player_With_Controls:IK_R_Knee_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:IK_Pelvis_Joint/Player_With_Controls:IK_R_Ball_Joint/Player_With_Controls:IK_R_Hip_Joint/Player_With_Controls:IK_R_Knee_Joint/Player_With_Controls:IK_R_Ankle_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:L_Ball_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:L_Ball_Joint/Player_With_Controls:L_Hip_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:L_Ball_Joint/Player_With_Controls:L_Hip_Joint/Player_With_Controls:L_Knee_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:L_Ball_Joint/Player_With_Controls:L_Hip_Joint/Player_With_Controls:L_Knee_Joint/Player_With_Controls:L_Ankle_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:L_Ball_Joint/Player_With_Controls:L_Hip_Joint/Player_With_Controls:L_Knee_Joint/Player_With_Controls:L_Ankle_Joint/Player_With_Controls:L_Foot_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:R_Ball_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:R_Ball_Joint/Player_With_Controls:R_Hip_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:R_Ball_Joint/Player_With_Controls:R_Hip_Joint/Player_With_Controls:R_Knee_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:R_Ball_Joint/Player_With_Controls:R_Hip_Joint/Player_With_Controls:R_Knee_Joint/Player_With_Controls:R_Ankle_Joint
+    m_Weight: 0
+  - m_Path: Player_With_Controls:Root_Joint/Player_With_Controls:Pelvis_Joint/Player_With_Controls:Pelvis_Ball_Joint/Player_With_Controls:R_Ball_Joint/Player_With_Controls:R_Hip_Joint/Player_With_Controls:R_Knee_Joint/Player_With_Controls:R_Ankle_Joint/Player_With_Controls:R_Foot_Joint
+    m_Weight: 0

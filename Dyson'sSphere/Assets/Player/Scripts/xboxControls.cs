@@ -39,7 +39,7 @@ public class xboxControls : MonoBehaviour {
 	////////----X Button----////////
 		
 		if(Input.GetButtonDown("X"))
-			theCharacterDrill.shot();
+			theCharacterShot.shot();
 		
 		if(Input.GetButtonUp("X"))
 			print ("X released");
@@ -102,9 +102,12 @@ public class xboxControls : MonoBehaviour {
 
 		////////----Left Joystick X-Axis/Horizontal----////////
 		
-		if(Input.GetAxis("Horizontal") > 0.3)
-			theCharacterMotor.RightActivation();
-		
+		if (Input.GetAxis ("Horizontal") > 0.3) 
+		{
+			theCharacterMotor.RightActivation ();
+			print ("Right");
+		}
+
 		if(Input.GetAxis("Horizontal") < -0.3)
 			theCharacterMotor.LeftActivation();
 

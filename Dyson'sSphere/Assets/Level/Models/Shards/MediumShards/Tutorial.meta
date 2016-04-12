@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Dyson'sSphere/Assets/StreamingAssets/Debug.bank.meta
+guid: dd9b41bac07b08f41b95b46f72316e87
+timeCreated: 1460347815
+=======
 guid: 43049e389d79e4745bcc8f63e56c00fc
 folderAsset: yes
 timeCreated: 1459873268
+>>>>>>> 94cf2ed79ded6ee2ad562e299758c07544208173:Dyson'sSphere/Assets/Level/Models/Shards/MediumShards/Tutorial.meta
 licenseType: Free
 DefaultImporter:
   userData: 

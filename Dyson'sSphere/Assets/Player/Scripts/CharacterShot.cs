@@ -39,9 +39,14 @@ public class CharacterShot : MonoBehaviour {
 	
 	private ObjectPooler bulletPooler;
 
+	//Animator
+	public Animator theAnimator;
+	public Transform shootingArm;
+
 	void Start()
 	{
 		bulletPools = GameObject.Find (poolName).GetComponent<ObjectPooler> ();
+		theAnimator = GetComponentInChildren<Animator>();
 	}
 
 
@@ -52,6 +57,7 @@ public class CharacterShot : MonoBehaviour {
 			// Functions to figure out reload time and damage
 			reloadTime = baseReloadTime/reloadTimeDecreaseMultiplier;
 			damage = (baseDamage * damageMultiplier) + damageUpgrade;
+
 
 
 			bullet = bulletPools.GetPooledObject ();
