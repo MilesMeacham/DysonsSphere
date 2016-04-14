@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ChestUpgrades : MonoBehaviour {
-    public CharacterMotor2 Motor;
+    public CharacterMotor Motor;
     public CharacterShot Shot;
     public CharacterHealth Life;
     public TakeDamage Damage;
@@ -19,7 +19,7 @@ public class ChestUpgrades : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        Motor = GetComponent<CharacterMotor2>();
+        Motor = GetComponent<CharacterMotor>();
         Shot = GetComponent<CharacterShot>();
         Life = GetComponent<CharacterHealth>();
         Damage = GetComponent<TakeDamage>();
