@@ -6,8 +6,8 @@ public class xboxControls : MonoBehaviour {
 	private CharacterMotor theCharacterMotor;
 	private CharacterJump2 theCharacterJump;
 	private CharacterShot theCharacterShot;
-	private CharacterDrill theCharacterDrill;
 	private PauseMenu thePauseMenu;
+	private CharacterCrouch theCharacterCrouch;
 
 	void Start () 
 	{
@@ -15,6 +15,7 @@ public class xboxControls : MonoBehaviour {
 		theCharacterJump = gameObject.GetComponent<CharacterJump2> ();
 		theCharacterShot = gameObject.GetComponent<CharacterShot> ();
 		thePauseMenu = FindObjectOfType<PauseMenu> ();
+		theCharacterCrouch = gameObject.GetComponent<CharacterCrouch> ();
 	}
 
 
@@ -71,7 +72,7 @@ public class xboxControls : MonoBehaviour {
 	////////----Left Trigger----////////
 		
 		if(Input.GetAxis("LT") > 0.1)
-			print ("LT pressed");
+			theCharacterMotor.LeftActivation();
 
 	////////----Right Trigger----////////
 		
@@ -93,26 +94,36 @@ public class xboxControls : MonoBehaviour {
 		
 		if(Input.GetButtonUp("Start"))
 			print ("Start released");
+
+	////////----Left Analogue Press Button----////////
+
+		if (Input.GetButtonDown ("LeftAnaloguePress"))
+			theCharacterCrouch.Crouch ();
+
+//		if (Input.GetButtonUp ("LeftAnaloguePress"))
+//			theCharacterCrouch.UnCrouch ();
+
+
 	}
 
 
 	// You want anything related to Movement (Walking) to be in FixedUpdate now due the the Motor
 	void FixedUpdate()
 	{
-
+		
 		////////----Left Joystick X-Axis/Horizontal----////////
 		
-		if (Input.GetAxis ("Horizontal") > 0.3) 
+		if (Input.GetAxis ("HorizontalXbox") > 0.1) 
 		{
+			print (Input.GetAxis ("HorizontalXbox"));
 			theCharacterMotor.RightActivation ();
-			print ("Right");
 		}
 
-		if(Input.GetAxis("Horizontal") < -0.3)
+		if(Input.GetAxis("HorizontalXbox") < -0.1)
 			theCharacterMotor.LeftActivation();
 
 		////////----Left Joystick Y-Axis/Vertical----////////
-/*		
+
 		if(Input.GetAxis("LeftJoyStickY") > 0.3)
 			print ("Moving Down");
 		
@@ -134,6 +145,7 @@ public class xboxControls : MonoBehaviour {
 		
 		if(Input.GetAxis("RightJoyStickY") < -0.1)
 			print ("Looking Up");
+		/*
 */
 		////////----Dpad X-Axis/Horizontal----////////
 		
@@ -141,7 +153,7 @@ public class xboxControls : MonoBehaviour {
 			print ("Dpad Right");
 		
 		if(Input.GetAxis("DpadX") < -0.1)
-			print ("Dpad Left");
+			theCharacterMotor.LeftActivation();
 		
 		////////----Dpad Y-Axis/Vertical----////////
 		

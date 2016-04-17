@@ -7,6 +7,8 @@ public class KeyboardControls : MonoBehaviour {
 	private CharacterJump2 theCharacterJump;
 	private CharacterShot theCharacterShot;
     private CharacterDrill theCharacterDrill;
+	private CharacterCrouch theCharacterCrouch;
+	public MiningCollider theMiningCollider;
 	
 	// Use this for initialization
 	void Start () 
@@ -14,10 +16,21 @@ public class KeyboardControls : MonoBehaviour {
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
 		theCharacterJump = gameObject.GetComponent<CharacterJump2> ();
 		theCharacterShot = gameObject.GetComponent<CharacterShot> ();
+		theCharacterCrouch = gameObject.GetComponent<CharacterCrouch> ();
+
     }
 
 	void Update ()
 	{
+
+		if (Input.GetKeyDown (KeyCode.Z))
+			theMiningCollider.gameObject.SetActive (true);
+
+		if (Input.GetKeyUp (KeyCode.Z)) {
+			theMiningCollider.gameObject.SetActive (false);
+			theMiningCollider.miningWait = false;
+		}
+
 		if(Input.GetKeyDown(KeyCode.F))
 		{
 			theCharacterShot.shot();
@@ -26,7 +39,12 @@ public class KeyboardControls : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Space))
 			theCharacterJump.Jump();
 
+		if (Input.GetKeyDown (KeyCode.LeftControl))
+			theCharacterCrouch.Crouch ();
 
+//		if (Input.GetKeyUp (KeyCode.LeftControl))
+//			theCharacterCrouch.UnCrouch ();
+			
 	}
 
 
@@ -43,8 +61,8 @@ public class KeyboardControls : MonoBehaviour {
 		{
 			theCharacterMotor.LeftActivation();
 		}
+			
 
-		
 
 
 	}
