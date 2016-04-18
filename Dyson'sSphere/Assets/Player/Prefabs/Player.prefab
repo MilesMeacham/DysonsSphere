@@ -1346,6 +1346,7 @@ GameObject:
   - 114: {fileID: 11494102}
   - 114: {fileID: 11442442}
   - 114: {fileID: 11429072}
+  - 114: {fileID: 11443114}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -1397,7 +1398,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &163620
 GameObject:
   m_ObjectHideFlags: 1
@@ -1692,20 +1693,21 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &175768
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 460584}
   - 65: {fileID: 6598500}
+  - 114: {fileID: 11489514}
   m_Layer: 9
   m_Name: MiningCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &177026
 GameObject:
   m_ObjectHideFlags: 1
@@ -2069,9 +2071,6 @@ GameObject:
   - 92: {fileID: 9209078}
   - 124: {fileID: 12434508}
   - 81: {fileID: 8193076}
-  - 114: {fileID: 11437742}
-  - 114: {fileID: 11468008}
-  - 114: {fileID: 11482330}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2948,10 +2947,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 460584}
+  m_Children: []
   m_Father: {fileID: 458084}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!4 &447786
 Transform:
   m_ObjectHideFlags: 1
@@ -3216,6 +3214,7 @@ Transform:
   - {fileID: 418034}
   - {fileID: 483376}
   - {fileID: 433890}
+  - {fileID: 460584}
   - {fileID: 447274}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -3226,11 +3225,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.231, y: -0.751, z: 0}
+  m_LocalPosition: {x: 1.231, y: -0.75099945, z: 0}
   m_LocalScale: {x: 1, y: 0.5124997, z: 1}
   m_Children: []
-  m_Father: {fileID: 447274}
-  m_RootOrder: 0
+  m_Father: {fileID: 458084}
+  m_RootOrder: 6
 --- !u!4 &460752
 Transform:
   m_ObjectHideFlags: 1
@@ -4110,21 +4109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6671715423d7bc343aeba1a55046b560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11437742
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 199042}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da33561324edc814d86f6691e47a78ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchInputMask:
-    serializedVersion: 2
-    m_Bits: 2048
-  objPlayer: {fileID: 162510}
+  theMiningCollider: {fileID: 11489514}
 --- !u!114 &11439114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4148,6 +4133,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d30dff30e07e6b4da152f3a293f1f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11443114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5961cb1e98a599418bb86784c173b90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MiningGO: {fileID: 163528}
 --- !u!114 &11445338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4236,19 +4233,6 @@ MonoBehaviour:
   immuneToPlayerDamage: 1
   immuneToEnemyDamage: 0
   immuneToHazardDamage: 0
---- !u!114 &11468008
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 199042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df564cbc5fdd604f8270474a098bb6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  carbonBar: {fileID: 0}
-  AmountOfCarbonNeedToWin: 20
 --- !u!114 &11470088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4296,21 +4280,6 @@ MonoBehaviour:
   AllowFadeout: 1
   TriggerOnce: 0
   Params: []
---- !u!114 &11482330
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 199042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0571370ce5e03494b804775feb528841, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  touchInputMask:
-    serializedVersion: 2
-    m_Bits: 2048
-  objPlayer: {fileID: 162510}
 --- !u!114 &11485300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4345,6 +4314,20 @@ MonoBehaviour:
   top: 0
   crouching: 0
   theGroundCheck: {fileID: 11430456}
+--- !u!114 &11489514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd078b7d0af2d64580e9871d71d0743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miningDelay: 0.5
+  miningHit: 1
+  miningWait: 0
 --- !u!114 &11489916
 MonoBehaviour:
   m_ObjectHideFlags: 1

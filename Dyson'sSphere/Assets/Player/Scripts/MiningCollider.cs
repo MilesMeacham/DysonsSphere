@@ -19,7 +19,6 @@ public class MiningCollider : MonoBehaviour {
 		
 		if (!miningWait && other.gameObject.tag == "Destructables") 
 		{
-			print ("Mining");
 			mineralDeposit = other.GetComponent<Destructable> ();
 			StartCoroutine (MiningCO());
 		}

@@ -12,6 +12,10 @@ public class Destructable : MonoBehaviour {
 	private float length;
 	private float change;
 
+	private GameObject mineralToDrop;
+	public ObjectPooler mineralPool;
+	public int NumberOfMineralsToDrop;
+
 	void Start()
 	{
 		length = models.Length;
@@ -49,6 +53,7 @@ public class Destructable : MonoBehaviour {
 			{
 				if (myInts [i] >= durability) 
 				{
+					SpawnMinerals ();
 					GetComponent<MeshFilter> ().mesh = models [i];
 					return;
 				}
@@ -56,6 +61,20 @@ public class Destructable : MonoBehaviour {
 			}
 		}
 
+	}
+
+	void SpawnMinerals()
+	{
+		for (int i = 0; i < NumberOfMineralsToDrop; i++) 
+		{
+			mineralToDrop = mineralPool.GetPooledObject ();
+			mineralToDrop.GetComponent<MineralGravity> ().moved = false;
+			mineralToDrop.GetComponent<MineralGravity> ().GetComponent<CharacterGravity> ().enabled = true;
+
+			mineralToDrop.transform.position = new Vector3 (gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+			mineralToDrop.SetActive (true);
+			mineralToDrop.GetComponent<MineralGravity> ().MineralMovement ();
+		}
 	}
 
 

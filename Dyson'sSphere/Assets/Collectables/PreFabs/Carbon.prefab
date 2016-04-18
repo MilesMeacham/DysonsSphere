@@ -25,9 +25,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166710}
-  m_LocalRotation: {x: 0, y: 0, z: .380957425, w: .924592614}
-  m_LocalPosition: {x: -756, y: 7515, z: -28.3937454}
-  m_LocalScale: {x: 93, y: 93, z: 93}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38095742, w: 0.9245926}
+  m_LocalPosition: {x: 0.66, y: 22.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -49,8 +49,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -85,7 +87,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ef107ee31990a24c920aa2a69c87d84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carbon: {fileID: 0}
+  mineralAmount: 1
+  theMineralCounter: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
