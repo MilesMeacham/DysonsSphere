@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: 0c93dde0b1bc7044087691c169f276ff
+timeCreated: 1461100680
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Water_Next_Pass_8:Body
+    100002: Water_Next_Pass_8:Body_Joint
+    100004: Water_Next_Pass_8:imagePlane3
+    100006: Water_Next_Pass_8:imagePlane4
+    100008: Water_Next_Pass_8:imagePlane5
+    100010: Water_Next_Pass_8:imagePlane6
+    100012: Water_Next_Pass_8:Images
+    100014: Water_Next_Pass_8:images_1
+    100016: Water_Next_Pass_8:images_2
+    100018: Water_Next_Pass_8:L_Arm_Rotation_Control
+    100020: Water_Next_Pass_8:L_Arm_Rotation_Joint
+    100022: Water_Next_Pass_8:L_Ball_Connection
+    100024: Water_Next_Pass_8:L_Clavical
+    100026: Water_Next_Pass_8:L_Clavical_Control
+    100028: Water_Next_Pass_8:L_Clavical_Joint
+    100030: Water_Next_Pass_8:L_Elbow
+    100032: Water_Next_Pass_8:L_Elbow_Control
+    100034: Water_Next_Pass_8:L_Elbow_Joint
+    100036: Water_Next_Pass_8:L_Ice_Shard
+    100038: Water_Next_Pass_8:L_Lower_Arm
+    100040: Water_Next_Pass_8:L_Shoulder
+    100042: Water_Next_Pass_8:L_Shoulder_Control
+    100044: Water_Next_Pass_8:L_Shoulder_G
+    100046: Water_Next_Pass_8:L_Shoulder_Joint
+    100048: Water_Next_Pass_8:L_Upper_Arm
+    100050: Water_Next_Pass_8:L_Upper_Arm_G
+    100052: Water_Next_Pass_8:left
+    100054: Water_Next_Pass_8:R_Arm_Rotation_Control
+    100056: Water_Next_Pass_8:R_Arm_Rotation_Joint
+    100058: Water_Next_Pass_8:R_Ball_Connection
+    100060: Water_Next_Pass_8:R_Clavical
+    100062: Water_Next_Pass_8:R_Clavical_Control
+    100064: Water_Next_Pass_8:R_Clavical_Joint
+    100066: Water_Next_Pass_8:R_Elbow
+    100068: Water_Next_Pass_8:R_Elbow_Control
+    100070: Water_Next_Pass_8:R_Elbow_Joint
+    100072: Water_Next_Pass_8:R_Ice_Shard
+    100074: Water_Next_Pass_8:R_Lower_Arm
+    100076: Water_Next_Pass_8:R_Shoulder
+    100078: Water_Next_Pass_8:R_Shoulder_Control
+    100080: Water_Next_Pass_8:R_Shoulder_G
+    100082: Water_Next_Pass_8:R_Shoulder_Joint
+    100084: Water_Next_Pass_8:R_Upper_Arm
+    100086: Water_Next_Pass_8:R_Upper_Arm_G
+    100088: Water_Next_Pass_8:Rigged_Skin
+    100090: Water_Next_Pass_8:Root_Control
+    100092: Water_Next_Pass_8:Root_Joint
+    100094: //RootNode
+    400000: Water_Next_Pass_8:Body
+    400002: Water_Next_Pass_8:Body_Joint
+    400004: Water_Next_Pass_8:imagePlane3
+    400006: Water_Next_Pass_8:imagePlane4
+    400008: Water_Next_Pass_8:imagePlane5
+    400010: Water_Next_Pass_8:imagePlane6
+    400012: Water_Next_Pass_8:Images
+    400014: Water_Next_Pass_8:images_1
+    400016: Water_Next_Pass_8:images_2
+    400018: Water_Next_Pass_8:L_Arm_Rotation_Control
+    400020: Water_Next_Pass_8:L_Arm_Rotation_Joint
+    400022: Water_Next_Pass_8:L_Ball_Connection
+    400024: Water_Next_Pass_8:L_Clavical
+    400026: Water_Next_Pass_8:L_Clavical_Control
+    400028: Water_Next_Pass_8:L_Clavical_Joint
+    400030: Water_Next_Pass_8:L_Elbow
+    400032: Water_Next_Pass_8:L_Elbow_Control
+    400034: Water_Next_Pass_8:L_Elbow_Joint
+    400036: Water_Next_Pass_8:L_Ice_Shard
+    400038: Water_Next_Pass_8:L_Lower_Arm
+    400040: Water_Next_Pass_8:L_Shoulder
+    400042: Water_Next_Pass_8:L_Shoulder_Control
+    400044: Water_Next_Pass_8:L_Shoulder_G
+    400046: Water_Next_Pass_8:L_Shoulder_Joint
+    400048: Water_Next_Pass_8:L_Upper_Arm
+    400050: Water_Next_Pass_8:L_Upper_Arm_G
+    400052: Water_Next_Pass_8:left
+    400054: Water_Next_Pass_8:R_Arm_Rotation_Control
+    400056: Water_Next_Pass_8:R_Arm_Rotation_Joint
+    400058: Water_Next_Pass_8:R_Ball_Connection
+    400060: Water_Next_Pass_8:R_Clavical
+    400062: Water_Next_Pass_8:R_Clavical_Control
+    400064: Water_Next_Pass_8:R_Clavical_Joint
+    400066: Water_Next_Pass_8:R_Elbow
+    400068: Water_Next_Pass_8:R_Elbow_Control
+    400070: Water_Next_Pass_8:R_Elbow_Joint
+    400072: Water_Next_Pass_8:R_Ice_Shard
+    400074: Water_Next_Pass_8:R_Lower_Arm
+    400076: Water_Next_Pass_8:R_Shoulder
+    400078: Water_Next_Pass_8:R_Shoulder_Control
+    400080: Water_Next_Pass_8:R_Shoulder_G
+    400082: Water_Next_Pass_8:R_Shoulder_Joint
+    400084: Water_Next_Pass_8:R_Upper_Arm
+    400086: Water_Next_Pass_8:R_Upper_Arm_G
+    400088: Water_Next_Pass_8:Rigged_Skin
+    400090: Water_Next_Pass_8:Root_Control
+    400092: Water_Next_Pass_8:Root_Joint
+    400094: //RootNode
+    4300000: Water_Next_Pass_8:Body
+    4300002: Water_Next_Pass_8:L_Clavical
+    4300004: Water_Next_Pass_8:L_Ball_Connection
+    4300006: Water_Next_Pass_8:L_Shoulder
+    4300008: Water_Next_Pass_8:L_Ice_Shard
+    4300010: Water_Next_Pass_8:L_Upper_Arm
+    4300012: Water_Next_Pass_8:L_Elbow
+    4300014: Water_Next_Pass_8:L_Lower_Arm
+    4300016: Water_Next_Pass_8:R_Clavical
+    4300018: Water_Next_Pass_8:R_Ball_Connection
+    4300020: Water_Next_Pass_8:R_Shoulder
+    4300022: Water_Next_Pass_8:R_Ice_Shard
+    4300024: Water_Next_Pass_8:R_Upper_Arm
+    4300026: Water_Next_Pass_8:R_Elbow
+    4300028: Water_Next_Pass_8:R_Lower_Arm
+    7400000: WaterEnemy_Idle
+    7400002: WaterEnemy_Patrol
+    7400004: WaterEnemy_Attack1
+    7400006: WaterEnemy_Death
+    7400008: WaterEnemy_Stun
+    7400010: WaterEnemy_Attack2
+    9500000: //RootNode
+    13700000: Water_Next_Pass_8:Body
+    13700002: Water_Next_Pass_8:L_Ball_Connection
+    13700004: Water_Next_Pass_8:L_Clavical
+    13700006: Water_Next_Pass_8:L_Elbow
+    13700008: Water_Next_Pass_8:L_Ice_Shard
+    13700010: Water_Next_Pass_8:L_Lower_Arm
+    13700012: Water_Next_Pass_8:L_Shoulder
+    13700014: Water_Next_Pass_8:L_Upper_Arm
+    13700016: Water_Next_Pass_8:R_Ball_Connection
+    13700018: Water_Next_Pass_8:R_Clavical
+    13700020: Water_Next_Pass_8:R_Elbow
+    13700022: Water_Next_Pass_8:R_Ice_Shard
+    13700024: Water_Next_Pass_8:R_Lower_Arm
+    13700026: Water_Next_Pass_8:R_Shoulder
+    13700028: Water_Next_Pass_8:R_Upper_Arm
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WaterEnemy_Idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Water_Next_Pass_8:Images
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane3
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane4
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane5
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane6
+        weight: 1
+      - path: Water_Next_Pass_8:left
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control/Water_Next_Pass_8:L_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control/Water_Next_Pass_8:R_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint/Water_Next_Pass_8:L_Elbow_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint/Water_Next_Pass_8:R_Elbow_Joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WaterEnemy_Patrol
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Water_Next_Pass_8:Images
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane3
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane4
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane5
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane6
+        weight: 1
+      - path: Water_Next_Pass_8:left
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control/Water_Next_Pass_8:L_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control/Water_Next_Pass_8:R_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint/Water_Next_Pass_8:L_Elbow_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint/Water_Next_Pass_8:R_Elbow_Joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WaterEnemy_Attack1
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Water_Next_Pass_8:Images
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane3
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane4
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane5
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane6
+        weight: 1
+      - path: Water_Next_Pass_8:left
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control/Water_Next_Pass_8:L_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control/Water_Next_Pass_8:R_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint/Water_Next_Pass_8:L_Elbow_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint/Water_Next_Pass_8:R_Elbow_Joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WaterEnemy_Death
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Water_Next_Pass_8:Images
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane3
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane4
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane5
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane6
+        weight: 1
+      - path: Water_Next_Pass_8:left
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control/Water_Next_Pass_8:L_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control/Water_Next_Pass_8:R_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint/Water_Next_Pass_8:L_Elbow_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint/Water_Next_Pass_8:R_Elbow_Joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WaterEnemy_Stun
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Water_Next_Pass_8:Images
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane3
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane4
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane5
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane6
+        weight: 1
+      - path: Water_Next_Pass_8:left
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control/Water_Next_Pass_8:L_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control/Water_Next_Pass_8:R_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint/Water_Next_Pass_8:L_Elbow_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint/Water_Next_Pass_8:R_Elbow_Joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WaterEnemy_Attack2
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Water_Next_Pass_8:Images
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane3
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_1/Water_Next_Pass_8:imagePlane4
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane5
+        weight: 1
+      - path: Water_Next_Pass_8:Images/Water_Next_Pass_8:images_2/Water_Next_Pass_8:imagePlane6
+        weight: 1
+      - path: Water_Next_Pass_8:left
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:L_Clavical/Water_Next_Pass_8:L_Ball_Connection/Water_Next_Pass_8:L_Shoulder_G/Water_Next_Pass_8:L_Upper_Arm_G/Water_Next_Pass_8:L_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Ice_Shard
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Shoulder
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Elbow
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Lower_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Rigged_Skin/Water_Next_Pass_8:Body/Water_Next_Pass_8:R_Clavical/Water_Next_Pass_8:R_Ball_Connection/Water_Next_Pass_8:R_Shoulder_G/Water_Next_Pass_8:R_Upper_Arm_G/Water_Next_Pass_8:R_Upper_Arm
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:L_Clavical_Control/Water_Next_Pass_8:L_Shoulder_Control/Water_Next_Pass_8:L_Arm_Rotation_Control/Water_Next_Pass_8:L_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Control/Water_Next_Pass_8:R_Clavical_Control/Water_Next_Pass_8:R_Shoulder_Control/Water_Next_Pass_8:R_Arm_Rotation_Control/Water_Next_Pass_8:R_Elbow_Control
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:L_Clavical_Joint/Water_Next_Pass_8:L_Shoulder_Joint/Water_Next_Pass_8:L_Arm_Rotation_Joint/Water_Next_Pass_8:L_Elbow_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint
+        weight: 1
+      - path: Water_Next_Pass_8:Root_Joint/Water_Next_Pass_8:Body_Joint/Water_Next_Pass_8:R_Clavical_Joint/Water_Next_Pass_8:R_Shoulder_Joint/Water_Next_Pass_8:R_Arm_Rotation_Joint/Water_Next_Pass_8:R_Elbow_Joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

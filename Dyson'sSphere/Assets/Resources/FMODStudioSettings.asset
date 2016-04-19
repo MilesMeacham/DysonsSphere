@@ -50,5 +50,5 @@ MonoBehaviour:
   - Platform: 2
     Value: 32
   Plugins: []
-  MasterBank: Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop\Master Bank
+  MasterBank: Master Bank
   Banks: []
