@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: aeed9b2f375441a47a8960085547ca07
+timeCreated: 1460614773
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: WindEnemyMesh_parented:blade1
+    100004: WindEnemyMesh_parented:blade2
+    100006: WindEnemyMesh_parented:blade3
+    100008: WindEnemyMesh_parented:L_AnteriorClaw
+    100010: WindEnemyMesh_parented:L_Arm
+    100012: WindEnemyMesh_parented:L_ClavicleBar
+    100014: WindEnemyMesh_parented:L_ClawHinge
+    100016: WindEnemyMesh_parented:L_ElbowBall
+    100018: WindEnemyMesh_parented:L_ForearmBar
+    100020: WindEnemyMesh_parented:L_PosteriorClaw
+    100022: WindEnemyMesh_parented:R_AnteriorClaw1
+    100024: WindEnemyMesh_parented:R_Arm
+    100026: WindEnemyMesh_parented:R_ClavicleBar
+    100028: WindEnemyMesh_parented:R_ClawHinge
+    100030: WindEnemyMesh_parented:R_ElbowBall
+    100032: WindEnemyMesh_parented:R_ForearmBar
+    100034: WindEnemyMesh_parented:R_PosteriorClaw
+    100036: WindEnemyMesh_parented:rotor
+    400000: //RootNode
+    400002: WindEnemyMesh_parented:blade1
+    400004: WindEnemyMesh_parented:blade2
+    400006: WindEnemyMesh_parented:blade3
+    400008: WindEnemyMesh_parented:L_AnteriorClaw
+    400010: WindEnemyMesh_parented:L_Arm
+    400012: WindEnemyMesh_parented:L_ClavicleBar
+    400014: WindEnemyMesh_parented:L_ClawHinge
+    400016: WindEnemyMesh_parented:L_ElbowBall
+    400018: WindEnemyMesh_parented:L_ForearmBar
+    400020: WindEnemyMesh_parented:L_PosteriorClaw
+    400022: WindEnemyMesh_parented:R_AnteriorClaw1
+    400024: WindEnemyMesh_parented:R_Arm
+    400026: WindEnemyMesh_parented:R_ClavicleBar
+    400028: WindEnemyMesh_parented:R_ClawHinge
+    400030: WindEnemyMesh_parented:R_ElbowBall
+    400032: WindEnemyMesh_parented:R_ForearmBar
+    400034: WindEnemyMesh_parented:R_PosteriorClaw
+    400036: WindEnemyMesh_parented:rotor
+    2300000: //RootNode
+    2300002: WindEnemyMesh_parented:blade1
+    2300004: WindEnemyMesh_parented:blade2
+    2300006: WindEnemyMesh_parented:blade3
+    2300008: WindEnemyMesh_parented:L_AnteriorClaw
+    2300010: WindEnemyMesh_parented:L_Arm
+    2300012: WindEnemyMesh_parented:L_ClavicleBar
+    2300014: WindEnemyMesh_parented:L_ClawHinge
+    2300016: WindEnemyMesh_parented:L_ElbowBall
+    2300018: WindEnemyMesh_parented:L_ForearmBar
+    2300020: WindEnemyMesh_parented:L_PosteriorClaw
+    2300022: WindEnemyMesh_parented:R_AnteriorClaw1
+    2300024: WindEnemyMesh_parented:R_Arm
+    2300026: WindEnemyMesh_parented:R_ClavicleBar
+    2300028: WindEnemyMesh_parented:R_ClawHinge
+    2300030: WindEnemyMesh_parented:R_ElbowBall
+    2300032: WindEnemyMesh_parented:R_ForearmBar
+    2300034: WindEnemyMesh_parented:R_PosteriorClaw
+    2300036: WindEnemyMesh_parented:rotor
+    3300000: //RootNode
+    3300002: WindEnemyMesh_parented:blade1
+    3300004: WindEnemyMesh_parented:blade2
+    3300006: WindEnemyMesh_parented:blade3
+    3300008: WindEnemyMesh_parented:L_AnteriorClaw
+    3300010: WindEnemyMesh_parented:L_Arm
+    3300012: WindEnemyMesh_parented:L_ClavicleBar
+    3300014: WindEnemyMesh_parented:L_ClawHinge
+    3300016: WindEnemyMesh_parented:L_ElbowBall
+    3300018: WindEnemyMesh_parented:L_ForearmBar
+    3300020: WindEnemyMesh_parented:L_PosteriorClaw
+    3300022: WindEnemyMesh_parented:R_AnteriorClaw1
+    3300024: WindEnemyMesh_parented:R_Arm
+    3300026: WindEnemyMesh_parented:R_ClavicleBar
+    3300028: WindEnemyMesh_parented:R_ClawHinge
+    3300030: WindEnemyMesh_parented:R_ElbowBall
+    3300032: WindEnemyMesh_parented:R_ForearmBar
+    3300034: WindEnemyMesh_parented:R_PosteriorClaw
+    3300036: WindEnemyMesh_parented:rotor
+    4300000: WindEnemyMesh_parented:WindBody
+    4300002: WindEnemyMesh_parented:R_ClavicleBar
+    4300004: WindEnemyMesh_parented:R_Arm
+    4300006: WindEnemyMesh_parented:R_ElbowBall
+    4300008: WindEnemyMesh_parented:R_ForearmBar
+    4300010: WindEnemyMesh_parented:R_ClawHinge
+    4300012: WindEnemyMesh_parented:R_AnteriorClaw1
+    4300014: WindEnemyMesh_parented:R_PosteriorClaw
+    4300016: WindEnemyMesh_parented:L_ClavicleBar
+    4300018: WindEnemyMesh_parented:L_Arm
+    4300020: WindEnemyMesh_parented:L_ElbowBall
+    4300022: WindEnemyMesh_parented:L_ForearmBar
+    4300024: WindEnemyMesh_parented:L_ClawHinge
+    4300026: WindEnemyMesh_parented:L_PosteriorClaw
+    4300028: WindEnemyMesh_parented:L_AnteriorClaw
+    4300030: WindEnemyMesh_parented:rotor
+    4300032: WindEnemyMesh_parented:blade3
+    4300034: WindEnemyMesh_parented:blade2
+    4300036: WindEnemyMesh_parented:blade1
+    7400000: Patrol
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Patrol
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: WindEnemyMesh_parented:L_ClavicleBar
+        weight: 1
+      - path: WindEnemyMesh_parented:L_ClavicleBar/WindEnemyMesh_parented:L_Arm
+        weight: 1
+      - path: WindEnemyMesh_parented:L_ClavicleBar/WindEnemyMesh_parented:L_Arm/WindEnemyMesh_parented:L_ElbowBall
+        weight: 1
+      - path: WindEnemyMesh_parented:L_ClavicleBar/WindEnemyMesh_parented:L_Arm/WindEnemyMesh_parented:L_ElbowBall/WindEnemyMesh_parented:L_ForearmBar
+        weight: 1
+      - path: WindEnemyMesh_parented:L_ClavicleBar/WindEnemyMesh_parented:L_Arm/WindEnemyMesh_parented:L_ElbowBall/WindEnemyMesh_parented:L_ForearmBar/WindEnemyMesh_parented:L_ClawHinge
+        weight: 1
+      - path: WindEnemyMesh_parented:L_ClavicleBar/WindEnemyMesh_parented:L_Arm/WindEnemyMesh_parented:L_ElbowBall/WindEnemyMesh_parented:L_ForearmBar/WindEnemyMesh_parented:L_ClawHinge/WindEnemyMesh_parented:L_AnteriorClaw
+        weight: 1
+      - path: WindEnemyMesh_parented:L_ClavicleBar/WindEnemyMesh_parented:L_Arm/WindEnemyMesh_parented:L_ElbowBall/WindEnemyMesh_parented:L_ForearmBar/WindEnemyMesh_parented:L_ClawHinge/WindEnemyMesh_parented:L_PosteriorClaw
+        weight: 1
+      - path: WindEnemyMesh_parented:R_ClavicleBar
+        weight: 1
+      - path: WindEnemyMesh_parented:R_ClavicleBar/WindEnemyMesh_parented:R_Arm
+        weight: 1
+      - path: WindEnemyMesh_parented:R_ClavicleBar/WindEnemyMesh_parented:R_Arm/WindEnemyMesh_parented:R_ElbowBall
+        weight: 1
+      - path: WindEnemyMesh_parented:R_ClavicleBar/WindEnemyMesh_parented:R_Arm/WindEnemyMesh_parented:R_ElbowBall/WindEnemyMesh_parented:R_ForearmBar
+        weight: 1
+      - path: WindEnemyMesh_parented:R_ClavicleBar/WindEnemyMesh_parented:R_Arm/WindEnemyMesh_parented:R_ElbowBall/WindEnemyMesh_parented:R_ForearmBar/WindEnemyMesh_parented:R_ClawHinge
+        weight: 1
+      - path: WindEnemyMesh_parented:R_ClavicleBar/WindEnemyMesh_parented:R_Arm/WindEnemyMesh_parented:R_ElbowBall/WindEnemyMesh_parented:R_ForearmBar/WindEnemyMesh_parented:R_ClawHinge/WindEnemyMesh_parented:R_AnteriorClaw1
+        weight: 1
+      - path: WindEnemyMesh_parented:R_ClavicleBar/WindEnemyMesh_parented:R_Arm/WindEnemyMesh_parented:R_ElbowBall/WindEnemyMesh_parented:R_ForearmBar/WindEnemyMesh_parented:R_ClawHinge/WindEnemyMesh_parented:R_PosteriorClaw
+        weight: 1
+      - path: WindEnemyMesh_parented:rotor
+        weight: 1
+      - path: WindEnemyMesh_parented:rotor/WindEnemyMesh_parented:blade1
+        weight: 1
+      - path: WindEnemyMesh_parented:rotor/WindEnemyMesh_parented:blade2
+        weight: 1
+      - path: WindEnemyMesh_parented:rotor/WindEnemyMesh_parented:blade3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

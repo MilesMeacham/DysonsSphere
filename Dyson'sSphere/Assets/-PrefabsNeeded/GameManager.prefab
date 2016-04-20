@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 495636}
   - 114: {fileID: 11490550}
+  - 114: {fileID: 11498636}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -23,7 +24,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.0341616, y: 81.7271271, z: -11.3980865}
+  m_LocalPosition: {x: 13.034162, y: 81.72713, z: -11.398087}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,6 +40,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b70f7e8e3ba99294d8fc4416ce9cf49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11498636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df564cbc5fdd604f8270474a098bb6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mineralBar: {fileID: 0}
+  mediumDoors: 10
+  largeDoors: 15
+  AmountOfMineralsNeededToWin: 20
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

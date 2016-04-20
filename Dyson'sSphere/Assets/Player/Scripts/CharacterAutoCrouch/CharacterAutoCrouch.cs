@@ -19,7 +19,7 @@ public class CharacterAutoCrouch : MonoBehaviour {
 
 	public bool crouching;
 
-	private CharacterMotor2 theCharacterMotor;
+	private CharacterMotor theCharacterMotor;
 	public GroundCheck theGroundCheck;
 	private CharacterAutoCrouchTop theCharacterAutoCrouchTop;
 	private CharacterAutoCrouchBottom theCharacterAutoCrouchBottom;
@@ -39,10 +39,10 @@ public class CharacterAutoCrouch : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		theCharacterMotor = GetComponentInParent<CharacterMotor2> ();
+		theCharacterMotor = GetComponentInParent<CharacterMotor> ();
 		theCharacterAutoCrouchTop = GetComponentInChildren<CharacterAutoCrouchTop> ();
 		theCharacterAutoCrouchBottom = GetComponentInChildren<CharacterAutoCrouchBottom> ();
-		theAnimator = GetComponentInParent<CharacterMotor2>().theAnimator;
+		theAnimator = GetComponentInParent<CharacterMotor>().theAnimator;
 		playerCollider = GetComponentInParent<BoxCollider>();
 		originalColliderSize = playerCollider.size;
 		originalColliderCenter = playerCollider.center;
@@ -57,7 +57,7 @@ public class CharacterAutoCrouch : MonoBehaviour {
 		if (!bottom && top && theGroundCheck.grounded && !crouching) 
 		{
 			crouching = true;
-//			theAnimator.SetBool ("Crouch", true);
+			theAnimator.SetBool ("Crouch", true);
 
 			// crouch
 			//theCharacterMotor.transform.localScale = new Vector3 (theCharacterMotor.transform.localScale.x, theCharacterMotor.transform.localScale.y / 2, theCharacterMotor.transform.localScale.z);
@@ -75,7 +75,7 @@ public class CharacterAutoCrouch : MonoBehaviour {
 		if (crouching && !top)
 		{
 			crouching = false;
-//			theAnimator.SetBool ("Crouch", false);
+			theAnimator.SetBool ("Crouch", false);
 			// uncrouch
 			//theCharacterMotor.transform.localScale = new Vector3 (theCharacterMotor.transform.localScale.x, theCharacterMotor.transform.localScale.y * 2, theCharacterMotor.transform.localScale.z);
 

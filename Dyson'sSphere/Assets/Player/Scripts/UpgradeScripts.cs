@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class UpgradeScripts : MonoBehaviour {
-    public CharacterMotor2 Motor;
+    public CharacterMotor Motor;
     public CharacterShot Shot;
     public CharacterHealth Life;
     public TakeDamage Damage;
@@ -12,7 +12,7 @@ public class UpgradeScripts : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        Motor = GetComponent<CharacterMotor2>();
+        Motor = GetComponent<CharacterMotor>();
         Shot = GetComponent<CharacterShot>();
         Life = GetComponent<CharacterHealth>();
         Damage = GetComponent<TakeDamage>();
@@ -23,12 +23,12 @@ public class UpgradeScripts : MonoBehaviour {
     {
         if (SpeedBoots == false && Motor.facingRight == true)
         {
-            Motor.speed = 5;
+            Motor.speedMultiplier = 5;
         }
 
         if (SpeedBoots == false && Motor.facingRight == false)
         {
-            Motor.speed =-5;
+			Motor.speedMultiplier =-5;
         }
 
         if (HazBoots == false)
@@ -40,7 +40,7 @@ public class UpgradeScripts : MonoBehaviour {
     {
         if (collider.gameObject.tag == "SpeedBootsUPG" && Motor.facingRight == true)
         {
-            Motor.speed = 8;
+			Motor.speedMultiplier = 8;
      
             SpeedBoots = true;
             Damage.immuneToHazardDamage = false;
@@ -48,7 +48,7 @@ public class UpgradeScripts : MonoBehaviour {
         else
         if (collider.gameObject.tag == "SpeedBootsUPG" && Motor.facingRight == false)
         {
-            Motor.speed = -10;
+			Motor.speedMultiplier = -10;
 
             SpeedBoots = true;
         }

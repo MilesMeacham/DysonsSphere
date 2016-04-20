@@ -25,6 +25,7 @@ TagManager:
   - PowerDrillUPG
   - SuperArmorUPG
   - Explosion
+  - Destructables
   layers:
   - Default
   - TransparentFX
