@@ -33,8 +33,8 @@ public class CharacterHealth : MonoBehaviour {
 		// Set health to maxHealth when spawned
 		health = maxHealth;
 
-		if (tag == "Enemy")
-			healthBar = transform.FindChild("EnemyCanvas").FindChild("HealthBG").FindChild("Health").GetComponent<Image>();
+//		if (tag == "Enemy")
+//			healthBar = transform.FindChild("EnemyCanvas").FindChild("HealthBG").FindChild("Health").GetComponent<Image>();
 
 	}
 
@@ -82,7 +82,7 @@ public class CharacterHealth : MonoBehaviour {
 			health -= healthToRemove;
 			//temp audio
 			//may cause errors in enemies without emitters and fmod events
-			hurtSound.Play ();
+//			hurtSound.Play ();
 		}
 		// If the damage is higher than the remaining life, set life equal to 0
 		if (health < healthToRemove)

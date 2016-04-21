@@ -10,7 +10,7 @@ public class MiningCollider : MonoBehaviour {
 	//[HideInInspector]
 	public bool miningWait;
 
-	private Destructable mineralDeposit;
+	private MineralDeposit mineralDeposit;
 
 
 
@@ -19,7 +19,7 @@ public class MiningCollider : MonoBehaviour {
 		
 		if (!miningWait && other.gameObject.tag == "Destructables") 
 		{
-			mineralDeposit = other.GetComponent<Destructable> ();
+			mineralDeposit = other.GetComponent<MineralDeposit> ();
 			StartCoroutine (MiningCO());
 		}
 			

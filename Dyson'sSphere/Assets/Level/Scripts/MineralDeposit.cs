@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Destructable : MonoBehaviour {
+public class MineralDeposit : MonoBehaviour {
 
 
 	public float durability = 30f;
@@ -15,6 +15,11 @@ public class Destructable : MonoBehaviour {
 	private GameObject mineralToDrop;
 	public ObjectPooler mineralPool;
 	public int NumberOfMineralsToDrop;
+
+	// This will be used to tell any spawners to start spawning
+	public bool startedMining;
+	public GameObject[] connectedSpawners;
+	private bool notify = false;
 
 	void Start()
 	{
@@ -36,6 +41,9 @@ public class Destructable : MonoBehaviour {
 
 	public void RemoveHit (int hit)
 	{
+		if (!notify)
+			NotifySpawners ();
+
 		durability -= hit;
 
 		int i = 0;
@@ -75,6 +83,17 @@ public class Destructable : MonoBehaviour {
 			mineralToDrop.SetActive (true);
 			mineralToDrop.GetComponent<MineralGravity> ().MineralMovement ();
 		}
+	}
+
+	void NotifySpawners()
+	{
+		notify = true;
+
+		foreach (GameObject spawner in connectedSpawners) 
+		{
+			spawner.GetComponent<Spawner> ().spawn = true;
+		}
+
 	}
 
 

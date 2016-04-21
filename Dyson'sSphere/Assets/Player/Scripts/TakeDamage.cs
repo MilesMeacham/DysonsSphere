@@ -49,14 +49,7 @@ public class TakeDamage : MonoBehaviour {
 		// if character is not immune to player damage, he will detect these
 		if (!immuneToPlayerDamage) 
 		{
-            {
-                // Touching player hurts you
-                if (collider.gameObject.tag == "Player" && ChestUPG.SpikeArmor == true)
-                {
-                    theCharacterHealth.removeHealth(1f);
-                    theCharacterHealth.Invincibility();
-                }
-            }
+
         }
 		
 		// if character is not immune to hazard damage, he will detect these
