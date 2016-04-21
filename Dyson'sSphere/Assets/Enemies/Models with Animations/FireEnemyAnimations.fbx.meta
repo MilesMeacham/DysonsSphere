@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: f68dc121805ff9b478503e4e9126d5e4
+timeCreated: 1461217912
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: fireuvs3:body
+    100004: fireuvs3:body 1
+    100006: fireuvs3:Body_Joint
+    100008: fireuvs3:head
+    100010: fireuvs3:head 1
+    100012: fireuvs3:Head_Control
+    100014: fireuvs3:Head_Joint
+    100016: fireuvs3:L_Back_Foot
+    100018: fireuvs3:L_Back_Foot 1
+    100020: fireuvs3:L_Back_Foot_Control
+    100022: fireuvs3:L_Back_Foot_Joint
+    100024: fireuvs3:L_Back_Leg
+    100026: fireuvs3:L_Back_Leg 1
+    100028: fireuvs3:L_Back_Leg_Control
+    100030: fireuvs3:L_Back_Leg_Joint
+    100032: fireuvs3:L_Front_Foot
+    100034: fireuvs3:L_Front_Foot 1
+    100036: fireuvs3:L_Front_Foot_Control
+    100038: fireuvs3:L_Front_Foot_Joint
+    100040: fireuvs3:L_Front_Leg
+    100042: fireuvs3:L_Front_Leg 1
+    100044: fireuvs3:L_Front_Leg_Control
+    100046: fireuvs3:L_Front_Leg_Joint
+    100048: fireuvs3:R_Back_Foot
+    100050: fireuvs3:R_Back_Foot 1
+    100052: fireuvs3:R_Back_Foot_Control
+    100054: fireuvs3:R_Back_Foot_Joint
+    100056: fireuvs3:R_Back_Leg
+    100058: fireuvs3:R_Back_Leg 1
+    100060: fireuvs3:R_Back_Leg_Control
+    100062: fireuvs3:R_Back_Leg_Joint
+    100064: fireuvs3:R_Front_Foot
+    100066: fireuvs3:R_Front_Foot 1
+    100068: fireuvs3:R_Front_Foot_Control
+    100070: fireuvs3:R_Front_Foot_Joint
+    100072: fireuvs3:R_Front_Leg
+    100074: fireuvs3:R_Front_Leg 1
+    100076: fireuvs3:R_Front_Leg_Control
+    100078: fireuvs3:R_Front_Leg_Joint
+    100080: fireuvs3:Rigged_Skin
+    100082: fireuvs3:rocks
+    100084: fireuvs3:rocks 1
+    100086: fireuvs3:Root
+    100088: fireuvs3:Root_Control
+    100090: fireuvs3:Un_Rigged_Skin
+    400000: //RootNode
+    400002: fireuvs3:body
+    400004: fireuvs3:body 1
+    400006: fireuvs3:Body_Joint
+    400008: fireuvs3:head
+    400010: fireuvs3:head 1
+    400012: fireuvs3:Head_Control
+    400014: fireuvs3:Head_Joint
+    400016: fireuvs3:L_Back_Foot
+    400018: fireuvs3:L_Back_Foot 1
+    400020: fireuvs3:L_Back_Foot_Control
+    400022: fireuvs3:L_Back_Foot_Joint
+    400024: fireuvs3:L_Back_Leg
+    400026: fireuvs3:L_Back_Leg 1
+    400028: fireuvs3:L_Back_Leg_Control
+    400030: fireuvs3:L_Back_Leg_Joint
+    400032: fireuvs3:L_Front_Foot
+    400034: fireuvs3:L_Front_Foot 1
+    400036: fireuvs3:L_Front_Foot_Control
+    400038: fireuvs3:L_Front_Foot_Joint
+    400040: fireuvs3:L_Front_Leg
+    400042: fireuvs3:L_Front_Leg 1
+    400044: fireuvs3:L_Front_Leg_Control
+    400046: fireuvs3:L_Front_Leg_Joint
+    400048: fireuvs3:R_Back_Foot
+    400050: fireuvs3:R_Back_Foot 1
+    400052: fireuvs3:R_Back_Foot_Control
+    400054: fireuvs3:R_Back_Foot_Joint
+    400056: fireuvs3:R_Back_Leg
+    400058: fireuvs3:R_Back_Leg 1
+    400060: fireuvs3:R_Back_Leg_Control
+    400062: fireuvs3:R_Back_Leg_Joint
+    400064: fireuvs3:R_Front_Foot
+    400066: fireuvs3:R_Front_Foot 1
+    400068: fireuvs3:R_Front_Foot_Control
+    400070: fireuvs3:R_Front_Foot_Joint
+    400072: fireuvs3:R_Front_Leg
+    400074: fireuvs3:R_Front_Leg 1
+    400076: fireuvs3:R_Front_Leg_Control
+    400078: fireuvs3:R_Front_Leg_Joint
+    400080: fireuvs3:Rigged_Skin
+    400082: fireuvs3:rocks
+    400084: fireuvs3:rocks 1
+    400086: fireuvs3:Root
+    400088: fireuvs3:Root_Control
+    400090: fireuvs3:Un_Rigged_Skin
+    2300000: fireuvs3:body
+    2300002: fireuvs3:head 1
+    2300004: fireuvs3:L_Back_Foot 1
+    2300006: fireuvs3:L_Back_Leg 1
+    2300008: fireuvs3:L_Front_Foot 1
+    2300010: fireuvs3:L_Front_Leg 1
+    2300012: fireuvs3:R_Back_Foot 1
+    2300014: fireuvs3:R_Back_Leg 1
+    2300016: fireuvs3:R_Front_Foot 1
+    2300018: fireuvs3:R_Front_Leg 1
+    2300020: fireuvs3:rocks 1
+    3300000: fireuvs3:body
+    3300002: fireuvs3:head 1
+    3300004: fireuvs3:L_Back_Foot 1
+    3300006: fireuvs3:L_Back_Leg 1
+    3300008: fireuvs3:L_Front_Foot 1
+    3300010: fireuvs3:L_Front_Leg 1
+    3300012: fireuvs3:R_Back_Foot 1
+    3300014: fireuvs3:R_Back_Leg 1
+    3300016: fireuvs3:R_Front_Foot 1
+    3300018: fireuvs3:R_Front_Leg 1
+    3300020: fireuvs3:rocks 1
+    4300000: fireuvs3:L_Front_Foot
+    4300002: fireuvs3:R_Front_Foot
+    4300004: fireuvs3:R_Back_Foot
+    4300006: fireuvs3:L_Back_Foot
+    4300008: fireuvs3:head
+    4300010: fireuvs3:rocks
+    4300012: fireuvs3:L_Back_Leg
+    4300014: fireuvs3:R_Front_Leg
+    4300016: fireuvs3:R_Back_Leg
+    4300018: fireuvs3:L_Front_Leg
+    4300020: fireuvs3:body
+    4300022: fireuvs3:body
+    4300024: fireuvs3:head
+    4300026: fireuvs3:rocks
+    4300028: fireuvs3:R_Front_Leg
+    4300030: fireuvs3:R_Front_Foot
+    4300032: fireuvs3:R_Back_Leg
+    4300034: fireuvs3:R_Back_Foot
+    4300036: fireuvs3:L_Front_Leg
+    4300038: fireuvs3:L_Front_Foot
+    4300040: fireuvs3:L_Back_Leg
+    4300042: fireuvs3:L_Back_Foot
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fireuvs3:body 1
+    13700002: fireuvs3:head
+    13700004: fireuvs3:L_Back_Foot
+    13700006: fireuvs3:L_Back_Leg
+    13700008: fireuvs3:L_Front_Foot
+    13700010: fireuvs3:L_Front_Leg
+    13700012: fireuvs3:R_Back_Foot
+    13700014: fireuvs3:R_Back_Leg
+    13700016: fireuvs3:R_Front_Foot
+    13700018: fireuvs3:R_Front_Leg
+    13700020: fireuvs3:rocks
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
