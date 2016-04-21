@@ -9,7 +9,7 @@ public class EnemyStomp : MonoBehaviour {
 	private int tempSpeed;
 	
 	public GroundCheck thePlayerGrounded;
-	public CharacterMotor2 thePlayerCharacterMotor;
+	public CharacterMotor thePlayerCharacterMotor;
 	public CharacterMotor2 theEnemyCharacterMotor;
 
 	// The stun duration in seconds
@@ -22,7 +22,7 @@ public class EnemyStomp : MonoBehaviour {
 	{
 
 		theEnemyCharacterMotor = gameObject.GetComponent<CharacterMotor2> ();
-		thePlayerCharacterMotor = GameObject.Find ("Player").GetComponent<CharacterMotor2> ();
+		thePlayerCharacterMotor = GameObject.Find ("Player").GetComponent<CharacterMotor> ();
 
 
 		//Using "ThePlayerCharacterMotor" to find this to avoid having to search through everything again.
@@ -49,10 +49,10 @@ public class EnemyStomp : MonoBehaviour {
 			stunned = true;
 
 			// Store the speed into a variable
-			tempSpeed = thePlayerCharacterMotor.speed;
+			tempSpeed = thePlayerCharacterMotor.baseSpeed;
 		
 			// Turn the speed off for the charging start up animation
-			thePlayerCharacterMotor.speed = 0;
+			thePlayerCharacterMotor.baseSpeed = 0;
 
 			print ("Stomp");
 		}
@@ -61,7 +61,7 @@ public class EnemyStomp : MonoBehaviour {
 		yield return new WaitForSeconds (stunDuration);
 
 		if(stunned)
-			thePlayerCharacterMotor.speed = tempSpeed;
+			thePlayerCharacterMotor.baseSpeed = tempSpeed;
 		
 		yield return new WaitForSeconds (postShotCoolDownTime);
 
