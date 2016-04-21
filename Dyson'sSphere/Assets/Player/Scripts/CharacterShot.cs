@@ -42,11 +42,17 @@ public class CharacterShot : MonoBehaviour {
 	//Animator
 	public Animator theAnimator;
 	public Transform shootingArm;
+//	public Animation anim;
 
 	void Start()
 	{
 		bulletPools = GameObject.Find (poolName).GetComponent<ObjectPooler> ();
 		theAnimator = GetComponentInChildren<Animator>();
+
+//		anim = theAnimator.GetComponent<Animation> ();
+
+//		anim ["Attack"].layer = 5;
+//		anim ["Attack"].AddMixingTransform (shootingArm);
 	}
 
 
@@ -58,6 +64,7 @@ public class CharacterShot : MonoBehaviour {
 			reloadTime = baseReloadTime/reloadTimeDecreaseMultiplier;
 			damage = (baseDamage * damageMultiplier) + damageUpgrade;
 
+			theAnimator.SetTrigger ("Shot");
 
 
 			bullet = bulletPools.GetPooledObject ();

@@ -10,7 +10,7 @@ public class MineralCollect : MonoBehaviour {
     // Use this for initialization
     void Start () 
 	{
-		//theMineralCounter = gameObject.GetComponent<MineralCounter> ();
+		theMineralCounter = GameObject.Find("GameManager").GetComponent<MineralCounter> ();
     }
 
 

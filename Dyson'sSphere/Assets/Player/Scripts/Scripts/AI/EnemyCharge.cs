@@ -5,15 +5,17 @@ public class EnemyCharge : MonoBehaviour {
 
 
 	public bool charging = false;
-	public float chargeUpTime = 1;
+	public float chargeUpTime = 2;
 	public int chargeSpeed = 10;
 	private int tempSpeed;
 
 	private CharacterMotor2 theCharacterMotor;
+	private Animator theAnimator;
 
 	void Start ()
 	{
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor2> ();
+		theAnimator = theCharacterMotor.theAnimator;
 	}
 
 	public void Charge()
@@ -33,6 +35,8 @@ public class EnemyCharge : MonoBehaviour {
 		
 		// Turn the speed off for the charging start up animation
 		theCharacterMotor.speed = 0;
+
+		theAnimator.SetBool ("Roar", true);
 		
 		yield return new WaitForSeconds (chargeUpTime);
 

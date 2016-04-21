@@ -1,0 +1,1207 @@
+fileFormatVersion: 2
+guid: 737072882ae98474099133fb68bf80d8
+timeCreated: 1461123985
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: EarthEnemyMesh_Parented_wTree:Head
+    100004: EarthEnemyMesh_Parented_wTree:L_ArmRod
+    100006: EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+    100008: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+    100010: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+    100012: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+    100014: EarthEnemyMesh_Parented_wTree:L_Forearm
+    100016: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+    100018: EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+    100020: EarthEnemyMesh_Parented_wTree:L_LowerLeg
+    100022: EarthEnemyMesh_Parented_wTree:L_LowerThumb
+    100024: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+    100026: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+    100028: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+    100030: EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+    100032: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+    100034: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+    100036: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+    100038: EarthEnemyMesh_Parented_wTree:L_UpperLeg
+    100040: EarthEnemyMesh_Parented_wTree:L_UpperThumb
+    100042: EarthEnemyMesh_Parented_wTree:Midsection
+    100044: EarthEnemyMesh_Parented_wTree:R_ArmRod
+    100046: EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+    100048: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+    100050: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+    100052: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+    100054: EarthEnemyMesh_Parented_wTree:R_Forearm
+    100056: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+    100058: EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+    100060: EarthEnemyMesh_Parented_wTree:R_LowerLeg
+    100062: EarthEnemyMesh_Parented_wTree:R_LowerThumb
+    100064: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+    100066: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+    100068: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+    100070: EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+    100072: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+    100074: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+    100076: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+    100078: EarthEnemyMesh_Parented_wTree:R_UpperLeg
+    100080: EarthEnemyMesh_Parented_wTree:R_UpperThumb
+    100082: EarthEnemyMesh_Parented_wTree:Tree
+    100084: EarthEnemyMesh_Parented_wTree:UpperTorso
+    400000: //RootNode
+    400002: EarthEnemyMesh_Parented_wTree:Head
+    400004: EarthEnemyMesh_Parented_wTree:L_ArmRod
+    400006: EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+    400008: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+    400010: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+    400012: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+    400014: EarthEnemyMesh_Parented_wTree:L_Forearm
+    400016: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+    400018: EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+    400020: EarthEnemyMesh_Parented_wTree:L_LowerLeg
+    400022: EarthEnemyMesh_Parented_wTree:L_LowerThumb
+    400024: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+    400026: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+    400028: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+    400030: EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+    400032: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+    400034: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+    400036: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+    400038: EarthEnemyMesh_Parented_wTree:L_UpperLeg
+    400040: EarthEnemyMesh_Parented_wTree:L_UpperThumb
+    400042: EarthEnemyMesh_Parented_wTree:Midsection
+    400044: EarthEnemyMesh_Parented_wTree:R_ArmRod
+    400046: EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+    400048: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+    400050: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+    400052: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+    400054: EarthEnemyMesh_Parented_wTree:R_Forearm
+    400056: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+    400058: EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+    400060: EarthEnemyMesh_Parented_wTree:R_LowerLeg
+    400062: EarthEnemyMesh_Parented_wTree:R_LowerThumb
+    400064: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+    400066: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+    400068: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+    400070: EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+    400072: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+    400074: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+    400076: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+    400078: EarthEnemyMesh_Parented_wTree:R_UpperLeg
+    400080: EarthEnemyMesh_Parented_wTree:R_UpperThumb
+    400082: EarthEnemyMesh_Parented_wTree:Tree
+    400084: EarthEnemyMesh_Parented_wTree:UpperTorso
+    2300000: //RootNode
+    2300002: EarthEnemyMesh_Parented_wTree:Head
+    2300004: EarthEnemyMesh_Parented_wTree:L_ArmRod
+    2300006: EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+    2300008: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+    2300010: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+    2300012: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+    2300014: EarthEnemyMesh_Parented_wTree:L_Forearm
+    2300016: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+    2300018: EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+    2300020: EarthEnemyMesh_Parented_wTree:L_LowerLeg
+    2300022: EarthEnemyMesh_Parented_wTree:L_LowerThumb
+    2300024: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+    2300026: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+    2300028: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+    2300030: EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+    2300032: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+    2300034: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+    2300036: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+    2300038: EarthEnemyMesh_Parented_wTree:L_UpperLeg
+    2300040: EarthEnemyMesh_Parented_wTree:L_UpperThumb
+    2300042: EarthEnemyMesh_Parented_wTree:Midsection
+    2300044: EarthEnemyMesh_Parented_wTree:R_ArmRod
+    2300046: EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+    2300048: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+    2300050: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+    2300052: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+    2300054: EarthEnemyMesh_Parented_wTree:R_Forearm
+    2300056: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+    2300058: EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+    2300060: EarthEnemyMesh_Parented_wTree:R_LowerLeg
+    2300062: EarthEnemyMesh_Parented_wTree:R_LowerThumb
+    2300064: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+    2300066: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+    2300068: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+    2300070: EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+    2300072: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+    2300074: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+    2300076: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+    2300078: EarthEnemyMesh_Parented_wTree:R_UpperLeg
+    2300080: EarthEnemyMesh_Parented_wTree:R_UpperThumb
+    2300082: EarthEnemyMesh_Parented_wTree:Tree
+    2300084: EarthEnemyMesh_Parented_wTree:UpperTorso
+    3300000: //RootNode
+    3300002: EarthEnemyMesh_Parented_wTree:Head
+    3300004: EarthEnemyMesh_Parented_wTree:L_ArmRod
+    3300006: EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+    3300008: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+    3300010: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+    3300012: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+    3300014: EarthEnemyMesh_Parented_wTree:L_Forearm
+    3300016: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+    3300018: EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+    3300020: EarthEnemyMesh_Parented_wTree:L_LowerLeg
+    3300022: EarthEnemyMesh_Parented_wTree:L_LowerThumb
+    3300024: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+    3300026: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+    3300028: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+    3300030: EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+    3300032: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+    3300034: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+    3300036: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+    3300038: EarthEnemyMesh_Parented_wTree:L_UpperLeg
+    3300040: EarthEnemyMesh_Parented_wTree:L_UpperThumb
+    3300042: EarthEnemyMesh_Parented_wTree:Midsection
+    3300044: EarthEnemyMesh_Parented_wTree:R_ArmRod
+    3300046: EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+    3300048: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+    3300050: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+    3300052: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+    3300054: EarthEnemyMesh_Parented_wTree:R_Forearm
+    3300056: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+    3300058: EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+    3300060: EarthEnemyMesh_Parented_wTree:R_LowerLeg
+    3300062: EarthEnemyMesh_Parented_wTree:R_LowerThumb
+    3300064: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+    3300066: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+    3300068: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+    3300070: EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+    3300072: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+    3300074: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+    3300076: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+    3300078: EarthEnemyMesh_Parented_wTree:R_UpperLeg
+    3300080: EarthEnemyMesh_Parented_wTree:R_UpperThumb
+    3300082: EarthEnemyMesh_Parented_wTree:Tree
+    3300084: EarthEnemyMesh_Parented_wTree:UpperTorso
+    4300000: EarthEnemyMesh_Parented_wTree:Pelvis
+    4300002: EarthEnemyMesh_Parented_wTree:Midsection
+    4300004: EarthEnemyMesh_Parented_wTree:UpperTorso
+    4300006: EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+    4300008: EarthEnemyMesh_Parented_wTree:L_ArmRod
+    4300010: EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+    4300012: EarthEnemyMesh_Parented_wTree:L_Forearm
+    4300014: EarthEnemyMesh_Parented_wTree:L_UpperThumb
+    4300016: EarthEnemyMesh_Parented_wTree:L_LowerThumb
+    4300018: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+    4300020: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+    4300022: EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+    4300024: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+    4300026: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+    4300028: EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+    4300030: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+    4300032: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+    4300034: EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+    4300036: EarthEnemyMesh_Parented_wTree:Head
+    4300038: EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+    4300040: EarthEnemyMesh_Parented_wTree:R_ArmRod
+    4300042: EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+    4300044: EarthEnemyMesh_Parented_wTree:R_Forearm
+    4300046: EarthEnemyMesh_Parented_wTree:R_UpperThumb
+    4300048: EarthEnemyMesh_Parented_wTree:R_LowerThumb
+    4300050: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+    4300052: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+    4300054: EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+    4300056: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+    4300058: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+    4300060: EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+    4300062: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+    4300064: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+    4300066: EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+    4300068: EarthEnemyMesh_Parented_wTree:Tree
+    4300070: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+    4300072: EarthEnemyMesh_Parented_wTree:L_UpperLeg
+    4300074: EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+    4300076: EarthEnemyMesh_Parented_wTree:L_LowerLeg
+    4300078: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+    4300080: EarthEnemyMesh_Parented_wTree:R_UpperLeg
+    4300082: EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+    4300084: EarthEnemyMesh_Parented_wTree:R_LowerLeg
+    7400000: EarthEnemy_Patrol
+    7400002: EarthEnemy_Roar
+    7400004: EarthEnemy_Charge
+    7400006: EarthEnemy_Haymaker
+    7400008: EarthEnemy_Stun
+    7400010: EarthEnemy_Throw
+    7400012: EarthEnemy_KnockBack
+    7400014: EarthEnemy_Death
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: EarthEnemy_Patrol
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder/EarthEnemyMesh_Parented_wTree:L_LowerLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Head
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb/EarthEnemyMesh_Parented_wTree:L_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb/EarthEnemyMesh_Parented_wTree:R_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Tree
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder/EarthEnemyMesh_Parented_wTree:R_LowerLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EarthEnemy_Roar
+      takeName: Take 001
+      firstFrame: 106
+      lastFrame: 154
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder/EarthEnemyMesh_Parented_wTree:L_LowerLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Head
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb/EarthEnemyMesh_Parented_wTree:L_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb/EarthEnemyMesh_Parented_wTree:R_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Tree
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder/EarthEnemyMesh_Parented_wTree:R_LowerLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EarthEnemy_Charge
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 218
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder/EarthEnemyMesh_Parented_wTree:L_LowerLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Head
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb/EarthEnemyMesh_Parented_wTree:L_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb/EarthEnemyMesh_Parented_wTree:R_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Tree
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder/EarthEnemyMesh_Parented_wTree:R_LowerLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EarthEnemy_Haymaker
+      takeName: Take 001
+      firstFrame: 228
+      lastFrame: 276
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder/EarthEnemyMesh_Parented_wTree:L_LowerLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Head
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb/EarthEnemyMesh_Parented_wTree:L_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb/EarthEnemyMesh_Parented_wTree:R_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Tree
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder/EarthEnemyMesh_Parented_wTree:R_LowerLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EarthEnemy_Stun
+      takeName: Take 001
+      firstFrame: 286
+      lastFrame: 358
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder/EarthEnemyMesh_Parented_wTree:L_LowerLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Head
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb/EarthEnemyMesh_Parented_wTree:L_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb/EarthEnemyMesh_Parented_wTree:R_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Tree
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder/EarthEnemyMesh_Parented_wTree:R_LowerLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EarthEnemy_Throw
+      takeName: Take 001
+      firstFrame: 368
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder/EarthEnemyMesh_Parented_wTree:L_LowerLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Head
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb/EarthEnemyMesh_Parented_wTree:L_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb/EarthEnemyMesh_Parented_wTree:R_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Tree
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder/EarthEnemyMesh_Parented_wTree:R_LowerLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EarthEnemy_KnockBack
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 474
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder/EarthEnemyMesh_Parented_wTree:L_LowerLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Head
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb/EarthEnemyMesh_Parented_wTree:L_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb/EarthEnemyMesh_Parented_wTree:R_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Tree
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder/EarthEnemyMesh_Parented_wTree:R_LowerLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: EarthEnemy_Death
+      takeName: Take 001
+      firstFrame: 474
+      lastFrame: 474
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:L_HipCylinder/EarthEnemyMesh_Parented_wTree:L_UpperLeg/EarthEnemyMesh_Parented_wTree:L_KneeCylinder/EarthEnemyMesh_Parented_wTree:L_LowerLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Head
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:L_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:L_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:L_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:L_ShoulderCuff/EarthEnemyMesh_Parented_wTree:L_ArmRod/EarthEnemyMesh_Parented_wTree:L_ElbowSphere/EarthEnemyMesh_Parented_wTree:L_Forearm/EarthEnemyMesh_Parented_wTree:L_UpperThumb/EarthEnemyMesh_Parented_wTree:L_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Middle/EarthEnemyMesh_Parented_wTree:R_FirstFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Middle/EarthEnemyMesh_Parented_wTree:R_SecondFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Proximal/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Middle/EarthEnemyMesh_Parented_wTree:R_ThirdFinger_Distal
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:R_ShoulderCuff/EarthEnemyMesh_Parented_wTree:R_ArmRod/EarthEnemyMesh_Parented_wTree:R_ElbowSphere/EarthEnemyMesh_Parented_wTree:R_Forearm/EarthEnemyMesh_Parented_wTree:R_UpperThumb/EarthEnemyMesh_Parented_wTree:R_LowerThumb
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:Midsection/EarthEnemyMesh_Parented_wTree:UpperTorso/EarthEnemyMesh_Parented_wTree:Tree
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder
+        weight: 1
+      - path: EarthEnemyMesh_Parented_wTree:R_HipCylinder/EarthEnemyMesh_Parented_wTree:R_UpperLeg/EarthEnemyMesh_Parented_wTree:R_KneeCylinder/EarthEnemyMesh_Parented_wTree:R_LowerLeg
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

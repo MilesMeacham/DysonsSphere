@@ -74,6 +74,5 @@ public class PaceBetweenWalls : MonoBehaviour {
 		theCharacterMotor.speed = tempSpeed;
 		yield return new WaitForSeconds (1f);
 		turning = false;
-
 	}
 }

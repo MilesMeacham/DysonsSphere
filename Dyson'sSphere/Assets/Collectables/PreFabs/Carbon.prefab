@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mineralAmount: 1
-  theMineralCounter: {fileID: 0}
+  theMineralCounter: {fileID: 11498636, guid: 98a1a4218a79cd741a75f90b828ce5e8, type: 2}
 --- !u!114 &11472704
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -12,6 +12,7 @@ GameObject:
   - 65: {fileID: 6598608}
   - 23: {fileID: 2345662}
   - 114: {fileID: 11405668}
+  - 114: {fileID: 11460014}
   m_Layer: 0
   m_Name: MineralDeposit
   m_TagString: Destructables
@@ -25,9 +26,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119360}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.59, y: 20.84, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: -0.8248367, z: 0, w: 0.56537116}
+  m_LocalPosition: {x: -4.7531486, y: 2585.1816, z: 17.010626}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -96,8 +97,21 @@ MonoBehaviour:
   - 0
   - 0
   - 0
-  mineralPool: {fileID: 0}
+  mineralPool: {fileID: 11438140, guid: 7a9c5492207b03547ad955f10c3b6fb3, type: 2}
   NumberOfMineralsToDrop: 3
+  startedMining: 0
+  connectedSpawners: []
+--- !u!114 &11460014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e180cc0ab58f27e4f9a90e728948a97c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

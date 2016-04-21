@@ -1346,7 +1346,6 @@ GameObject:
   - 114: {fileID: 11494102}
   - 114: {fileID: 11442442}
   - 114: {fileID: 11429072}
-  - 114: {fileID: 11443114}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -1392,7 +1391,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 447274}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Mining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1701,7 +1700,7 @@ GameObject:
   - 4: {fileID: 460584}
   - 65: {fileID: 6598500}
   - 114: {fileID: 11489514}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: MiningCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2154,7 +2153,7 @@ Transform:
   m_LocalScale: {x: 0.31319788, y: 0.31319788, z: 0.31319788}
   m_Children: []
   m_Father: {fileID: 458084}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!4 &404424
 Transform:
   m_ObjectHideFlags: 1
@@ -2390,7 +2389,7 @@ Transform:
   - {fileID: 402666}
   - {fileID: 409754}
   m_Father: {fileID: 458084}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &421072
 Transform:
   m_ObjectHideFlags: 1
@@ -2614,11 +2613,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.92, z: -12.76}
+  m_LocalPosition: {x: 0, y: 1.9200001, z: -12.759999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 458084}
-  m_RootOrder: 1
+  m_RootOrder: 7
 --- !u!4 &431346
 Transform:
   m_ObjectHideFlags: 1
@@ -2693,7 +2692,7 @@ Transform:
   m_LocalScale: {x: 1.639972, y: 0.8830908, z: 1}
   m_Children: []
   m_Father: {fileID: 458084}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!4 &434456
 Transform:
   m_ObjectHideFlags: 1
@@ -2949,7 +2948,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 458084}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!4 &447786
 Transform:
   m_ObjectHideFlags: 1
@@ -3205,17 +3204,17 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162510}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.7, y: 23.9, z: 0}
+  m_LocalPosition: {x: -6.6, y: 23.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 449658}
-  - {fileID: 430962}
   - {fileID: 404284}
   - {fileID: 418034}
   - {fileID: 483376}
   - {fileID: 433890}
   - {fileID: 460584}
   - {fileID: 447274}
+  - {fileID: 430962}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &460584
@@ -3229,7 +3228,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.5124997, z: 1}
   m_Children: []
   m_Father: {fileID: 458084}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!4 &460752
 Transform:
   m_ObjectHideFlags: 1
@@ -3604,7 +3603,7 @@ Transform:
   - {fileID: 414250}
   - {fileID: 405736}
   m_Father: {fileID: 458084}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!4 &483680
 Transform:
   m_ObjectHideFlags: 1
@@ -4133,18 +4132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d30dff30e07e6b4da152f3a293f1f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11443114
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5961cb1e98a599418bb86784c173b90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MiningGO: {fileID: 163528}
 --- !u!114 &11445338
 MonoBehaviour:
   m_ObjectHideFlags: 1
