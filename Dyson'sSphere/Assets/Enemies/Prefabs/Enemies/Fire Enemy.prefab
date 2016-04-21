@@ -19,9 +19,9 @@ GameObject:
   - 114: {fileID: 11460954}
   - 114: {fileID: 11472172}
   - 114: {fileID: 11430650}
-  - 114: {fileID: 11493758}
   - 114: {fileID: 11457902}
   - 114: {fileID: 11432800}
+  - 114: {fileID: 11422672}
   m_Layer: 12
   m_Name: Fire Enemy
   m_TagString: Enemy
@@ -71,7 +71,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 468262}
   m_Layer: 12
-  m_Name: explosionStart
+  m_Name: LavaPillarStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,8 +118,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .660000026, y: -1.28999996, z: 0}
-  m_LocalScale: {x: .309692591, y: 1, z: 1.44100714}
+  m_LocalPosition: {x: 0.66, y: -1.29, z: 0}
+  m_LocalScale: {x: 0.3096926, y: 1, z: 1.4410071}
   m_Children: []
   m_Father: {fileID: 460358}
   m_RootOrder: 1
@@ -130,8 +130,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 102256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .813000023, y: 0, z: 0}
-  m_LocalScale: {x: .0993105546, y: 1, z: 1}
+  m_LocalPosition: {x: 0.813, y: 0, z: 0}
+  m_LocalScale: {x: 0.099310555, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 460358}
   m_RootOrder: 2
@@ -142,8 +142,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 140050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .583999991, y: .300000012, z: 0}
-  m_LocalScale: {x: .204784513, y: .204784513, z: .204784513}
+  m_LocalPosition: {x: 0.584, y: 0.3, z: 0}
+  m_LocalScale: {x: 0.20478451, y: 0.20478451, z: 0.20478451}
   m_Children: []
   m_Father: {fileID: 460358}
   m_RootOrder: 3
@@ -154,7 +154,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.12322617, y: 76.5, z: 2.45000005}
+  m_LocalPosition: {x: 218.04974, y: 210.00877, z: 2.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 493346}
@@ -171,7 +171,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 152812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 460358}
@@ -206,8 +206,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -228,7 +230,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: .0500000007
+  m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -283,6 +285,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grounded: 0
   groundCheck: {fileID: 0}
+--- !u!114 &11422672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e1deeca34fc3343a4ed3e958fc9169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LavaPiller1: {fileID: 164662, guid: b0ae66e233b6023478891e8630492361, type: 2}
+  LavaPillerPoint1: {fileID: 468262}
+  countdown: 3
+  PillerStart: 5
+  waitingTime: 4
+  CM: {fileID: 0}
+  reloading: 0
 --- !u!114 &11423288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -316,6 +336,7 @@ MonoBehaviour:
   facingRight: 1
   movingLeft: 0
   movingRight: 0
+  theAnimator: {fileID: 0}
 --- !u!114 &11430650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -403,6 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf9d7cf57f77cc4993bb4661eb61506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChestUPG: {fileID: 0}
   LavaKnockback: 10
   immuneToPlayerDamage: 0
   immuneToEnemyDamage: 1
@@ -433,14 +455,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3738a9b85d622204d9c6e6ef3f19c927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletPools: {fileID: 0}
   bullet: {fileID: 193918, guid: 6e93c717813752b42a1f272ae8358cae, type: 2}
   shootingPoint: {fileID: 458180}
-  damage: 1
-  reloadTime: .5
-  reloading: 0
+  poolName: BulletPooler
+  bulletTag: EnemyBullet
+  baseDamage: 1
+  damageMultiplier: 1
+  damageUpgrade: 0
+  baseReloadTime: 0.5
+  reloadTimeDecreaseMultiplier: 1
   shotSound: {fileID: 11457902}
   reloadSound: {fileID: 11457902}
-  bulletTag: EnemyBullet
+  theAnimator: {fileID: 0}
+  shootingArm: {fileID: 0}
 --- !u!114 &11478690
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -457,6 +485,7 @@ MonoBehaviour:
   minHealth: 0
   possibleMaxHealth: 3
   hurtSound: {fileID: 11432800}
+  healthBar: {fileID: 0}
   invincible: 0
   invincibilityTime: 0
 --- !u!114 &11487876
@@ -472,24 +501,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grounded: 0
   groundCheck: {fileID: 0}
---- !u!114 &11493758
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63e7bd2797b897e488676301798fcce1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Explosion: {fileID: 176736, guid: ddf927d084d9c9e45b0af0bae87c55d5, type: 2}
-  explosionPoint: {fileID: 468262}
-  countdown: 3
-  explodeStart: 5
-  damage: 1
-  reloading: 0
-  bulletTag: EnemyBullet
 --- !u!136 &13674620
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -499,7 +510,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .5
+  m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
