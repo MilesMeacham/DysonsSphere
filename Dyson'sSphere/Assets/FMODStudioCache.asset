@@ -11,24 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 11480610}
-  - {fileID: 11470648}
-  - {fileID: 11478548}
-  - {fileID: 11436290}
-  - {fileID: 11431686}
-  EditorEvents:
-  - {fileID: 11468350}
-  - {fileID: 11492536}
-  - {fileID: 11485718}
-  - {fileID: 11490230}
-  - {fileID: 11468856}
-  - {fileID: 11438860}
-  - {fileID: 11475690}
-  - {fileID: 11406952}
-  - {fileID: 11409272}
+  EditorBanks: []
+  EditorEvents: []
   MasterBankRef: {fileID: 11436290}
-  stringsBankWriteTime: 635929956330434971
+  stringsBankWriteTime: 0
 --- !u!114 &11401072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1155,7 +1141,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: event:/dyson/player_Jump
   guid: 70ec37a3d9e0a14e9daa8371c2ab662f
@@ -1258,7 +1244,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: Z:\School\2016 Spring\DysonSphere\Audio\Build\Desktop\Master Bank.bank
   lastModified: 635929956330409950
