@@ -122,7 +122,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22468064, guid: 6b3d6bed426895c438aa7acb79274aad, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 22468064, guid: 6b3d6bed426895c438aa7acb79274aad, type: 2}
       propertyPath: m_AnchoredPosition.x
@@ -204,7 +204,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 495636, guid: 98a1a4218a79cd741a75f90b828ce5e8, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11498636, guid: 98a1a4218a79cd741a75f90b828ce5e8, type: 2}
       propertyPath: mineralBar
@@ -495,6 +495,14 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 529373409}
+    - target: {fileID: 106646, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11427670, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+      propertyPath: shootingArm
+      value: 
+      objectReference: {fileID: 1612227857}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
   m_IsPrefabParent: 0
@@ -588,7 +596,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11474590, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
       propertyPath: m_Enabled
@@ -642,7 +650,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 437524, guid: 0f179bd11af8c9f44bbc8dfc8b01fa2c, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 129196, guid: 0f179bd11af8c9f44bbc8dfc8b01fa2c, type: 2}
       propertyPath: m_IsActive
@@ -688,7 +696,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 456026, guid: bbe6dfd7a39107145a5519a4a7d8ad31, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11424640, guid: bbe6dfd7a39107145a5519a4a7d8ad31, type: 2}
       propertyPath: theMineralCounter
@@ -827,7 +835,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 443840, guid: f48036aa2728eef4faae8d3c82330e1d, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 133814, guid: f48036aa2728eef4faae8d3c82330e1d, type: 2}
       propertyPath: m_IsActive
@@ -888,7 +896,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 492170, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11413200, guid: 261c3e30eb21b714b8f62fc9ba66a9b0, type: 2}
       propertyPath: m_Enabled
@@ -1129,7 +1137,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 439222, guid: 2dc79f4f58c32f14c8b8276132b955b0, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2311200, guid: 2dc79f4f58c32f14c8b8276132b955b0, type: 2}
       propertyPath: m_Enabled
@@ -1191,6 +1199,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 756578645}
   m_RootOrder: 4
+--- !u!4 &1612227857 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 463678, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+  m_PrefabInternal: {fileID: 635814720}
 --- !u!1001 &1703700254
 Prefab:
   m_ObjectHideFlags: 0
@@ -1228,7 +1240,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 495560, guid: 5af3ca53611ba4ac8bff1e9c36dcb38c, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5af3ca53611ba4ac8bff1e9c36dcb38c, type: 2}

@@ -13,7 +13,6 @@ public class MiningCollider : MonoBehaviour {
 	private MineralDeposit mineralDeposit;
 
 
-
 	void OnTriggerStay(Collider other)
 	{
 		

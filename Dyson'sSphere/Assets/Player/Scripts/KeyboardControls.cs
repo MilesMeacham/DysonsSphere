@@ -9,6 +9,7 @@ public class KeyboardControls : MonoBehaviour {
     private CharacterDrill theCharacterDrill;
 	private CharacterCrouch theCharacterCrouch;
 	public MiningCollider theMiningCollider;
+	private Animator theAnimator;
 	
 	// Use this for initialization
 	void Start () 
@@ -17,18 +18,24 @@ public class KeyboardControls : MonoBehaviour {
 		theCharacterJump = gameObject.GetComponent<CharacterJump2> ();
 		theCharacterShot = gameObject.GetComponent<CharacterShot> ();
 		theCharacterCrouch = gameObject.GetComponent<CharacterCrouch> ();
-
+		theAnimator = theCharacterMotor.theAnimator;
     }
 
 	void Update ()
 	{
 
-		if (Input.GetKeyDown (KeyCode.Z))
+		if (Input.GetKeyDown (KeyCode.Z)) 
+		{
 			theMiningCollider.gameObject.SetActive (true);
 
-		if (Input.GetKeyUp (KeyCode.Z)) {
+			theAnimator.SetBool ("Drill", true);
+		}
+
+		if (Input.GetKeyUp (KeyCode.Z)) 
+		{
 			theMiningCollider.gameObject.SetActive (false);
 			theMiningCollider.miningWait = false;
+			theAnimator.SetBool ("Drill", false);
 		}
 
 		if(Input.GetKeyDown(KeyCode.F))
