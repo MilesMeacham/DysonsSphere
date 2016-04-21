@@ -23,6 +23,8 @@ public class MineralDeposit : MonoBehaviour {
 
 	void Start()
 	{
+		mineralPool = GameObject.Find ("MineralPooler").GetComponent<ObjectPooler> ();
+
 		length = models.Length;
 
 		// This will get how often the model needs to change
@@ -89,11 +91,13 @@ public class MineralDeposit : MonoBehaviour {
 	{
 		notify = true;
 
-		foreach (GameObject spawner in connectedSpawners) 
+		if (connectedSpawners.Length != 0) 
 		{
-			spawner.GetComponent<Spawner> ().spawn = true;
+			foreach (GameObject spawner in connectedSpawners) 
+			{
+				spawner.GetComponent<Spawner> ().spawn = true;
+			}
 		}
-
 	}
 
 

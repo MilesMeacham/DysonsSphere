@@ -16,7 +16,10 @@ public class Spawner : MonoBehaviour {
 
 	public bool spawn = false;
 
-
+	void Start () 
+	{
+		EnemyPool = GameObject.Find("SootPooler").GetComponent<ObjectPooler> ();
+	}
 
 
 	void FixedUpdate()
