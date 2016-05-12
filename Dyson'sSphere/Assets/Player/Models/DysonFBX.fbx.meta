@@ -334,13 +334,7 @@ ModelImporter:
     resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    animationImportErrors: '
-
-      Imported file ''DysonFBX'' conversion failed: Required human bone ''LeftUpperLeg''
-      not found
-
-
-'
+    animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
@@ -3390,8 +3384,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Drill
       takeName: Take 001
-      firstFrame: 769
-      lastFrame: 785
+      firstFrame: 719
+      lastFrame: 799
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

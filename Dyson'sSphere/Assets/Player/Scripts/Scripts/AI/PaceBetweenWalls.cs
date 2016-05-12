@@ -15,7 +15,7 @@ public class PaceBetweenWalls : MonoBehaviour {
 	public GroundCheck wallCheck;
 	public GroundCheck gapCheck;
 
-
+	private bool needToWalk = false;
 	public bool turning;
 	public float turnDuration = 1f;
 	int tempSpeed;
@@ -25,7 +25,7 @@ public class PaceBetweenWalls : MonoBehaviour {
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor2> ();
 
 		// Start the enemy moving right
-		theCharacterMotor.RightActivation ();
+		theCharacterMotor.LeftActivation ();
 	
 		turning = false;
 	}
@@ -45,11 +45,24 @@ public class PaceBetweenWalls : MonoBehaviour {
 		{
 			StartCoroutine ("TurnArroundCo");
 		}
+
+		if(needToWalk == true && !turning)
+		{
+			if (theCharacterMotor.facingRight == true)
+				theCharacterMotor.RightActivation ();
+			else
+				theCharacterMotor.LeftActivation ();
+		
+
+			theCharacterMotor.LeftActivation ();
+			needToWalk = false;
+		}
 	}
 
 	IEnumerator TurnArroundCo()
 	{
 		turning = true;
+		needToWalk = true;
 
 		// Store the speed into a variable
 		tempSpeed = theCharacterMotor.speed;
@@ -73,6 +86,7 @@ public class PaceBetweenWalls : MonoBehaviour {
 
 		theCharacterMotor.speed = tempSpeed;
 		yield return new WaitForSeconds (1f);
+
 		turning = false;
 	}
 }

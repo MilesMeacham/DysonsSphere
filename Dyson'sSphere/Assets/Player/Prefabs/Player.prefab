@@ -4069,7 +4069,7 @@ MonoBehaviour:
   shotSound: {fileID: 11404294}
   reloadSound: {fileID: 11481542}
   theAnimator: {fileID: 0}
-  shootingArm: {fileID: 0}
+  shootingArm: {fileID: 463678}
 --- !u!114 &11429072
 MonoBehaviour:
   m_ObjectHideFlags: 1
