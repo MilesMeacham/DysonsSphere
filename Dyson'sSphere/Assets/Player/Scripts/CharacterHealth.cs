@@ -4,8 +4,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-//temp audio
-using FMODUnity;
 
 // Character Health
 // Base class for all character health
@@ -17,8 +15,6 @@ public class CharacterHealth : MonoBehaviour {
 	public float maxHealth = 5;
 	public float minHealth = 0;
 	public float possibleMaxHealth = 10;
-	//temp audio
-	public StudioEventEmitter hurtSound;
 
 	public Image healthBar;
 
@@ -80,9 +76,6 @@ public class CharacterHealth : MonoBehaviour {
 		if (!invincible)
 		{
 			health -= healthToRemove;
-			//temp audio
-			//may cause errors in enemies without emitters and fmod events
-//			hurtSound.Play ();
 		}
 		// If the damage is higher than the remaining life, set life equal to 0
 		if (health < healthToRemove)

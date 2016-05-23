@@ -3,8 +3,6 @@
 
 using UnityEngine;
 using System.Collections;
-//temp audio
-using FMODUnity;
 
 // CharacterShot
 // Script will instatiate a bullet at the shootingPoint
@@ -29,12 +27,6 @@ public class CharacterShot : MonoBehaviour {
 	private float reloadTime;
 	public float baseReloadTime = 0.5f;
 	public float reloadTimeDecreaseMultiplier = 1;
-	
-
-	//temp audio
-	public StudioEventEmitter shotSound;
-	public StudioEventEmitter reloadSound;
-
 
 	
 	private ObjectPooler bulletPooler;
@@ -76,12 +68,6 @@ public class CharacterShot : MonoBehaviour {
 			bullet.SetActive (true);
 
 			StartCoroutine ("ShotCo");
-
-			//temp audio
-			//put at end of script so that if people forget to add a sound, then the shots don't break the game
-			//may cause errors in enemies without emitters and fmod events
-			shotSound.Play ();
-			reloadSound.Play ();
 		}
 
     }
