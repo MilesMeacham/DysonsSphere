@@ -1955,9 +1955,6 @@ GameObject:
   - 114: {fileID: 11473430}
   - 114: {fileID: 11483658}
   - 114: {fileID: 11456200}
-  - 114: {fileID: 11488438}
-  - 114: {fileID: 11465934}
-  - 114: {fileID: 11457382}
   m_Layer: 12
   m_Name: EarthEnemy
   m_TagString: Enemy
@@ -7233,42 +7230,6 @@ MonoBehaviour:
   chargeDistanceMin: 10
   lineOfSightHeight: 3
   lineOfSightDown: -2.5
---- !u!114 &11457382
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 197548}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: event:/debug/Silence
-  PlayEvent: 0
-  StopEvent: 0
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Params: []
---- !u!114 &11465934
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 197548}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: event:/debug/Silence
-  PlayEvent: 0
-  StopEvent: 0
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Params: []
 --- !u!114 &11472402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7305,8 +7266,6 @@ MonoBehaviour:
   damageUpgrade: 0
   baseReloadTime: 0.5
   reloadTimeDecreaseMultiplier: 1
-  shotSound: {fileID: 11488438}
-  reloadSound: {fileID: 11465934}
   theAnimator: {fileID: 0}
   shootingArm: {fileID: 0}
 --- !u!114 &11473708
@@ -7324,7 +7283,6 @@ MonoBehaviour:
   maxHealth: 5
   minHealth: 0
   possibleMaxHealth: 10
-  hurtSound: {fileID: 11457382}
   healthBar: {fileID: 0}
   invincible: 0
   invincibilityTime: 0
@@ -7374,24 +7332,6 @@ MonoBehaviour:
   theCharacterMotor: {fileID: 0}
   frontOrBack: {x: 0, y: 0, z: 0}
   Target: {fileID: 0}
---- !u!114 &11488438
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 197548}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: event:/debug/Silence
-  PlayEvent: 0
-  StopEvent: 0
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Params: []
 --- !u!114 &11498088
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,15 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
-//temp audio
-using FMODUnity;
+
 
 public class CharacterJump2 : MonoBehaviour {
 
 	public CharacterMotor theCharacterMotor;
 	public GroundCheck theGroundCheck;
-
-	//temp audio
-	public StudioEventEmitter jumpSound;
 	
 	//jumping variables
 	public bool doubleJumped;
@@ -63,17 +59,12 @@ public class CharacterJump2 : MonoBehaviour {
 		if (theGroundCheck.grounded && !doubleJumped) {
 			theCharacterMotor.VerticalVelocity ();
 			jumped = true;
-			//temp audio
-			//may cause errors in enemies without emitters and fmod events
-			jumpSound.Play ();
 			theAnimator.SetBool ("Jump", true);
 		}
 		else if (!doubleJumped) 
 		{
 			theCharacterMotor.VerticalVelocity ();
 			doubleJumped = true;
-			//temp audio
-			jumpSound.Play ();
 			theAnimator.SetBool ("Double Jump", true);
 		}
 
