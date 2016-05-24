@@ -26,7 +26,7 @@ public class CharacterShot : MonoBehaviour {
 
 	private float reloadTime;
 	public float baseReloadTime = 0.5f;
-	public float reloadTimeDecreaseMultiplier = 1;
+	public float reloadTimeDivider = 1;
 
 	
 	private ObjectPooler bulletPooler;
@@ -53,7 +53,7 @@ public class CharacterShot : MonoBehaviour {
 		if (!reloading) 
 		{
 			// Functions to figure out reload time and damage
-			reloadTime = baseReloadTime/reloadTimeDecreaseMultiplier;
+			reloadTime = baseReloadTime/reloadTimeDivider;
 			damage = (baseDamage * damageMultiplier) + damageUpgrade;
 
 			theAnimator.SetTrigger ("Shot");
