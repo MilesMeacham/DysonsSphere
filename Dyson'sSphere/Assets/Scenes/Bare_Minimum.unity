@@ -458,15 +458,7 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 529373409}
-    - target: {fileID: 6512494, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11470088, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
-    - {fileID: 11422980, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
-    - {fileID: 11445338, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
-    - {fileID: 11499428, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &717866711 stripped

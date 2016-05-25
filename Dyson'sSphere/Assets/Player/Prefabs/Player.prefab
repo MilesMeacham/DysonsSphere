@@ -1333,12 +1333,8 @@ GameObject:
   - 114: {fileID: 11427670}
   - 114: {fileID: 11485300}
   - 114: {fileID: 11462100}
-  - 114: {fileID: 11499428}
   - 114: {fileID: 11421476}
   - 114: {fileID: 11448244}
-  - 114: {fileID: 11470088}
-  - 114: {fileID: 11422980}
-  - 114: {fileID: 11445338}
   - 114: {fileID: 11494102}
   - 114: {fileID: 11442442}
   - 114: {fileID: 11429072}
@@ -4005,24 +4001,6 @@ MonoBehaviour:
   Motor: {fileID: 0}
   frozenTime: 1
   Upgrades: {fileID: 0}
---- !u!114 &11422980
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29f49884e6c665e4e8d0d98039986194, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Motor: {fileID: 0}
-  Shot: {fileID: 0}
-  Life: {fileID: 0}
-  Damage: {fileID: 0}
-  RocketPack: 0
-  SuperArmor: 0
-  SpikeArmor: 1
 --- !u!114 &11427670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4043,7 +4021,7 @@ MonoBehaviour:
   damageMultiplier: 1
   damageUpgrade: 0
   baseReloadTime: 0.5
-  reloadTimeDecreaseMultiplier: 1
+  reloadTimeDivider: 1
   theAnimator: {fileID: 0}
   shootingArm: {fileID: 463678}
 --- !u!114 &11429072
@@ -4108,21 +4086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d30dff30e07e6b4da152f3a293f1f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11445338
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a07ce853ca6dbd4d9784a2a4ff3d769, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Shot: {fileID: 0}
-  PowerDrill: 0
-  PlamsaDrill: 0
-  RapidDrill: 0
 --- !u!114 &11447642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4172,28 +4135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf9d7cf57f77cc4993bb4661eb61506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChestUPG: {fileID: 11422980}
+  ChestUPG: {fileID: 0}
   LavaKnockback: 10
   immuneToPlayerDamage: 1
   immuneToEnemyDamage: 0
   immuneToHazardDamage: 0
---- !u!114 &11470088
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162510}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e87e54d353af407439582c9e407a3ddd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Motor: {fileID: 0}
-  Shot: {fileID: 0}
-  Life: {fileID: 0}
-  Damage: {fileID: 0}
-  SpeedBoots: 0
-  HazBoots: 0
 --- !u!114 &11481338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4269,26 +4215,13 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   baseSpeed: 7
   speedMultiplier: 1
+  speedUpgrade: 0
   maxSpeed: 20
   jumpForce: 10
   facingRight: 1
   movingLeft: 0
   movingRight: 0
   theAnimator: {fileID: 0}
---- !u!114 &11499428
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7a10d5c73e2cf84987a6a174bc279b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Motor: {fileID: 0}
-  Shot: {fileID: 0}
-  Life: {fileID: 0}
 --- !u!114 &11499784
 MonoBehaviour:
   m_ObjectHideFlags: 1
