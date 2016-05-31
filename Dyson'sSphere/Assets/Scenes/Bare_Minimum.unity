@@ -221,12 +221,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 98a1a4218a79cd741a75f90b828ce5e8, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &145817817 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11438140, guid: 7a9c5492207b03547ad955f10c3b6fb3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1703700254}
-  m_Script: {fileID: 11500000, guid: 642a4fe6ede27ab4d9b49c38a21ce679, type: 3}
 --- !u!1 &342032898
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,60 +349,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 15822545}
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
---- !u!1001 &560216765
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 887464631}
-    m_Modifications:
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 20.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11405668, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: mineralPool
-      value: 
-      objectReference: {fileID: 145817817}
-    - target: {fileID: 11405668, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: connectedSpawners.Array.data[0]
-      value: 
-      objectReference: {fileID: 1329256043}
-    - target: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-  m_IsPrefabParent: 0
 --- !u!114 &564707307 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11498636, guid: 98a1a4218a79cd741a75f90b828ce5e8,
@@ -458,13 +398,21 @@ Prefab:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 529373409}
+    - target: {fileID: 175768, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598500, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11462100, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
+      propertyPath: immuneToHazardDamage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &717866711 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 404168, guid: 2eaea44eb8cef4f4a8c2b6a0fb898d2f, type: 2}
-  m_PrefabInternal: {fileID: 560216765}
 --- !u!1 &887464630
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +441,6 @@ Transform:
   m_Children:
   - {fileID: 1146847383}
   - {fileID: 374208049}
-  - {fileID: 717866711}
   - {fileID: 1329256045}
   m_Father: {fileID: 1214720453}
   m_RootOrder: 0
@@ -652,6 +599,8 @@ MonoBehaviour:
   speedMultiplier: 0
   speedUp: 0
   jumpForce: 1
+  miningDelay: 0
+  miningDamage: 0
   printMessage: 1
 --- !u!114 &1057850251
 MonoBehaviour:
@@ -666,7 +615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpName: Default
   powerUpMessage: Default
-  upgradeAmount: 1
+  upgradeAmount: 2
   damageMultiplier: 0
   damageUp: 0
   reloadTimeDivider: 0
@@ -676,6 +625,8 @@ MonoBehaviour:
   speedMultiplier: 1
   speedUp: 0
   jumpForce: 0
+  miningDelay: 1
+  miningDamage: 0
   printMessage: 0
 --- !u!1001 &1089119516
 Prefab:
@@ -1051,10 +1002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 0.5
---- !u!1 &1329256043 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 172036, guid: e37fe124bfecd344bb2af1c2c4c4d998, type: 2}
-  m_PrefabInternal: {fileID: 1961940436}
 --- !u!4 &1329256045 stripped
 Transform:
   m_PrefabParentObject: {fileID: 481898, guid: e37fe124bfecd344bb2af1c2c4c4d998, type: 2}
