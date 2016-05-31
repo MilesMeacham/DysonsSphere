@@ -26,6 +26,8 @@ public class PowerUp : MonoBehaviour {
 	public bool speedMultiplier;
 	public bool speedUp;
 	public bool jumpForce;
+	public bool miningDelay;     	//Divides by the upgrade ammount
+	public bool miningDamage;
 
 	public bool printMessage;
 
@@ -58,6 +60,12 @@ public class PowerUp : MonoBehaviour {
 
 		if(jumpForce)
 			GOToPowerUp.GetComponent<CharacterMotor> ().jumpForce += upgradeAmount;
+
+		if (miningDelay)
+			GOToPowerUp.GetComponent<KeyboardControls>().theMiningCollider.AdjustMiningDelay (upgradeAmount);
+
+		if(miningDamage)
+			GOToPowerUp.GetComponent<KeyboardControls>().theMiningCollider.IncreaseMiningDamage (upgradeAmount);
 
 		if(printMessage)
 			PrintMessage ();

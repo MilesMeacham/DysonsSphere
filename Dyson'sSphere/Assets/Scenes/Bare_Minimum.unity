@@ -664,8 +664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f02b9347cb2cb40b36ab8792851b21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpName: default
-  powerUpMessage: default
+  powerUpName: Default
+  powerUpMessage: Default
   upgradeAmount: 1
   damageMultiplier: 0
   damageUp: 0

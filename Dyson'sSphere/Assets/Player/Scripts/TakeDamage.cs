@@ -12,7 +12,6 @@ public class TakeDamage : MonoBehaviour {
 
 
 	private CharacterHealth theCharacterHealth;
-    public ChestUpgrades ChestUPG;
 	private Vector3 HazardKnockback;
 	public float LavaKnockback = 10.0f;
 
