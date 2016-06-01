@@ -76,7 +76,7 @@ public class CharacterMotor : MonoBehaviour {
 		if(facingRight == true)
 			Flip ();
 
-		speed = (baseSpeed * speedMultiplier) + speedUpgrade;
+		speed = (baseSpeed * speedMultiplier) - speedUpgrade;
 		
 		characterMovement = new Vector3 (speed, 0, 0);
 		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
