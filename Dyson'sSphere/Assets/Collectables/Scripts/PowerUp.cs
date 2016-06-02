@@ -3,6 +3,7 @@
 
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 // PowerUp
 // This should be attached to the object to be picked up. You then select the boxes in the inspector that you wish to upgrade
@@ -10,7 +11,7 @@ using System.Collections;
 // upgrades with different ammounts, just attach two or more of these scripts to the object to be picked up. If you do this
 // only print one of the messages.
 
-public enum Type {item, head, body, feet}
+public enum Type {item, head, body, feet, mainArm, altArm}
 
 
 public class PowerUp : MonoBehaviour {
@@ -35,7 +36,6 @@ public class PowerUp : MonoBehaviour {
 	public bool miningDamage;
 
 	public bool printMessage;
-
 
 	public void AddPowerUp(GameObject GOToPowerUp)
 	{
@@ -97,17 +97,27 @@ public class PowerUp : MonoBehaviour {
 			else if (type == Type.head) 
 			{
 				AddPowerUp (collider.gameObject);
-				collider.GetComponent<ArmorPickUps> ().changeHead (this.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeHead (this.gameObject);
 			}
 			else if (type == Type.body) 
 			{
 				AddPowerUp (collider.gameObject);
-				collider.GetComponent<ArmorPickUps> ().changeBody (this.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeBody (this.gameObject);
 			}
 			else if (type == Type.feet) 
 			{
 				AddPowerUp (collider.gameObject);
-				collider.GetComponent<ArmorPickUps> ().changeFeet (this.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeFeet (this.gameObject);
+			}
+			else if (type == Type.mainArm) 
+			{
+				AddPowerUp (collider.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeMainArm (this.gameObject);
+			}
+			else if (type == Type.altArm) 
+			{
+				AddPowerUp (collider.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeAltArm (this.gameObject);
 			}
 		}
 	}
