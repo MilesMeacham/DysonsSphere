@@ -8794,7 +8794,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 458084, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11468008, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
       propertyPath: carbonBar
@@ -9596,37 +9596,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 435876, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 166370, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9561932, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 36aa5a9f265eed94f8aed698bb76cf75, type: 2}
-    - target: {fileID: 6515528, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: b6c2435586bb5be4982c00031e6b4315,
-        type: 2}
-    - target: {fileID: 11484132, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
-      propertyPath: turnDuration
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11465948, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1033041675
@@ -10551,33 +10521,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1116270054}
   m_Mesh: {fileID: 4300048, guid: 30a9981977de3402d874822b907e619d, type: 3}
---- !u!1 &1119051036 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 166370, guid: a7c9e95734328a24f86fe9f69c9a8784, type: 2}
-  m_PrefabInternal: {fileID: 1030389489}
---- !u!114 &1119051041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1119051036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b577553f8129a345bcf3ccac6b5e233, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  characterMovement: {x: 0, y: 0, z: 0}
-  velocity: {x: 0, y: 0, z: 0}
-  baseSpeed: 7
-  speedMultiplier: 1
-  speedUpgrade: 0
-  maxSpeed: 20
-  jumpForce: 15
-  facingRight: 0
-  movingLeft: 0
-  movingRight: 0
-  theAnimator: {fileID: 0}
 --- !u!1 &1127738887
 GameObject:
   m_ObjectHideFlags: 0
@@ -10999,7 +10942,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 409398, guid: 8f06645569c1f40a897804f4b9efc86f, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f06645569c1f40a897804f4b9efc86f, type: 2}
@@ -13339,7 +13282,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 467144, guid: be8182d398783f14581df5581d4ba5e7, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11497686, guid: be8182d398783f14581df5581d4ba5e7, type: 2}
       propertyPath: smoothing
@@ -19175,7 +19118,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 436336, guid: 7a9c5492207b03547ad955f10c3b6fb3, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a9c5492207b03547ad955f10c3b6fb3, type: 2}

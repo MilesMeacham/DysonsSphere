@@ -181,18 +181,18 @@ GameObject:
   - 4: {fileID: 435876}
   - 65: {fileID: 6515528}
   - 114: {fileID: 11447190}
-  - 114: {fileID: 11465948}
   - 114: {fileID: 11484132}
   - 54: {fileID: 5464680}
   - 114: {fileID: 11474590}
   - 114: {fileID: 11439906}
+  - 114: {fileID: 11462676}
   m_Layer: 12
   m_Name: BasicEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &170234
 GameObject:
   m_ObjectHideFlags: 1
@@ -418,8 +418,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166370}
-  m_LocalRotation: {x: 0, y: 0, z: 0.18961336, w: -0.98185885}
-  m_LocalPosition: {x: 5.327678, y: 21.59082, z: 0}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 11.65, y: 23.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 402866}
@@ -892,7 +892,7 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166370}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b6c2435586bb5be4982c00031e6b4315, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -943,7 +943,7 @@ Animator:
   m_GameObject: {fileID: 113920}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 41fa8e62348e3c643b01f2ebdd5a18a6, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 36aa5a9f265eed94f8aed698bb76cf75, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1026,7 +1026,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf9d7cf57f77cc4993bb4661eb61506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChestUPG: {fileID: 0}
   LavaKnockback: 10
   immuneToPlayerDamage: 0
   immuneToEnemyDamage: 1
@@ -1096,6 +1095,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grounded: 0
   groundCheck: {fileID: 0}
+--- !u!114 &11462676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b577553f8129a345bcf3ccac6b5e233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  characterMovement: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  baseSpeed: 3
+  speedMultiplier: 1
+  speedUpgrade: 0
+  maxSpeed: 20
+  jumpForce: 15
+  facingRight: 0
+  movingLeft: 0
+  movingRight: 0
+  theAnimator: {fileID: 0}
 --- !u!114 &11463086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1108,28 +1130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceUp: {x: 0, y: 10, z: 0}
---- !u!114 &11465948
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 166370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f221cb4b82bfbe04da234e7a5cef46f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  speed: 3
-  maxSpeed: 20
-  characterMovement: {x: 0, y: 0, z: 0}
-  velocity: {x: 0, y: 0, z: 0}
-  knockbackForce: {x: 10, y: 5, z: 0}
-  jumpForce: 15
-  facingRight: 1
-  movingLeft: 0
-  movingRight: 0
-  theAnimator: {fileID: 0}
 --- !u!114 &11474590
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -112,11 +112,6 @@ public class CharacterMotor : MonoBehaviour {
 		
 
 	}
-	
-	public void stationaryTest ()
-	{
-		rb.AddForce(new Vector3(0, 50, 0));
-	}
 
 	public void VerticalVelocity ()
 	{
