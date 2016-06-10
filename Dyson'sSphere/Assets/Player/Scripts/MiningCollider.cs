@@ -5,13 +5,12 @@ public class MiningCollider : MonoBehaviour {
 
 	// Adjust this if you want to mine faster or slower
 	public float miningDelay = 0.5f;
-	public int miningHit = 1;
+	public float miningDamage = 1;
 
 	//[HideInInspector]
 	public bool miningWait;
 
 	private MineralDeposit mineralDeposit;
-
 
 	void OnTriggerStay(Collider other)
 	{
@@ -30,8 +29,20 @@ public class MiningCollider : MonoBehaviour {
 	{
 		miningWait = true;
 		yield return new WaitForSeconds(miningDelay);
-		mineralDeposit.RemoveHit (miningHit);
+		mineralDeposit.RemoveHit (miningDamage);
 		miningWait = false;
 
+	}
+
+	public void AdjustMiningDelay (float adjustment)
+	{
+		miningDelay /= adjustment;
+
+		print (miningDelay);
+	}
+
+	public void IncreaseMiningDamage (float adjustment)
+	{
+		miningDamage += adjustment;
 	}
 }

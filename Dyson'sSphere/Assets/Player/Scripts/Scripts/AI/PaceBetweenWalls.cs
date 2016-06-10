@@ -9,7 +9,7 @@ using System.Collections;
 
 public class PaceBetweenWalls : MonoBehaviour {
 
-	private CharacterMotor2 theCharacterMotor;
+	private CharacterMotor theCharacterMotor;
 
 	// Assign the correct box colliders to these in the editor
 	public GroundCheck wallCheck;
@@ -22,16 +22,13 @@ public class PaceBetweenWalls : MonoBehaviour {
 
 	void Start () 
 	{
-		theCharacterMotor = gameObject.GetComponent<CharacterMotor2> ();
-
-		// Start the enemy moving right
-		theCharacterMotor.LeftActivation ();
+		theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
 	
 		turning = false;
 	}
 
 	// Update is called once per frame
-	void Update () 
+	void FixedUpdate () 
 	{
 		Movement ();
 
@@ -44,48 +41,27 @@ public class PaceBetweenWalls : MonoBehaviour {
 		if (wallCheck.grounded && !turning || !gapCheck.grounded && !turning) 
 		{
 			StartCoroutine ("TurnArroundCo");
-		}
 
-		if(needToWalk == true && !turning)
-		{
-			if (theCharacterMotor.facingRight == true)
-				theCharacterMotor.RightActivation ();
-			else
-				theCharacterMotor.LeftActivation ();
+		}
+			
+		if (!turning && theCharacterMotor.facingRight == true)
+			theCharacterMotor.RightActivation ();
+		else if (!turning)
+			theCharacterMotor.LeftActivation ();
 		
 
-			theCharacterMotor.LeftActivation ();
-			needToWalk = false;
-		}
 	}
 
 	IEnumerator TurnArroundCo()
 	{
 		turning = true;
-		needToWalk = true;
-
-		// Store the speed into a variable
-		tempSpeed = theCharacterMotor.speed;
-
-		// Turn the speed off so he doesn't keep running into the wall
-		theCharacterMotor.speed = 0;
 
 		yield return new WaitForSeconds (turnDuration);
-			if(theCharacterMotor.movingLeft == true)
-			{
-				theCharacterMotor.movingLeft = false;
-				
-				theCharacterMotor.RightActivation ();
-			}
-			else if (theCharacterMotor.movingRight == true)
-			{
-				theCharacterMotor.movingRight = false;
-				theCharacterMotor.LeftActivation ();
-				
-			}
 
-		theCharacterMotor.speed = tempSpeed;
-		yield return new WaitForSeconds (1f);
+		theCharacterMotor.Flip ();
+
+		yield return new WaitForSeconds (turnDuration);
+			
 
 		turning = false;
 	}

@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pooledObject: {fileID: 193918, guid: 6e93c717813752b42a1f272ae8358cae, type: 2}
-  pooledAmount: 0
+  pooledAmount: 5
   parent: {fileID: 0}
 --- !u!114 &11465360
 MonoBehaviour:
