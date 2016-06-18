@@ -1,83 +1,70 @@
-﻿// Author: Jeremy Graham & Miles Meacham
-// Description: Makes the bullet correctly curve around the surface
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
-// bulletMovement
-// this class will curve the bullet around the surface correctly.
+public class BulletMovement : MonoBehaviour {
 
-public class bulletMovement : MonoBehaviour
-{
-    public float shotVelocity;
-    public Rigidbody rb;
-    public CharacterMotor theCharacterMotor;
-    public float lifeDuration = 0.5f;
-    private Attractor Core;
-    public float Xpos;
-    public float Ypos;
-    public float radius;
+	public float damage;
 
-	public bool startedCO;
-	
-	public float damage = 1;
-	public bool shootingRight;
+	public float speed;
+	public float verticalSpeed;
+	public float duration;
+
+	public CharacterMotor theCharacterMotor;
+	private Rigidbody rb;
+	private Vector3 movement;
+
+	private bool startedCO = false;
+	private bool shootingRight = true;
 
 
-    // Use this for initialization
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-
-        Core = FindObjectOfType<Attractor>();
-        radius = Vector3.Distance(rb.position, Core.GetComponent<Transform>().position);
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        // Xpos = Core.GetComponent<Transform>().position.x + Mathf.Sin*
-        Vector3 Xpointer = (Core.transform.position - transform.position).normalized;
-        Xpointer.z = 0;
-        float temp = Xpointer.x;
-        Xpointer.x = -Xpointer.y;
-        Xpointer.y = temp;
 
 
-        if (shootingRight == true)
-        {
-            transform.position = transform.position + (Xpointer / 5);
+	void Start () 
+	{
+		rb = GetComponent<Rigidbody> ();
+	}
 
-        }
-		if (shootingRight == false)
-        {
-            transform.position = transform.position + ((Xpointer * -1) / 5);
-        }
-
+	void OnEnable()
+	{
+		if (theCharacterMotor.facingRight == true && shootingRight != true) 
+		{
+			shootingRight = true;
+			speed = -speed;
+		}
+		if (theCharacterMotor.facingRight == false && shootingRight == true) 
+		{
+			shootingRight = false;
+			speed = -speed;
+		}
+		movement = new Vector3(speed, verticalSpeed, 0);
 
 		if(!startedCO)
-       		StartCoroutine(Destroybullet());
-    }
+			StartCoroutine(Duration());
+	}
 
-    public IEnumerator Destroybullet()
-    {
+	private IEnumerator Duration()
+	{
 		startedCO = true;
-		if (theCharacterMotor.facingRight == true)
-		{
-			rb.velocity = transform.TransformDirection(new Vector3(shotVelocity, 0, 0));
-			shootingRight = true;
-		}
-		if (theCharacterMotor.facingRight == false)
-		{
-			rb.velocity = transform.TransformDirection(new Vector3(-shotVelocity, 0, 0));
-			shootingRight = false;
-		}
-        yield return new WaitForSeconds(lifeDuration);
 
-		gameObject.SetActive (false);
+
+		
+
+		yield return new WaitForSeconds (duration);
+
+		gameObject.SetActive(false);
+
 		startedCO = false;
-    }
+
+	}
+
+
+	void FixedUpdate () 
+	{
+		rb.velocity = transform.TransformDirection(new Vector3(speed, verticalSpeed, 0));
+	}
+
+
+
 
 
 	void OnCollisionEnter (Collision collider)
@@ -93,7 +80,7 @@ public class bulletMovement : MonoBehaviour
 			startedCO = false;
 		}
 	}
-	
+
 	// These are for all trigger damage dealing objects
 	void OnTriggerEnter (Collider collider)
 	{
@@ -108,4 +95,5 @@ public class bulletMovement : MonoBehaviour
 			startedCO = false;
 		}
 	}
+
 }
