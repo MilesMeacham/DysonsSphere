@@ -26,7 +26,6 @@ TagManager:
   - SuperArmorUPG
   - Explosion
   - Destructables
-  - Lava
   layers:
   - Default
   - TransparentFX
@@ -42,8 +41,8 @@ TagManager:
   - TouchInput
   - Enemy
   - JumpThroughPlatforms
-  - GroundDetection
-  - Bullet
+  - 
+  - 
   - 
   - 
   - 

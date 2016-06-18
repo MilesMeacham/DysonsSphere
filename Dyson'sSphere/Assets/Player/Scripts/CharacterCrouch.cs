@@ -12,8 +12,6 @@ public class CharacterCrouch : MonoBehaviour {
 	private Vector3 originalColliderSize;
 	private Vector3 originalColliderCenter;
 
-	private BoxCollider standCollider;
-
 	private Vector3 crouchedColliderSize = new Vector3 (1.65f, 0.85f, 1f);
 	private Vector3 crouchedColliderCenter = new Vector3 (0.3f, -0.4f, 0f);
 
@@ -28,10 +26,6 @@ public class CharacterCrouch : MonoBehaviour {
 		playerCollider = GetComponentInParent<BoxCollider>();
 		originalColliderSize = playerCollider.size;
 		originalColliderCenter = playerCollider.center;
-
-		standCollider = GetComponentInChildren<CharacterCrouchTop> ().gameObject.GetComponent<BoxCollider> ();
-
-		standCollider.gameObject.SetActive (false);
 	}
 
 	void FixedUpdate ()
@@ -54,8 +48,6 @@ public class CharacterCrouch : MonoBehaviour {
 			// adjust the colliders because the shrink when the character crouches
 			playerCollider.size = crouchedColliderSize;
 			playerCollider.center = crouchedColliderCenter;
-
-			standCollider.gameObject.SetActive (true);
 		}
 		else 
 		{
@@ -74,8 +66,6 @@ public class CharacterCrouch : MonoBehaviour {
 			// set the size and position of the colliders back to normal.
 			playerCollider.size = originalColliderSize;
 			playerCollider.center = originalColliderCenter;
-
-			standCollider.gameObject.SetActive (false);
 		} 
 		else
 			tryToStand = true;

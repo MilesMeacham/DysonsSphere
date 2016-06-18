@@ -13,12 +13,11 @@ public class CharacterMotor : MonoBehaviour {
 	private float speed;
 	public int baseSpeed = 7;
 	public float speedMultiplier = 1;
-	public float speedUpgrade = 0;
 	public int maxSpeed = 20;
 
 	
 	// Jumping variables
-	public float jumpForce = 15;
+	public int jumpForce = 15;
 	
 	// Change orientatoin variable
 	public bool facingRight = true;
@@ -76,7 +75,8 @@ public class CharacterMotor : MonoBehaviour {
 		if(facingRight == true)
 			Flip ();
 
-		speed = (baseSpeed * speedMultiplier) - speedUpgrade;
+
+		speed = baseSpeed * speedMultiplier;
 		
 		characterMovement = new Vector3 (speed, 0, 0);
 		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
@@ -102,7 +102,7 @@ public class CharacterMotor : MonoBehaviour {
 			Flip ();
 
 
-		speed = (baseSpeed * speedMultiplier) + speedUpgrade;
+		speed = baseSpeed * speedMultiplier;
 		
 		characterMovement = new Vector3 (speed, 0, 0);
 		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
@@ -111,6 +111,11 @@ public class CharacterMotor : MonoBehaviour {
 		rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
 		
 
+	}
+	
+	public void stationaryTest ()
+	{
+		rb.AddForce(new Vector3(0, 50, 0));
 	}
 
 	public void VerticalVelocity ()

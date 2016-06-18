@@ -9,8 +9,6 @@ public class xboxControls : MonoBehaviour {
 	private PauseMenu thePauseMenu;
 	private CharacterCrouch theCharacterCrouch;
 
-	public GameObject shotPoint;
-
 	void Start () 
 	{
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
@@ -106,8 +104,6 @@ public class xboxControls : MonoBehaviour {
 //			theCharacterCrouch.UnCrouch ();
 
 
-
-
 	}
 
 
@@ -136,19 +132,9 @@ public class xboxControls : MonoBehaviour {
 
 		////////----Right Joystick X-Axis/Horizontal----////////
 
-		if (Input.GetAxis ("RightJoyStickX") > 0.1 || Input.GetAxis ("RightJoyStickX") < -0.1 || Input.GetAxis ("RightJoyStickY") > 0.1 || Input.GetAxis ("RightJoyStickY") < -0.1) 
-		{
-			
-
-			float horizontal = Input.GetAxis ("RightJoyStickX");
-			float vertical = Input.GetAxis ("RightJoyStickY");
-
-			float angle = Mathf.Atan2 (vertical, horizontal) * Mathf.Rad2Deg;
-			shotPoint.transform.rotation = Quaternion.AngleAxis (angle, Vector3.forward);
-
-		}
-
-/*		
+		if(Input.GetAxis("RightJoyStickX") > 0.1)
+			print ("Looking Right");
+		
 		if(Input.GetAxis("RightJoyStickX") < -0.1)
 			print ("Looking Left");
 
@@ -159,7 +145,7 @@ public class xboxControls : MonoBehaviour {
 		
 		if(Input.GetAxis("RightJoyStickY") < -0.1)
 			print ("Looking Up");
-		
+		/*
 */
 		////////----Dpad X-Axis/Horizontal----////////
 		

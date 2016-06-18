@@ -41,7 +41,7 @@ public class MineralDeposit : MonoBehaviour {
 		}
 	}
 
-	public void RemoveHit (float hit)
+	public void RemoveHit (int hit)
 	{
 		if (!notify)
 			NotifySpawners ();

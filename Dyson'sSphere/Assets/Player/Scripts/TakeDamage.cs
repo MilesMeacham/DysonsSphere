@@ -12,7 +12,11 @@ public class TakeDamage : MonoBehaviour {
 
 
 	private CharacterHealth theCharacterHealth;
+
+    public ChestUpgrades ChestUPG;
+
 	private Vector3 HazardKnockback;
+
 	public float LavaKnockback = 10.0f;
 
 	// Customize these in the editor according to the character they are attached to
@@ -62,7 +66,7 @@ public class TakeDamage : MonoBehaviour {
 			{
 				theCharacterHealth.removeHealth (2f);
 				theCharacterHealth.Invincibility ();
-				HazardKnockback = new Vector3 (0, LavaKnockback, 0);
+				HazardKnockback = new Vector3 (0,LavaKnockback,0);
 				GetComponent<Rigidbody>().velocity = transform.TransformDirection(HazardKnockback);
 			}
 
@@ -82,7 +86,7 @@ public class TakeDamage : MonoBehaviour {
 		if (!immuneToEnemyDamage) 
 		{
 			if (collider.gameObject.tag == "EnemyBullet") {
-				theCharacterHealth.removeHealth (collider.GetComponent<BulletMovement> ().damage);
+				theCharacterHealth.removeHealth (collider.GetComponent<bulletMovement> ().damage);
 				theCharacterHealth.Invincibility ();
 			}
 		}
@@ -91,7 +95,7 @@ public class TakeDamage : MonoBehaviour {
 		if (!immuneToPlayerDamage) 
 		{
 			if (collider.gameObject.tag == "PlayerBullet") {
-				theCharacterHealth.removeHealth (collider.GetComponent<BulletMovement> ().damage);
+				theCharacterHealth.removeHealth (collider.GetComponent<bulletMovement> ().damage);
 				theCharacterHealth.Invincibility ();
 			}
 		}
