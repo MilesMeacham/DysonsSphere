@@ -9276,10 +9276,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 11468008, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
-      propertyPath: carbonBar
-      value: 
-      objectReference: {fileID: 488498234}
     - target: {fileID: 11485300, guid: 004a0378d71a3d9468868220f24172ef, type: 2}
       propertyPath: healthBar
       value: 
