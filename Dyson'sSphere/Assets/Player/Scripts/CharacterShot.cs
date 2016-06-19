@@ -66,6 +66,9 @@ public class CharacterShot : MonoBehaviour {
 
 
 			bullet.transform.rotation = shootingPoint.transform.rotation;
+
+			print (shootingPoint.transform.rotation);
+
 			bullet.transform.position = shootingPoint.transform.position;
 			bullet.SetActive (true);
 
