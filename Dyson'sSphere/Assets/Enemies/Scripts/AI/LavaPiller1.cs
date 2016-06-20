@@ -3,26 +3,26 @@ using System.Collections;
 
 public class LavaPiller1 : MonoBehaviour {
 
-    public float LavaTimer = 1.0f;
-    public Transform LavaPillerPoint2;
-    public GameObject LavaPiller2;
+
+	public Rigidbody rb;
+	public LavaPillerAttack LavaPA;
 
     // Use this for initialization
     void Start () {
-        StartCoroutine("DestroyPiller");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+		rb = GetComponent<Rigidbody> ();
+		LavaPA = gameObject.GetComponent<LavaPillerAttack> ();
 	}
 
-    public IEnumerator DestroyPiller()
-    {
-        yield return new WaitForSeconds(LavaTimer);
-        Instantiate(LavaPiller2, LavaPillerPoint2.position, LavaPillerPoint2.rotation);
-        yield return new WaitForSeconds(LavaTimer);
-        Destroy(gameObject);
-    }
+	void Update (){
+		if (LavaPA.reloading = true) {
+			rb.constraints = RigidbodyConstraints.FreezePositionY;
+		}
 
+		if (LavaPA.reloading = false) {
+			rb.constraints = RigidbodyConstraints.None;
+			rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
+			rb.constraints = RigidbodyConstraints.FreezeRotation;
+		}
+	}
 }

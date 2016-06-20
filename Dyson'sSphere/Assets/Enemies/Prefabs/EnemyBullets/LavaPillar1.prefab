@@ -26,22 +26,23 @@ GameObject:
   - 33: {fileID: 3322840}
   - 65: {fileID: 6550820}
   - 23: {fileID: 2390330}
-  - 114: {fileID: 11472706}
+  - 54: {fileID: 5418592}
+  - 114: {fileID: 11450030}
   m_Layer: 0
   m_Name: LavaPillar1
   m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &474104
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146912}
-  m_LocalRotation: {x: 0, y: 0, z: -.0381440893, w: .999272287}
-  m_LocalPosition: {x: 2.12000012, y: -.628000379, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.03814409, w: 0.9992723}
+  m_LocalPosition: {x: 4, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 479092}
@@ -52,9 +53,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164662}
-  m_LocalRotation: {x: 0, y: 0, z: -.0735203102, w: .997293711}
-  m_LocalPosition: {x: 4.21999979, y: 33.7900009, z: -.220947266}
-  m_LocalScale: {x: .771715701, y: 2.87707925, z: .771715701}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 0, z: 0}
+  m_LocalScale: {x: 0.7717157, y: 5, z: 0.7717157}
   m_Children:
   - {fileID: 474104}
   m_Father: {fileID: 0}
@@ -77,8 +78,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -90,6 +93,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164662}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5418592
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164662}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 0
 --- !u!65 &6550820
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -97,25 +115,24 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164662}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &11472706
+--- !u!114 &11450030
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164662}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 579a2a535f971f9409a0269db204ddb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LavaTimer: 1
-  LavaPillerPoint2: {fileID: 474104}
-  LavaPiller2: {fileID: 108410, guid: 1e9a5e33f9af2b349bc6428065542209, type: 2}
+  InGround: {fileID: 0}
+  rb: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
