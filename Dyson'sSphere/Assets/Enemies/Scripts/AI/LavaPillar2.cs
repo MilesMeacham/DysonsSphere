@@ -7,17 +7,13 @@ public class LavaPillar2 : MonoBehaviour {
     public Transform LavaPillerPoint3;
     public GameObject LavaPiller3;
 
+
     // Use this for initialization
     void Start()
     {
         StartCoroutine("DestroyPiller");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public IEnumerator DestroyPiller()
     {
