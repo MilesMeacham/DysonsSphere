@@ -9,6 +9,8 @@ public class xboxControls : MonoBehaviour {
 	private PauseMenu thePauseMenu;
 	private CharacterCrouch theCharacterCrouch;
 
+	public GameObject shotPoint;
+
 	void Start () 
 	{
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
@@ -104,6 +106,8 @@ public class xboxControls : MonoBehaviour {
 //			theCharacterCrouch.UnCrouch ();
 
 
+
+
 	}
 
 
@@ -132,9 +136,51 @@ public class xboxControls : MonoBehaviour {
 
 		////////----Right Joystick X-Axis/Horizontal----////////
 
-		if(Input.GetAxis("RightJoyStickX") > 0.1)
-			print ("Looking Right");
-		
+		if (Input.GetAxis ("RightJoyStickX") > 0.1 || Input.GetAxis ("RightJoyStickX") < -0.1 || Input.GetAxis ("RightJoyStickY") > 0.1 || Input.GetAxis ("RightJoyStickY") < -0.1) {
+			
+
+			float horizontal = Input.GetAxis ("RightJoyStickX");
+			float vertical = Input.GetAxis ("RightJoyStickY");
+
+			if (theCharacterMotor.facingRight == false) {
+				vertical = -vertical;
+				shotPoint.transform.localScale = new Vector3 (-1, 0, 0);
+			}
+			else
+				shotPoint.transform.localScale = new Vector3 (1, 0, 0);
+
+			float angle = Mathf.Atan2 (vertical, horizontal) * Mathf.Rad2Deg;
+
+			if (theCharacterMotor.facingRight == true) 
+			{
+				if (angle > 90)
+					angle = 90;
+
+				if (angle < -90)
+					angle = -90;
+			} 
+			else 
+			{
+				if (angle < 90 && angle > 0)
+					angle = 90;
+
+				if (angle > -90 && angle <= 0)
+					angle = -90;
+
+			}
+
+
+
+			shotPoint.transform.localRotation = Quaternion.AngleAxis (angle, Vector3.forward);
+
+		} 
+		else 
+		{
+			shotPoint.transform.localRotation = Quaternion.AngleAxis (0, Vector3.forward);
+		}
+			
+
+/*		
 		if(Input.GetAxis("RightJoyStickX") < -0.1)
 			print ("Looking Left");
 
@@ -145,7 +191,7 @@ public class xboxControls : MonoBehaviour {
 		
 		if(Input.GetAxis("RightJoyStickY") < -0.1)
 			print ("Looking Up");
-		/*
+		
 */
 		////////----Dpad X-Axis/Horizontal----////////
 		

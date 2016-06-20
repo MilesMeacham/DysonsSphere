@@ -82,7 +82,7 @@ public class TakeDamage : MonoBehaviour {
 		if (!immuneToEnemyDamage) 
 		{
 			if (collider.gameObject.tag == "EnemyBullet") {
-				theCharacterHealth.removeHealth (collider.GetComponent<bulletMovement> ().damage);
+				theCharacterHealth.removeHealth (collider.GetComponent<BulletMovement> ().damage);
 				theCharacterHealth.Invincibility ();
 			}
 		}
@@ -91,7 +91,7 @@ public class TakeDamage : MonoBehaviour {
 		if (!immuneToPlayerDamage) 
 		{
 			if (collider.gameObject.tag == "PlayerBullet") {
-				theCharacterHealth.removeHealth (collider.GetComponent<bulletMovement> ().damage);
+				theCharacterHealth.removeHealth (collider.GetComponent<BulletMovement> ().damage);
 				theCharacterHealth.Invincibility ();
 			}
 		}

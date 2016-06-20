@@ -15,7 +15,8 @@ public class CharacterMotor : MonoBehaviour {
 	public float speedMultiplier = 1;
 	public float speedUpgrade = 0;
 	public int maxSpeed = 20;
-
+	public GroundCheck wallCheck;
+	private bool ableToWalk;
 	
 	// Jumping variables
 	public float jumpForce = 15;
@@ -77,12 +78,28 @@ public class CharacterMotor : MonoBehaviour {
 			Flip ();
 
 		speed = (baseSpeed * speedMultiplier) - speedUpgrade;
-		
-		characterMovement = new Vector3 (speed, 0, 0);
-		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
 
-		// Keep player at maxSpeed
-		rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
+		if(wallCheck != null)
+		{
+			if (wallCheck.grounded == true)
+				ableToWalk = false;
+			else
+				ableToWalk = true;
+		}
+		else
+		{
+			ableToWalk = true;
+
+		}
+
+		if (ableToWalk == true)
+		{
+			characterMovement = new Vector3 (speed, 0, 0);
+			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
+
+			// Keep player at maxSpeed
+			rb.velocity = Vector3.ClampMagnitude (rb.velocity, maxSpeed);
+		}
 
 	}
 
@@ -103,19 +120,24 @@ public class CharacterMotor : MonoBehaviour {
 
 
 		speed = (baseSpeed * speedMultiplier) + speedUpgrade;
-		
-		characterMovement = new Vector3 (speed, 0, 0);
-		rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
 
-		// Keep player at maxSpeed
-		rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
-		
+		if(wallCheck != null)
+		{
+			if (wallCheck.grounded == true)
+				ableToWalk = false;
+			else
+				ableToWalk = true;
+		}
 
-	}
-	
-	public void stationaryTest ()
-	{
-		rb.AddForce(new Vector3(0, 50, 0));
+		if (ableToWalk)
+		{
+			characterMovement = new Vector3 (speed, 0, 0);
+			rb.MovePosition (rb.position + transform.TransformDirection (characterMovement) * Time.deltaTime);
+
+			// Keep player at maxSpeed
+			rb.velocity = Vector3.ClampMagnitude (rb.velocity, maxSpeed);
+		}
+
 	}
 
 	public void VerticalVelocity ()

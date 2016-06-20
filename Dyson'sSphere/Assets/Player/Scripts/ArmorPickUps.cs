@@ -7,6 +7,8 @@ public class ArmorPickUps : MonoBehaviour {
 	public GameObject head;
 	public GameObject body;
 	public GameObject feet;
+	public GameObject mainArm;
+	public GameObject altArm;
 
 	public Transform dropPoint;
 
@@ -14,15 +16,26 @@ public class ArmorPickUps : MonoBehaviour {
 
 	void Start () 
 	{
+		if(head != null)
 		head.GetComponent<PowerUp> ().AddPowerUp (this.gameObject);
+
+		if(body != null)
 		body.GetComponent<PowerUp> ().AddPowerUp (this.gameObject);
+
+		if(feet != null)
 		feet.GetComponent<PowerUp> ().AddPowerUp (this.gameObject);
+
+		if(mainArm != null)
+		mainArm.GetComponent<PowerUp> ().AddPowerUp (this.gameObject);
+
+		if(altArm != null)
+		altArm.GetComponent<PowerUp> ().AddPowerUp (this.gameObject);
 
 	}
 	
-	public void changeHead(GameObject newHead)
+	public void ChangeHead(GameObject newHead)
 	{
-		drop (head);
+		Drop (head);
 
 		head = newHead;
 
@@ -30,9 +43,9 @@ public class ArmorPickUps : MonoBehaviour {
 
 	}
 
-	public void changeBody(GameObject newBody)
+	public void ChangeBody(GameObject newBody)
 	{
-		drop (body);
+		Drop (body);
 
 		body = newBody;
 
@@ -40,16 +53,34 @@ public class ArmorPickUps : MonoBehaviour {
 
 	}
 
-	public void changeFeet(GameObject newFeet)
+	public void ChangeFeet(GameObject newFeet)
 	{
-		drop (feet);
+		Drop (feet);
 
 		feet = newFeet;
 
 		feet.transform.parent = armorParent;
 	}
 
-	public void drop(GameObject itemToDrop)
+	public void ChangeAltArm(GameObject newArm)
+	{
+		Drop (mainArm);
+
+		mainArm = newArm;
+
+		mainArm.transform.parent = armorParent;
+	}
+
+	public void ChangeMainArm(GameObject newAltArm)
+	{
+		Drop (altArm);
+
+		altArm = newAltArm;
+
+		altArm.transform.parent = armorParent;
+	}
+
+	public void Drop(GameObject itemToDrop)
 	{
 		itemToDrop.GetComponent<PowerUp> ().RemovePowerUp (this.gameObject);
 

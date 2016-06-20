@@ -60,12 +60,18 @@ public class CharacterShot : MonoBehaviour {
 
 
 			bullet = bulletPools.GetPooledObject ();
-			bullet.GetComponent<bulletMovement> ().theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
-			bullet.GetComponent<bulletMovement> ().damage = damage;
+			bullet.GetComponent<BulletMovement> ().theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
+			bullet.GetComponent<BulletMovement> ().damage = damage;
 			bullet.gameObject.tag = bulletTag;
+
+
+			bullet.transform.rotation = shootingPoint.transform.rotation;
+
+			print (shootingPoint.transform.rotation);
 
 			bullet.transform.position = shootingPoint.transform.position;
 			bullet.SetActive (true);
+
 
 			StartCoroutine ("ShotCo");
 		}

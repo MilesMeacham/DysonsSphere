@@ -9,7 +9,8 @@ public class GroundCheck : MonoBehaviour {
 	private CharacterJump theCharacterJump;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		groundCheck = gameObject.GetComponent<Transform> ();
 		theCharacterJump = GetComponentInParent<CharacterJump> ();
 	}
