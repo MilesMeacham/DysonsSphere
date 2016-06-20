@@ -4,18 +4,18 @@ using System.Collections;
 public class CameraFollow : MonoBehaviour {
 
 	private Transform target;
-	public Vector3 cameraOffset;
 
 	void Start ()
 	{
-		target = GameObject.Find ("Player");
+		target = GameObject.Find ("Player").GetComponent<Transform>();
 
 	}
 
 	// Update is called once per frame
 	void Update () 
 	{
-		gameObject.transform.position = target.transform.position + cameraOffset;
+		gameObject.transform.localPosition = target.transform.position;
+		gameObject.transform.rotation = target.transform.rotation;
 
 
 
