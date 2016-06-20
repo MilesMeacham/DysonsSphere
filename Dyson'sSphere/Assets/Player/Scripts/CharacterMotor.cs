@@ -166,6 +166,7 @@ public class CharacterMotor : MonoBehaviour {
 		// create a vector3 to hold the player scale and flip it
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
+		theScale.z *= -1;
 		transform.localScale = theScale;
 		
 	}
