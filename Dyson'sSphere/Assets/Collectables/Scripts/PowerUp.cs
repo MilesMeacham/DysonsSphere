@@ -37,6 +37,27 @@ public class PowerUp : MonoBehaviour {
 
 	public bool printMessage;
 
+	public float pickUpDelay = 1f;
+	private bool ableToPickUp = false;
+
+	public GameObject parent;
+
+	void OnEnable()
+	{
+		ableToPickUp = false;
+
+		StartCoroutine (DelayAfterDrop ());
+
+	}
+
+	IEnumerator DelayAfterDrop()
+	{
+
+		yield return new WaitForSeconds (pickUpDelay);
+
+		ableToPickUp = true;
+	}
+
 	public void AddPowerUp(GameObject GOToPowerUp)
 	{
 		
@@ -76,7 +97,10 @@ public class PowerUp : MonoBehaviour {
 		if(printMessage)
 			PrintMessage ();
 
-		gameObject.SetActive (false);
+		if (type != UpgradeType.item)
+			parent.SetActive (false);
+		else
+			gameObject.SetActive (false);
 	}
 
 	void PrintMessage()
@@ -87,37 +111,37 @@ public class PowerUp : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter(Collider collider)
+	void OnTriggerStay(Collider collider)
 	{
 
-		if (collider.gameObject.layer == 9) 
+		if (collider.gameObject.layer == 9 && ableToPickUp == true) 
 		{
 			if (type == UpgradeType.item)
 				AddPowerUp (collider.gameObject);
 			else if (type == UpgradeType.head) 
 			{
 				AddPowerUp (collider.gameObject);
-				collider.GetComponent<ArmorPickUps> ().ChangeHead (this.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeHead (parent);
 			}
 			else if (type == UpgradeType.body) 
 			{
 				AddPowerUp (collider.gameObject);
-				collider.GetComponent<ArmorPickUps> ().ChangeBody (this.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeBody (parent);
 			}
 			else if (type == UpgradeType.feet) 
 			{
 				AddPowerUp (collider.gameObject);
-				collider.GetComponent<ArmorPickUps> ().ChangeFeet (this.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeFeet (parent);
 			}
 			else if (type == UpgradeType.mainArm) 
 			{
 				AddPowerUp (collider.gameObject);
-				collider.GetComponent<ArmorPickUps> ().ChangeMainArm (this.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeMainArm (parent);
 			}
 			else if (type == UpgradeType.altArm) 
 			{
 				AddPowerUp (collider.gameObject);
-				collider.GetComponent<ArmorPickUps> ().ChangeAltArm (this.gameObject);
+				collider.GetComponent<ArmorPickUps> ().ChangeAltArm (parent);
 			}
 		}
 	}
@@ -158,10 +182,7 @@ public class PowerUp : MonoBehaviour {
 		if(miningDamage)
 			GOToPowerUp.GetComponent<KeyboardControls>().theMiningCollider.IncreaseMiningDamage (-upgradeAmount);
 
-		if(printMessage)
-			PrintMessage ();
 
-		gameObject.SetActive (false);
 	}
 
 
