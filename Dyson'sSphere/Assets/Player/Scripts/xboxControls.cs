@@ -119,7 +119,6 @@ public class xboxControls : MonoBehaviour {
 		
 		if (Input.GetAxis ("HorizontalXbox") > 0.1) 
 		{
-			print (Input.GetAxis ("HorizontalXbox"));
 			theCharacterMotor.RightActivation ();
 		}
 

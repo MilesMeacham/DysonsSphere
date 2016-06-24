@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ArmorPickUps : MonoBehaviour {
 
-	// These should NOT be null to start
+	// These should NOT be null to start  EDIT: This can now be null but we should probably assign basic armor
 	public GameObject head;
 	public GameObject body;
 	public GameObject feet;
@@ -14,8 +14,15 @@ public class ArmorPickUps : MonoBehaviour {
 
 	public Transform armorParent;
 
+	public Vector2 dropForce = new Vector2 (4, 5);
+	private Vector2 dropForceLeft;
+	private CharacterMotor theCharacterMotor;
+
 	void Start () 
 	{
+		theCharacterMotor = GetComponent<CharacterMotor> ();
+		dropForceLeft = new Vector2 (-dropForce.x, dropForce.y);
+
 		if(head != null)
 		head.GetComponent<PowerUp> ().AddPowerUp (this.gameObject);
 
@@ -35,7 +42,8 @@ public class ArmorPickUps : MonoBehaviour {
 	
 	public void ChangeHead(GameObject newHead)
 	{
-		Drop (head);
+		if(head != null)
+			Drop (head);
 
 		head = newHead;
 
@@ -45,7 +53,8 @@ public class ArmorPickUps : MonoBehaviour {
 
 	public void ChangeBody(GameObject newBody)
 	{
-		Drop (body);
+		if(body != null)
+			Drop (body);
 
 		body = newBody;
 
@@ -55,7 +64,8 @@ public class ArmorPickUps : MonoBehaviour {
 
 	public void ChangeFeet(GameObject newFeet)
 	{
-		Drop (feet);
+		if(feet != null)
+			Drop (feet);
 
 		feet = newFeet;
 
@@ -64,7 +74,8 @@ public class ArmorPickUps : MonoBehaviour {
 
 	public void ChangeAltArm(GameObject newArm)
 	{
-		Drop (mainArm);
+		if(mainArm != null)
+			Drop (mainArm);
 
 		mainArm = newArm;
 
@@ -73,7 +84,8 @@ public class ArmorPickUps : MonoBehaviour {
 
 	public void ChangeMainArm(GameObject newAltArm)
 	{
-		Drop (altArm);
+		if(altArm != null)
+			Drop (altArm);
 
 		altArm = newAltArm;
 
@@ -82,12 +94,22 @@ public class ArmorPickUps : MonoBehaviour {
 
 	public void Drop(GameObject itemToDrop)
 	{
-		itemToDrop.GetComponent<PowerUp> ().RemovePowerUp (this.gameObject);
+		itemToDrop.GetComponentInChildren<PowerUp> ().RemovePowerUp (this.gameObject);
 
 
 		itemToDrop.transform.position = dropPoint.transform.position;
 
 		itemToDrop.transform.parent = null;
+
+		Rigidbody itemRB = itemToDrop.GetComponent<Rigidbody> ();
+		itemRB.isKinematic = false;
+
+		if (theCharacterMotor.facingRight)
+			itemRB.velocity = transform.TransformDirection(dropForce);
+		else
+			itemRB.velocity = transform.TransformDirection(dropForceLeft);
+
+		//itemToDrop.GetComponent<ArmorMovement> ().Movement ();
 
 		itemToDrop.SetActive (true);
 	}
