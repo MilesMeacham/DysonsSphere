@@ -26,15 +26,7 @@ public class SlimeMovement : MonoBehaviour {
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
 		player = GetComponent<TrackPlayer> ();
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate () 
-	{
-		if (player.targetDistance < aggroDistance)
-			AggroMovement ();
-		else
-			IdleMovement ();
-	}
+
 
 	void OnDisable()
 	{
@@ -47,6 +39,16 @@ public class SlimeMovement : MonoBehaviour {
 			Instantiate (smallSlime, spawnLocation, transform.rotation);
 		}
 	}
+	
+	// Update is called once per frame
+	void FixedUpdate () 
+	{
+		if (player.targetDistance < aggroDistance)
+			AggroMovement ();
+		//else
+			//IdleMovement ();
+	}
+
 
 	void IdleMovement ()
 	{
@@ -83,6 +85,23 @@ public class SlimeMovement : MonoBehaviour {
 
 	void AggroMovement ()
 	{
+		
+
+
+		if (player.frontOrBack.x < 0 && theCharacterMotor.facingRight == false) 
+			theCharacterMotor.RightActivation ();
+		else if (player.frontOrBack.x < 0 && theCharacterMotor.facingRight == true)
+			theCharacterMotor.LeftActivation ();
+
+
+		if (jumpReady)
+			StartCoroutine (Jump ());
+
+		if (theCharacterMotor.facingRight)
+			theCharacterMotor.RightActivation ();
+		else
+			theCharacterMotor.LeftActivation();
+
 
 
 	}

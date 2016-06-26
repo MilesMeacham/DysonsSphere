@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpMoveSpeed: 3
-  aggroDistance: 5
+  aggroDistance: 10
   jumpDelay: 0.3
   jumpCooldown: 4
   walkMin: 1
