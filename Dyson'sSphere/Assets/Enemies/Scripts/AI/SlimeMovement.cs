@@ -3,6 +3,7 @@ using System.Collections;
 
 public class SlimeMovement : MonoBehaviour {
 
+	private bool isQuitting = false;
 	private CharacterMotor theCharacterMotor;
 	private TrackPlayer player;
 	private bool jumpReady = true;
@@ -27,10 +28,15 @@ public class SlimeMovement : MonoBehaviour {
 		player = GetComponent<TrackPlayer> ();
 	}
 
-
+	// Need this so that it doesn't try to spawn the little slimes if you quit the application
+	void OnApplicationQuit()
+	{
+		isQuitting = true;
+	}
+		
 	void OnDisable()
 	{
-		if (spawnSmallerSlimes) 
+		if (spawnSmallerSlimes && isQuitting == false) 
 		{
 			spawnLocation = new Vector3 (transform.position.x - 1, transform.position.y, transform.position.z);
 			Instantiate (smallSlime, spawnLocation, transform.rotation);
@@ -45,8 +51,8 @@ public class SlimeMovement : MonoBehaviour {
 	{
 		if (player.targetDistance < aggroDistance)
 			AggroMovement ();
-		//else
-			//IdleMovement ();
+		else
+			IdleMovement ();
 	}
 
 
