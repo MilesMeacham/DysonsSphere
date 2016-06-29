@@ -121,8 +121,6 @@ public class CharacterMotor : MonoBehaviour {
 
 		speed = (baseSpeed * speedMultiplier) + speedUpgrade;
 
-		print (speed);
-
 		if(wallCheck != null)
 		{
 			if (wallCheck.grounded == true)
