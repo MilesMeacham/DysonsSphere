@@ -11,7 +11,6 @@ GameObject:
   - 136: {fileID: 13674620}
   - 54: {fileID: 5433784}
   - 114: {fileID: 11423288}
-  - 114: {fileID: 11429346}
   - 114: {fileID: 11478690}
   - 114: {fileID: 11432276}
   - 114: {fileID: 11458592}
@@ -19,9 +18,8 @@ GameObject:
   - 114: {fileID: 11460954}
   - 114: {fileID: 11472172}
   - 114: {fileID: 11430650}
-  - 114: {fileID: 11457902}
-  - 114: {fileID: 11432800}
   - 114: {fileID: 11422672}
+  - 114: {fileID: 11479520}
   m_Layer: 12
   m_Name: Fire Enemy
   m_TagString: Enemy
@@ -302,7 +300,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 2, z: 0}
+  m_LocalPosition: {x: 12, y: 3, z: 0}
   m_LocalScale: {x: 0.7717157, y: 3.8750002, z: 0.7717157}
   m_Children:
   - {fileID: 407316}
@@ -315,7 +313,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 169700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 2, z: 0}
+  m_LocalPosition: {x: 3, y: 3, z: 0}
   m_LocalScale: {x: 0.7717157, y: 3.8750002, z: 0.7717157}
   m_Children:
   - {fileID: 401588}
@@ -385,7 +383,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 197980}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9, y: 2, z: 0}
+  m_LocalPosition: {x: 9, y: 3, z: 0}
   m_LocalScale: {x: 0.7717157, y: 3.8750002, z: 0.7717157}
   m_Children:
   - {fileID: 498792}
@@ -410,7 +408,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 2, z: 0}
+  m_LocalPosition: {x: 6, y: 3, z: 0}
   m_LocalScale: {x: 0.7717157, y: 3.8750002, z: 0.7717157}
   m_Children:
   - {fileID: 473586}
@@ -633,7 +631,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!54 &5455252
 Rigidbody:
@@ -663,7 +661,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 90
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!54 &5493952
 Rigidbody:
@@ -678,7 +676,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 90
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!65 &6508088
 BoxCollider:
@@ -872,28 +870,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attractor: {fileID: 0}
---- !u!114 &11429346
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f221cb4b82bfbe04da234e7a5cef46f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  speed: 5
-  maxSpeed: 20
-  characterMovement: {x: 0, y: 0, z: 0}
-  velocity: {x: 0, y: 0, z: 0}
-  knockbackForce: {x: 10, y: 5, z: 0}
-  jumpForce: 15
-  facingRight: 1
-  movingLeft: 0
-  movingRight: 0
-  theAnimator: {fileID: 0}
 --- !u!114 &11430650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -922,24 +898,6 @@ MonoBehaviour:
   gapCheck: {fileID: 11404650}
   turning: 0
   turnDuration: 1
---- !u!114 &11432800
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: event:/dyson/enemy_Block_01
-  PlayEvent: 0
-  StopEvent: 0
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Params: []
 --- !u!114 &11435356
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1004,24 +962,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grounded: 0
   groundCheck: {fileID: 0}
---- !u!114 &11457902
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: event:/debug/Silence
-  PlayEvent: 0
-  StopEvent: 0
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Params: []
 --- !u!114 &11458592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1119,6 +1059,30 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   invincible: 0
   invincibilityTime: 0
+--- !u!114 &11479520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b577553f8129a345bcf3ccac6b5e233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  characterMovement: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  baseSpeed: 7
+  speedMultiplier: 1
+  speedUpgrade: 0
+  maxSpeed: 20
+  wallCheck: {fileID: 0}
+  jumpForce: 15
+  facingRight: 1
+  movingLeft: 0
+  movingRight: 0
+  theAnimator: {fileID: 0}
 --- !u!114 &11487876
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1172,15 +1136,15 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: shotSound
       value: 
-      objectReference: {fileID: 11457902}
+      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: reloadSound
       value: 
-      objectReference: {fileID: 11457902}
+      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: hurtSound
       value: 
-      objectReference: {fileID: 11432800}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 101004}
