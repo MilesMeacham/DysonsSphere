@@ -1018,7 +1018,7 @@ MonoBehaviour:
   PlayerDistance: 0
   TP: {fileID: 0}
   RollAttack: 3
-  BoomBall: {fileID: 0}
+  BoomBall: {fileID: 176736, guid: ddf927d084d9c9e45b0af0bae87c55d5, type: 2}
   Center: {fileID: 75216201}
   WaitToExplode: 2
 --- !u!4 &1905408691 stripped
