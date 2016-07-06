@@ -15,6 +15,7 @@ public class LavaPiller1 : MonoBehaviour {
 	}
 
 	void Update (){
+		
 		if (LavaPA.reloading = true) {
 			rb.constraints = RigidbodyConstraints.FreezePositionY;
 		}
