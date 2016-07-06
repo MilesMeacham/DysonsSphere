@@ -3,6 +3,7 @@ using System.Collections;
 
 public class SlimeMovement : MonoBehaviour {
 
+	private bool isQuitting = false;
 	private CharacterMotor theCharacterMotor;
 	private TrackPlayer player;
 	private bool jumpReady = true;
@@ -26,6 +27,24 @@ public class SlimeMovement : MonoBehaviour {
 		theCharacterMotor = gameObject.GetComponent<CharacterMotor> ();
 		player = GetComponent<TrackPlayer> ();
 	}
+
+	// Need this so that it doesn't try to spawn the little slimes if you quit the application
+	void OnApplicationQuit()
+	{
+		isQuitting = true;
+	}
+		
+	void OnDisable()
+	{
+		if (spawnSmallerSlimes && isQuitting == false) 
+		{
+			spawnLocation = new Vector3 (transform.position.x - 1, transform.position.y, transform.position.z);
+			Instantiate (smallSlime, spawnLocation, transform.rotation);
+
+			spawnLocation = new Vector3 (transform.position.x + 1, transform.position.y, transform.position.z);
+			Instantiate (smallSlime, spawnLocation, transform.rotation);
+		}
+	}
 	
 	// Update is called once per frame
 	void FixedUpdate () 
@@ -36,17 +55,6 @@ public class SlimeMovement : MonoBehaviour {
 			IdleMovement ();
 	}
 
-	void OnDisable()
-	{
-		if (spawnSmallerSlimes) 
-		{
-			spawnLocation = new Vector3 (transform.position.x - 1, transform.position.y, transform.position.z);
-			Instantiate (smallSlime, spawnLocation, transform.rotation);
-
-			spawnLocation = new Vector3 (transform.position.x + 1, transform.position.y, transform.position.z);
-			Instantiate (smallSlime, spawnLocation, transform.rotation);
-		}
-	}
 
 	void IdleMovement ()
 	{
@@ -83,6 +91,23 @@ public class SlimeMovement : MonoBehaviour {
 
 	void AggroMovement ()
 	{
+		
+
+
+		if (player.frontOrBack.x < 0 && theCharacterMotor.facingRight == false) 
+			theCharacterMotor.RightActivation ();
+		else if (player.frontOrBack.x < 0 && theCharacterMotor.facingRight == true)
+			theCharacterMotor.LeftActivation ();
+
+
+		if (jumpReady)
+			StartCoroutine (Jump ());
+
+		if (theCharacterMotor.facingRight)
+			theCharacterMotor.RightActivation ();
+		else
+			theCharacterMotor.LeftActivation();
+
 
 
 	}

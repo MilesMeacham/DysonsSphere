@@ -16,7 +16,7 @@ public class CharacterMotor : MonoBehaviour {
 	public float speedUpgrade = 0;
 	public int maxSpeed = 20;
 	public GroundCheck wallCheck;
-	private bool ableToWalk;
+	private bool ableToWalk = true;
 	
 	// Jumping variables
 	public float jumpForce = 15;
