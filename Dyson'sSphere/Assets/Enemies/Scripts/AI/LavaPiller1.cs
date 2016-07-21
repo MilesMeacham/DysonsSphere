@@ -17,12 +17,13 @@ public class LavaPiller1 : MonoBehaviour {
 	void Update (){
 		
 		if (LavaPA.reloading = true) {
+			transform.position = new Vector3(0, 3, 0);
 			rb.constraints = RigidbodyConstraints.FreezePositionY;
 		}
 
 		if (LavaPA.reloading = false) {
 			rb.constraints = RigidbodyConstraints.None;
-			rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
+			rb.constraints = RigidbodyConstraints.FreezePositionX;
 			rb.constraints = RigidbodyConstraints.FreezeRotation;
 		}
 	}
